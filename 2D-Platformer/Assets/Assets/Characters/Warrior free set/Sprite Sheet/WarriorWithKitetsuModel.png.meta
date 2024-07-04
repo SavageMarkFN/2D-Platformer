@@ -1,0 +1,2615 @@
+fileFormatVersion: 2
+guid: ff444a7335ec4dc47bfa4fde39f58a24
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1108119996265195269
+    second: WarriorWithKitetsuModel_0
+  - first:
+      213: -1569407897881942293
+    second: WarriorWithKitetsuModel_1
+  - first:
+      213: -3020486845213123964
+    second: WarriorWithKitetsuModel_2
+  - first:
+      213: -7350689109607156451
+    second: WarriorWithKitetsuModel_3
+  - first:
+      213: -4320821283882020302
+    second: WarriorWithKitetsuModel_4
+  - first:
+      213: -8519732904344666117
+    second: WarriorWithKitetsuModel_5
+  - first:
+      213: -2199635668157780757
+    second: WarriorWithKitetsuModel_6
+  - first:
+      213: -8905122202024450407
+    second: WarriorWithKitetsuModel_7
+  - first:
+      213: -5295641362978802045
+    second: WarriorWithKitetsuModel_8
+  - first:
+      213: 1856068824165622474
+    second: WarriorWithKitetsuModel_9
+  - first:
+      213: -4077693440895235153
+    second: WarriorWithKitetsuModel_10
+  - first:
+      213: -6226529373482755990
+    second: WarriorWithKitetsuModel_11
+  - first:
+      213: -6115773776653535117
+    second: WarriorWithKitetsuModel_12
+  - first:
+      213: 3972549723458178851
+    second: WarriorWithKitetsuModel_13
+  - first:
+      213: 1713518889455006190
+    second: WarriorWithKitetsuModel_14
+  - first:
+      213: 318856215833580785
+    second: WarriorWithKitetsuModel_15
+  - first:
+      213: -4411613717369791286
+    second: WarriorWithKitetsuModel_16
+  - first:
+      213: -4097504268285612371
+    second: WarriorWithKitetsuModel_17
+  - first:
+      213: -7903878355964280121
+    second: WarriorWithKitetsuModel_18
+  - first:
+      213: -511411620746396206
+    second: WarriorWithKitetsuModel_19
+  - first:
+      213: 4923702780798679716
+    second: WarriorWithKitetsuModel_20
+  - first:
+      213: -5262467982436630913
+    second: WarriorWithKitetsuModel_21
+  - first:
+      213: -4260373266976970156
+    second: WarriorWithKitetsuModel_22
+  - first:
+      213: 2496930366206443249
+    second: WarriorWithKitetsuModel_23
+  - first:
+      213: 6900161675532854383
+    second: WarriorWithKitetsuModel_24
+  - first:
+      213: -787059440674604211
+    second: WarriorWithKitetsuModel_25
+  - first:
+      213: 7535863727324995131
+    second: WarriorWithKitetsuModel_26
+  - first:
+      213: 8936403266724190339
+    second: WarriorWithKitetsuModel_27
+  - first:
+      213: -8417715542726629156
+    second: WarriorWithKitetsuModel_28
+  - first:
+      213: -1386017033784273089
+    second: WarriorWithKitetsuModel_29
+  - first:
+      213: 5739950319470592635
+    second: WarriorWithKitetsuModel_30
+  - first:
+      213: -7976519435063622969
+    second: WarriorWithKitetsuModel_31
+  - first:
+      213: -941317920618789489
+    second: WarriorWithKitetsuModel_32
+  - first:
+      213: -3710490792927987573
+    second: WarriorWithKitetsuModel_33
+  - first:
+      213: -1785938642743346752
+    second: WarriorWithKitetsuModel_34
+  - first:
+      213: 6803704653076386416
+    second: WarriorWithKitetsuModel_35
+  - first:
+      213: -206422992170059381
+    second: WarriorWithKitetsuModel_36
+  - first:
+      213: 4482978920573256610
+    second: WarriorWithKitetsuModel_37
+  - first:
+      213: 6718502468714511829
+    second: WarriorWithKitetsuModel_38
+  - first:
+      213: -8747183801485758526
+    second: WarriorWithKitetsuModel_39
+  - first:
+      213: 84317202298544268
+    second: WarriorWithKitetsuModel_40
+  - first:
+      213: 8499764997554883723
+    second: WarriorWithKitetsuModel_41
+  - first:
+      213: 6761404694522479002
+    second: WarriorWithKitetsuModel_42
+  - first:
+      213: 3862008576090007244
+    second: WarriorWithKitetsuModel_43
+  - first:
+      213: -1830840897681646023
+    second: WarriorWithKitetsuModel_44
+  - first:
+      213: -971856193434683174
+    second: WarriorWithKitetsuModel_45
+  - first:
+      213: 6219986640311320090
+    second: WarriorWithKitetsuModel_46
+  - first:
+      213: 2399163090798871856
+    second: WarriorWithKitetsuModel_47
+  - first:
+      213: -1662783649513736989
+    second: WarriorWithKitetsuModel_48
+  - first:
+      213: -3446195091017702573
+    second: WarriorWithKitetsuModel_49
+  - first:
+      213: -2013267614586802156
+    second: WarriorWithKitetsuModel_50
+  - first:
+      213: 5097453243281766102
+    second: WarriorWithKitetsuModel_51
+  - first:
+      213: -2228457169760095370
+    second: WarriorWithKitetsuModel_52
+  - first:
+      213: 6996001688736159553
+    second: WarriorWithKitetsuModel_53
+  - first:
+      213: 596796636006270210
+    second: WarriorWithKitetsuModel_54
+  - first:
+      213: -2731250913324542909
+    second: WarriorWithKitetsuModel_55
+  - first:
+      213: -4587114829973791416
+    second: WarriorWithKitetsuModel_56
+  - first:
+      213: -3029600290423629875
+    second: WarriorWithKitetsuModel_57
+  - first:
+      213: -2214616624915716511
+    second: WarriorWithKitetsuModel_58
+  - first:
+      213: -8265656497089095421
+    second: WarriorWithKitetsuModel_59
+  - first:
+      213: 7023046883239625151
+    second: WarriorWithKitetsuModel_60
+  - first:
+      213: -8798647126402210672
+    second: WarriorWithKitetsuModel_61
+  - first:
+      213: 1605764266523491200
+    second: WarriorWithKitetsuModel_62
+  - first:
+      213: 1828865168093704952
+    second: WarriorWithKitetsuModel_63
+  - first:
+      213: -951607287394893459
+    second: WarriorWithKitetsuModel_64
+  - first:
+      213: -2092962008328132788
+    second: WarriorWithKitetsuModel_65
+  - first:
+      213: -6909670622009916437
+    second: WarriorWithKitetsuModel_66
+  - first:
+      213: 6172341712946920670
+    second: WarriorWithKitetsuModel_67
+  - first:
+      213: -788541882454518884
+    second: WarriorWithKitetsuModel_68
+  - first:
+      213: -7497297249630326049
+    second: WarriorWithKitetsuModel_69
+  - first:
+      213: 5259885203054393906
+    second: WarriorWithKitetsuModel_70
+  - first:
+      213: -8972498117716229505
+    second: WarriorWithKitetsuModel_71
+  - first:
+      213: 2893776405452373835
+    second: WarriorWithKitetsuModel_72
+  - first:
+      213: -7270932853083321528
+    second: WarriorWithKitetsuModel_73
+  - first:
+      213: 7423191052427809769
+    second: WarriorWithKitetsuModel_74
+  - first:
+      213: -5750140117514145806
+    second: WarriorWithKitetsuModel_75
+  - first:
+      213: 2294557859300596400
+    second: WarriorWithKitetsuModel_76
+  - first:
+      213: -5770063626258407487
+    second: WarriorWithKitetsuModel_77
+  - first:
+      213: -3621500103960827709
+    second: WarriorWithKitetsuModel_78
+  - first:
+      213: 2685354996703203346
+    second: WarriorWithKitetsuModel_79
+  - first:
+      213: -5680291665995875707
+    second: WarriorWithKitetsuModel_80
+  - first:
+      213: -747790632751738876
+    second: WarriorWithKitetsuModel_81
+  - first:
+      213: -3061165755151408260
+    second: WarriorWithKitetsuModel_82
+  - first:
+      213: -8415598097048078321
+    second: WarriorWithKitetsuModel_83
+  - first:
+      213: 7117336799917813975
+    second: WarriorWithKitetsuModel_84
+  - first:
+      213: 2229357799946448776
+    second: WarriorWithKitetsuModel_85
+  - first:
+      213: 3815619287463145295
+    second: WarriorWithKitetsuModel_86
+  - first:
+      213: -2662669677438440166
+    second: WarriorWithKitetsuModel_87
+  - first:
+      213: 3790505742079487936
+    second: WarriorWithKitetsuModel_88
+  - first:
+      213: 8743990584507898919
+    second: WarriorWithKitetsuModel_89
+  - first:
+      213: -5774157144067486771
+    second: WarriorWithKitetsuModel_90
+  - first:
+      213: 8826425058342651497
+    second: WarriorWithKitetsuModel_91
+  - first:
+      213: -3225714369842615633
+    second: WarriorWithKitetsuModel_92
+  - first:
+      213: 623296001003791800
+    second: WarriorWithKitetsuModel_93
+  - first:
+      213: -6022003205183570665
+    second: WarriorWithKitetsuModel_94
+  - first:
+      213: -2916551455686440840
+    second: WarriorWithKitetsuModel_95
+  - first:
+      213: -1071893465925060128
+    second: WarriorWithKitetsuModel_96
+  - first:
+      213: 2921446262108572341
+    second: WarriorWithKitetsuModel_97
+  - first:
+      213: 4832159498593090249
+    second: WarriorWithKitetsuModel_98
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507e4e9f345d06f00800000000000000
+      internalID: 1108119996265195269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 704
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6ed0bf4d7583ae0800000000000000
+      internalID: -1569407897881942293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 704
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ad45ea7331516d0800000000000000
+      internalID: -3020486845213123964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 704
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15788f433b1df990800000000000000
+      internalID: -7350689109607156451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 704
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232d34c5feb5904c0800000000000000
+      internalID: -4320821283882020302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 704
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff345f1014d3c980800000000000000
+      internalID: -8519732904344666117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec2d2493035971e0800000000000000
+      internalID: -2199635668157780757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 660
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99663e2e986aa6480800000000000000
+      internalID: -8905122202024450407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 660
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38678c5ec3a1286b0800000000000000
+      internalID: -5295641362978802045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_9
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 660
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2a11ff2c412c910800000000000000
+      internalID: 1856068824165622474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_10
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 660
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabcf788b6f1967c0800000000000000
+      internalID: -4077693440895235153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_11
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 660
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68560e368ce699a0800000000000000
+      internalID: -6226529373482755990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378bae32728602ba0800000000000000
+      internalID: -6115773776653535117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_13
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 616
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f0d4f0de4512730800000000000000
+      internalID: 3972549723458178851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_14
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 616
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee133e1f954a7c710800000000000000
+      internalID: 1713518889455006190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_15
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 616
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f49f27f90ecc6400800000000000000
+      internalID: 318856215833580785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_16
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 616
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accdee1a2bcc6c2c0800000000000000
+      internalID: -4411613717369791286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_17
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 616
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae6037d39db227c0800000000000000
+      internalID: -4097504268285612371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 572
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2c9d40388cf4290800000000000000
+      internalID: -7903878355964280121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_19
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 572
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd776b27d917e8f0800000000000000
+      internalID: -511411620746396206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 572
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aabb1d9791845440800000000000000
+      internalID: 4923702780798679716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_21
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 572
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e7ff07045f7f6b0800000000000000
+      internalID: -5262467982436630913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_22
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 572
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a644b061d10e4c0800000000000000
+      internalID: -4260373266976970156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_23
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 572
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fefe9250f0e6a220800000000000000
+      internalID: 2496930366206443249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6466ea3c7c42cf50800000000000000
+      internalID: 6900161675532854383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 528
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bf875db9dc315f0800000000000000
+      internalID: -787059440674604211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_26
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 528
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e15fe1224c49860800000000000000
+      internalID: 7535863727324995131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 528
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3885cba8c6b740c70800000000000000
+      internalID: 8936403266724190339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_28
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 528
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8ae7710544e2b80800000000000000
+      internalID: -8417715542726629156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_29
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 528
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37d5a8e9d0e3cce0800000000000000
+      internalID: -1386017033784273089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 484
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b724f6c676668af40800000000000000
+      internalID: 5739950319470592635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_31
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 484
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c28801d5d5bd4190800000000000000
+      internalID: -7976519435063622969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_32
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 484
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85cec8a654cfe2f0800000000000000
+      internalID: -941317920618789489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_33
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 484
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b887b296840b18cc0800000000000000
+      internalID: -3710490792927987573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_34
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 484
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9b3a844421737e0800000000000000
+      internalID: -1785938642743346752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_35
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 484
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0725a4b955d9b6e50800000000000000
+      internalID: 6803704653076386416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89fa3ed163a22df0800000000000000
+      internalID: -206422992170059381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_37
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 440
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a34550939db63e30800000000000000
+      internalID: 4482978920573256610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_38
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 440
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd305e266aec3d50800000000000000
+      internalID: 6718502468714511829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_39
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 440
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfe3675da2cb9680800000000000000
+      internalID: -8747183801485758526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_40
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 440
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80a57b7c0e8b2100800000000000000
+      internalID: 84317202298544268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_41
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 440
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cce894b3b35f570800000000000000
+      internalID: 8499764997554883723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91cba70fb555dd50800000000000000
+      internalID: 6761404694522479002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_43
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 396
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc66b51965c989530800000000000000
+      internalID: 3862008576090007244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_44
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 396
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e9d6d57eb8796e0800000000000000
+      internalID: -1830840897681646023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_45
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 396
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8ff81f0f54382f0800000000000000
+      internalID: -971856193434683174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_46
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 396
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e7e6bf4e4d15650800000000000000
+      internalID: 6219986640311320090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_47
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 396
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0358b49ae1a8b4120800000000000000
+      internalID: 2399163090798871856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4f760a41b9ce8e0800000000000000
+      internalID: -1662783649513736989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_49
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 352
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353e13dc2d7ac20d0800000000000000
+      internalID: -3446195091017702573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_50
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 352
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41071c275cf6f04e0800000000000000
+      internalID: -2013267614586802156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_51
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 352
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6f8f0a7bacdb640800000000000000
+      internalID: 5097453243281766102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_52
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 352
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673f64fc20ee211e0800000000000000
+      internalID: -2228457169760095370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_53
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 352
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147d621387ac61160800000000000000
+      internalID: 6996001688736159553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2054d44e06f384800800000000000000
+      internalID: 596796636006270210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_55
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 308
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34454ded3c5a81ad0800000000000000
+      internalID: -2731250913324542909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_56
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 308
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d5c7f9d5b4750c0800000000000000
+      internalID: -4587114829973791416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_57
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 308
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc711ed5692b4f5d0800000000000000
+      internalID: -3029600290423629875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_58
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 308
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1666936c9e91441e0800000000000000
+      internalID: -2214616624915716511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_59
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 308
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309da9f853d7a4d80800000000000000
+      internalID: -8265656497089095421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1896c3eefd67160800000000000000
+      internalID: 7023046883239625151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_61
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 264
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094e8c64e0de4e580800000000000000
+      internalID: -8798647126402210672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_62
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 264
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bf52bb712d84610800000000000000
+      internalID: 1605764266523491200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_63
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 264
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f27f4e3e2f616910800000000000000
+      internalID: 1828865168093704952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_64
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 264
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d618725c6363bc2f0800000000000000
+      internalID: -951607287394893459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_65
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 264
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47a635742e44f2e0800000000000000
+      internalID: -2092962008328132788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be38524ad2beb10a0800000000000000
+      internalID: -6909670622009916437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_67
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 220
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcf680e51098a550800000000000000
+      internalID: 6172341712946920670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_68
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 220
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93d7c5f5598e05f0800000000000000
+      internalID: -788541882454518884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_69
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 220
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd27544bfdf34f790800000000000000
+      internalID: -7497297249630326049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_70
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 220
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23af36f59bddef840800000000000000
+      internalID: 5259885203054393906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_71
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 220
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72c9a110884b7380800000000000000
+      internalID: -8972498117716229505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f35621f42c82820800000000000000
+      internalID: 2893776405452373835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_73
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 176
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b404ad715781b90800000000000000
+      internalID: -7270932853083321528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_74
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 176
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e351d3bee8740760800000000000000
+      internalID: 7423191052427809769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_75
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 176
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffa8d657066330b0800000000000000
+      internalID: -5750140117514145806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_76
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 176
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba51384738e7df10800000000000000
+      internalID: 2294557859300596400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_77
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 176
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf1779f3bd9cefa0800000000000000
+      internalID: -5770063626258407487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8ef5dc7d8ddbdc0800000000000000
+      internalID: -3621500103960827709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_79
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 132
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2109052542c444520800000000000000
+      internalID: 2685354996703203346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_80
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 132
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a34b343dc8b21b0800000000000000
+      internalID: -5680291665995875707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_81
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 132
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400d778a1605f95f0800000000000000
+      internalID: -747790632751738876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_82
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 132
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c732c95e6fd8485d0800000000000000
+      internalID: -3061165755151408260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_83
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 132
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08fef45e1ac53b80800000000000000
+      internalID: -8415598097048078321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0bae93c1cd5c260800000000000000
+      internalID: 7117336799917813975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_85
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 88
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fed0f7b1540fe10800000000000000
+      internalID: 2229357799946448776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_86
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 88
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fae53a68dc3f430800000000000000
+      internalID: 3815619287463145295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_87
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 88
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1de31a290c4c0bd0800000000000000
+      internalID: -2662669677438440166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_88
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 88
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfe9b3b3e49a9430800000000000000
+      internalID: 3790505742079487936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_89
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 88
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c14f4eb15e85970800000000000000
+      internalID: 8743990584507898919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbc2969ba21edfa0800000000000000
+      internalID: -5774157144067486771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_91
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 44
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966ce1f73d2cd7a70800000000000000
+      internalID: 8826425058342651497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_92
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 44
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa68a60fd5fb33d0800000000000000
+      internalID: -3225714369842615633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_93
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 44
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5a0c9196466a800800000000000000
+      internalID: 623296001003791800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_94
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 44
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71df4c6adfb8d6ca0800000000000000
+      internalID: -6022003205183570665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_95
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 44
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87849a257e35687d0800000000000000
+      internalID: -2916551455686440840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e97976629edf11f0800000000000000
+      internalID: -1071893465925060128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_97
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bacf5b95ef0b8820800000000000000
+      internalID: 2921446262108572341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithKitetsuModel_98
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cabbab46774f0340800000000000000
+      internalID: 4832159498593090249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      WarriorWithKitetsuModel_0: 1108119996265195269
+      WarriorWithKitetsuModel_1: -1569407897881942293
+      WarriorWithKitetsuModel_10: -4077693440895235153
+      WarriorWithKitetsuModel_11: -6226529373482755990
+      WarriorWithKitetsuModel_12: -6115773776653535117
+      WarriorWithKitetsuModel_13: 3972549723458178851
+      WarriorWithKitetsuModel_14: 1713518889455006190
+      WarriorWithKitetsuModel_15: 318856215833580785
+      WarriorWithKitetsuModel_16: -4411613717369791286
+      WarriorWithKitetsuModel_17: -4097504268285612371
+      WarriorWithKitetsuModel_18: -7903878355964280121
+      WarriorWithKitetsuModel_19: -511411620746396206
+      WarriorWithKitetsuModel_2: -3020486845213123964
+      WarriorWithKitetsuModel_20: 4923702780798679716
+      WarriorWithKitetsuModel_21: -5262467982436630913
+      WarriorWithKitetsuModel_22: -4260373266976970156
+      WarriorWithKitetsuModel_23: 2496930366206443249
+      WarriorWithKitetsuModel_24: 6900161675532854383
+      WarriorWithKitetsuModel_25: -787059440674604211
+      WarriorWithKitetsuModel_26: 7535863727324995131
+      WarriorWithKitetsuModel_27: 8936403266724190339
+      WarriorWithKitetsuModel_28: -8417715542726629156
+      WarriorWithKitetsuModel_29: -1386017033784273089
+      WarriorWithKitetsuModel_3: -7350689109607156451
+      WarriorWithKitetsuModel_30: 5739950319470592635
+      WarriorWithKitetsuModel_31: -7976519435063622969
+      WarriorWithKitetsuModel_32: -941317920618789489
+      WarriorWithKitetsuModel_33: -3710490792927987573
+      WarriorWithKitetsuModel_34: -1785938642743346752
+      WarriorWithKitetsuModel_35: 6803704653076386416
+      WarriorWithKitetsuModel_36: -206422992170059381
+      WarriorWithKitetsuModel_37: 4482978920573256610
+      WarriorWithKitetsuModel_38: 6718502468714511829
+      WarriorWithKitetsuModel_39: -8747183801485758526
+      WarriorWithKitetsuModel_4: -4320821283882020302
+      WarriorWithKitetsuModel_40: 84317202298544268
+      WarriorWithKitetsuModel_41: 8499764997554883723
+      WarriorWithKitetsuModel_42: 6761404694522479002
+      WarriorWithKitetsuModel_43: 3862008576090007244
+      WarriorWithKitetsuModel_44: -1830840897681646023
+      WarriorWithKitetsuModel_45: -971856193434683174
+      WarriorWithKitetsuModel_46: 6219986640311320090
+      WarriorWithKitetsuModel_47: 2399163090798871856
+      WarriorWithKitetsuModel_48: -1662783649513736989
+      WarriorWithKitetsuModel_49: -3446195091017702573
+      WarriorWithKitetsuModel_5: -8519732904344666117
+      WarriorWithKitetsuModel_50: -2013267614586802156
+      WarriorWithKitetsuModel_51: 5097453243281766102
+      WarriorWithKitetsuModel_52: -2228457169760095370
+      WarriorWithKitetsuModel_53: 6996001688736159553
+      WarriorWithKitetsuModel_54: 596796636006270210
+      WarriorWithKitetsuModel_55: -2731250913324542909
+      WarriorWithKitetsuModel_56: -4587114829973791416
+      WarriorWithKitetsuModel_57: -3029600290423629875
+      WarriorWithKitetsuModel_58: -2214616624915716511
+      WarriorWithKitetsuModel_59: -8265656497089095421
+      WarriorWithKitetsuModel_6: -2199635668157780757
+      WarriorWithKitetsuModel_60: 7023046883239625151
+      WarriorWithKitetsuModel_61: -8798647126402210672
+      WarriorWithKitetsuModel_62: 1605764266523491200
+      WarriorWithKitetsuModel_63: 1828865168093704952
+      WarriorWithKitetsuModel_64: -951607287394893459
+      WarriorWithKitetsuModel_65: -2092962008328132788
+      WarriorWithKitetsuModel_66: -6909670622009916437
+      WarriorWithKitetsuModel_67: 6172341712946920670
+      WarriorWithKitetsuModel_68: -788541882454518884
+      WarriorWithKitetsuModel_69: -7497297249630326049
+      WarriorWithKitetsuModel_7: -8905122202024450407
+      WarriorWithKitetsuModel_70: 5259885203054393906
+      WarriorWithKitetsuModel_71: -8972498117716229505
+      WarriorWithKitetsuModel_72: 2893776405452373835
+      WarriorWithKitetsuModel_73: -7270932853083321528
+      WarriorWithKitetsuModel_74: 7423191052427809769
+      WarriorWithKitetsuModel_75: -5750140117514145806
+      WarriorWithKitetsuModel_76: 2294557859300596400
+      WarriorWithKitetsuModel_77: -5770063626258407487
+      WarriorWithKitetsuModel_78: -3621500103960827709
+      WarriorWithKitetsuModel_79: 2685354996703203346
+      WarriorWithKitetsuModel_8: -5295641362978802045
+      WarriorWithKitetsuModel_80: -5680291665995875707
+      WarriorWithKitetsuModel_81: -747790632751738876
+      WarriorWithKitetsuModel_82: -3061165755151408260
+      WarriorWithKitetsuModel_83: -8415598097048078321
+      WarriorWithKitetsuModel_84: 7117336799917813975
+      WarriorWithKitetsuModel_85: 2229357799946448776
+      WarriorWithKitetsuModel_86: 3815619287463145295
+      WarriorWithKitetsuModel_87: -2662669677438440166
+      WarriorWithKitetsuModel_88: 3790505742079487936
+      WarriorWithKitetsuModel_89: 8743990584507898919
+      WarriorWithKitetsuModel_9: 1856068824165622474
+      WarriorWithKitetsuModel_90: -5774157144067486771
+      WarriorWithKitetsuModel_91: 8826425058342651497
+      WarriorWithKitetsuModel_92: -3225714369842615633
+      WarriorWithKitetsuModel_93: 623296001003791800
+      WarriorWithKitetsuModel_94: -6022003205183570665
+      WarriorWithKitetsuModel_95: -2916551455686440840
+      WarriorWithKitetsuModel_96: -1071893465925060128
+      WarriorWithKitetsuModel_97: 2921446262108572341
+      WarriorWithKitetsuModel_98: 4832159498593090249
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

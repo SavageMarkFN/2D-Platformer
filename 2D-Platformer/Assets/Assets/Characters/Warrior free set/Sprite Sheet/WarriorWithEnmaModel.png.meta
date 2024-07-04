@@ -1,0 +1,2615 @@
+fileFormatVersion: 2
+guid: fab464cb33491754bb643c21bf912be8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1663045019563807611
+    second: WarriorWithEnmaModel_0
+  - first:
+      213: -2281112977086513740
+    second: WarriorWithEnmaModel_1
+  - first:
+      213: -2235586154864858967
+    second: WarriorWithEnmaModel_2
+  - first:
+      213: -7542619209778570590
+    second: WarriorWithEnmaModel_3
+  - first:
+      213: -8146534267129903527
+    second: WarriorWithEnmaModel_4
+  - first:
+      213: 7948104325317234796
+    second: WarriorWithEnmaModel_5
+  - first:
+      213: -328544322767579357
+    second: WarriorWithEnmaModel_6
+  - first:
+      213: 6852618591572849243
+    second: WarriorWithEnmaModel_7
+  - first:
+      213: -1817411135714629981
+    second: WarriorWithEnmaModel_8
+  - first:
+      213: 6859926319817005466
+    second: WarriorWithEnmaModel_9
+  - first:
+      213: 8317608851212329953
+    second: WarriorWithEnmaModel_10
+  - first:
+      213: -7178788627198267423
+    second: WarriorWithEnmaModel_11
+  - first:
+      213: -1505402827983702602
+    second: WarriorWithEnmaModel_12
+  - first:
+      213: -6286077546641102408
+    second: WarriorWithEnmaModel_13
+  - first:
+      213: 511328656494769324
+    second: WarriorWithEnmaModel_14
+  - first:
+      213: -8041862462589453129
+    second: WarriorWithEnmaModel_15
+  - first:
+      213: -3218340767083198747
+    second: WarriorWithEnmaModel_16
+  - first:
+      213: -5868056884525942571
+    second: WarriorWithEnmaModel_17
+  - first:
+      213: -178865898033581483
+    second: WarriorWithEnmaModel_18
+  - first:
+      213: -5951398743388322603
+    second: WarriorWithEnmaModel_19
+  - first:
+      213: 6768382773812187975
+    second: WarriorWithEnmaModel_20
+  - first:
+      213: -3477354317699364890
+    second: WarriorWithEnmaModel_21
+  - first:
+      213: -2501775025527088919
+    second: WarriorWithEnmaModel_22
+  - first:
+      213: 1447922184795036370
+    second: WarriorWithEnmaModel_23
+  - first:
+      213: 3229690777754647663
+    second: WarriorWithEnmaModel_24
+  - first:
+      213: 2341085272457270842
+    second: WarriorWithEnmaModel_25
+  - first:
+      213: 8642199528825827570
+    second: WarriorWithEnmaModel_26
+  - first:
+      213: 4118982244596823634
+    second: WarriorWithEnmaModel_27
+  - first:
+      213: 4982921172918713603
+    second: WarriorWithEnmaModel_28
+  - first:
+      213: -7854342168196404719
+    second: WarriorWithEnmaModel_29
+  - first:
+      213: -5856572438235692736
+    second: WarriorWithEnmaModel_30
+  - first:
+      213: -938855879134049059
+    second: WarriorWithEnmaModel_31
+  - first:
+      213: -7085300432261919706
+    second: WarriorWithEnmaModel_32
+  - first:
+      213: -7852083258300912507
+    second: WarriorWithEnmaModel_33
+  - first:
+      213: -9206029011059600514
+    second: WarriorWithEnmaModel_34
+  - first:
+      213: -4842375052254322227
+    second: WarriorWithEnmaModel_35
+  - first:
+      213: 5621033967183895589
+    second: WarriorWithEnmaModel_36
+  - first:
+      213: 3455843801967624104
+    second: WarriorWithEnmaModel_37
+  - first:
+      213: -992285508508233579
+    second: WarriorWithEnmaModel_38
+  - first:
+      213: 6161334679880540760
+    second: WarriorWithEnmaModel_39
+  - first:
+      213: 7131284466098048092
+    second: WarriorWithEnmaModel_40
+  - first:
+      213: 7988503813995622105
+    second: WarriorWithEnmaModel_41
+  - first:
+      213: -8767530272856084816
+    second: WarriorWithEnmaModel_42
+  - first:
+      213: 437033517492428163
+    second: WarriorWithEnmaModel_43
+  - first:
+      213: -5517331156547179005
+    second: WarriorWithEnmaModel_44
+  - first:
+      213: -4014314894539249493
+    second: WarriorWithEnmaModel_45
+  - first:
+      213: 7384351165655123455
+    second: WarriorWithEnmaModel_46
+  - first:
+      213: -8103007921815003418
+    second: WarriorWithEnmaModel_47
+  - first:
+      213: 1920589149253093396
+    second: WarriorWithEnmaModel_48
+  - first:
+      213: -7855929273337489777
+    second: WarriorWithEnmaModel_49
+  - first:
+      213: -3180755764149199522
+    second: WarriorWithEnmaModel_50
+  - first:
+      213: -8862263493931687366
+    second: WarriorWithEnmaModel_51
+  - first:
+      213: 8086532713105683545
+    second: WarriorWithEnmaModel_52
+  - first:
+      213: 6664234963658387640
+    second: WarriorWithEnmaModel_53
+  - first:
+      213: 7851165279673150459
+    second: WarriorWithEnmaModel_54
+  - first:
+      213: 4729760472161624083
+    second: WarriorWithEnmaModel_55
+  - first:
+      213: 4946104324251742729
+    second: WarriorWithEnmaModel_56
+  - first:
+      213: -3046411302187345712
+    second: WarriorWithEnmaModel_57
+  - first:
+      213: -3999337242724553717
+    second: WarriorWithEnmaModel_58
+  - first:
+      213: 4612584250182603652
+    second: WarriorWithEnmaModel_59
+  - first:
+      213: -6620326559963138623
+    second: WarriorWithEnmaModel_60
+  - first:
+      213: -8502205873747583589
+    second: WarriorWithEnmaModel_61
+  - first:
+      213: -505699218293450052
+    second: WarriorWithEnmaModel_62
+  - first:
+      213: -5022693347595932738
+    second: WarriorWithEnmaModel_63
+  - first:
+      213: 5045898157101067766
+    second: WarriorWithEnmaModel_64
+  - first:
+      213: 406902079134815786
+    second: WarriorWithEnmaModel_65
+  - first:
+      213: 6591583885974333503
+    second: WarriorWithEnmaModel_66
+  - first:
+      213: -702291044451009367
+    second: WarriorWithEnmaModel_67
+  - first:
+      213: 5759806068990091961
+    second: WarriorWithEnmaModel_68
+  - first:
+      213: -2620819317488212651
+    second: WarriorWithEnmaModel_69
+  - first:
+      213: 2101795952398228522
+    second: WarriorWithEnmaModel_70
+  - first:
+      213: -5652909324512361397
+    second: WarriorWithEnmaModel_71
+  - first:
+      213: 1631286804100012429
+    second: WarriorWithEnmaModel_72
+  - first:
+      213: 5731924136361088699
+    second: WarriorWithEnmaModel_73
+  - first:
+      213: 5831758057510527333
+    second: WarriorWithEnmaModel_74
+  - first:
+      213: 1435476046371721598
+    second: WarriorWithEnmaModel_75
+  - first:
+      213: -2673999060219993709
+    second: WarriorWithEnmaModel_76
+  - first:
+      213: -3056160290887457142
+    second: WarriorWithEnmaModel_77
+  - first:
+      213: 7251338527012672826
+    second: WarriorWithEnmaModel_78
+  - first:
+      213: -5054810149722759329
+    second: WarriorWithEnmaModel_79
+  - first:
+      213: 4017519292356273464
+    second: WarriorWithEnmaModel_80
+  - first:
+      213: -6380855465357500226
+    second: WarriorWithEnmaModel_81
+  - first:
+      213: -7518056772834596276
+    second: WarriorWithEnmaModel_82
+  - first:
+      213: 633579222923212268
+    second: WarriorWithEnmaModel_83
+  - first:
+      213: -5647262936373817221
+    second: WarriorWithEnmaModel_84
+  - first:
+      213: -791937415357867073
+    second: WarriorWithEnmaModel_85
+  - first:
+      213: 1479508689581030817
+    second: WarriorWithEnmaModel_86
+  - first:
+      213: -6270397089415121701
+    second: WarriorWithEnmaModel_87
+  - first:
+      213: -1842812198562818667
+    second: WarriorWithEnmaModel_88
+  - first:
+      213: -6381997493380602088
+    second: WarriorWithEnmaModel_89
+  - first:
+      213: 4557892526233195698
+    second: WarriorWithEnmaModel_90
+  - first:
+      213: -6132454608141261617
+    second: WarriorWithEnmaModel_91
+  - first:
+      213: -5088320498254280486
+    second: WarriorWithEnmaModel_92
+  - first:
+      213: 2962497955881329278
+    second: WarriorWithEnmaModel_93
+  - first:
+      213: -6696058773261468477
+    second: WarriorWithEnmaModel_94
+  - first:
+      213: -3322042147671338383
+    second: WarriorWithEnmaModel_95
+  - first:
+      213: 5021113547604589367
+    second: WarriorWithEnmaModel_96
+  - first:
+      213: 357766177726938548
+    second: WarriorWithEnmaModel_97
+  - first:
+      213: 612107324967686133
+    second: WarriorWithEnmaModel_98
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73559452a2541710800000000000000
+      internalID: 1663045019563807611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 704
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd793c45dbd750e0800000000000000
+      internalID: -2281112977086513740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 704
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8af7e9c3a99f0e0800000000000000
+      internalID: -2235586154864858967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 704
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa5c1d8acb335790800000000000000
+      internalID: -7542619209778570590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 704
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956cc290f32b1fe80800000000000000
+      internalID: -8146534267129903527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 704
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c609744e5c65d4e60800000000000000
+      internalID: 7948104325317234796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327977cdda6c07bf0800000000000000
+      internalID: -328544322767579357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 660
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52ffe36d44691f50800000000000000
+      internalID: 6852618591572849243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 660
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6e3ec733247c6e0800000000000000
+      internalID: -1817411135714629981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_9
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 660
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a999b0674aa533f50800000000000000
+      internalID: 6859926319817005466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_10
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 660
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3e72d7e251e6370800000000000000
+      internalID: 8317608851212329953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_11
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 660
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efab3647c1df5c90800000000000000
+      internalID: -7178788627198267423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5b92a9a1cbb1be0800000000000000
+      internalID: -1505402827983702602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_13
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 616
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9e5e1c6cd53c8a0800000000000000
+      internalID: -6286077546641102408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_14
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 616
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca439d534ba981700800000000000000
+      internalID: 511328656494769324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_15
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 616
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcbec8a2b0956090800000000000000
+      internalID: -8041862462589453129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_16
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 616
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e609d3bf182653d0800000000000000
+      internalID: -3218340767083198747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_17
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 616
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8bb049a59709ea0800000000000000
+      internalID: -5868056884525942571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 572
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552f645d96a848df0800000000000000
+      internalID: -178865898033581483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_19
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 572
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d402afef52686da0800000000000000
+      internalID: -5951398743388322603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 572
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743d2f8b5402eed50800000000000000
+      internalID: 6768382773812187975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_21
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 572
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7cb5ffba4fdbfc0800000000000000
+      internalID: -3477354317699364890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_22
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 572
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e893878ed8e74dd0800000000000000
+      internalID: -2501775025527088919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_23
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 572
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da9d1f3e8d081410800000000000000
+      internalID: 1447922184795036370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cbb6696aa22dc20800000000000000
+      internalID: 3229690777754647663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 528
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36d6b5d6a43d7020800000000000000
+      internalID: 2341085272457270842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_26
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 528
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f036b1eea24fe770800000000000000
+      internalID: 8642199528825827570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 528
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256b5553780992930800000000000000
+      internalID: 4118982244596823634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_28
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 528
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30db797f764e62540800000000000000
+      internalID: 4982921172918713603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_29
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 528
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a28408965cff290800000000000000
+      internalID: -7854342168196404719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 484
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0414e99956649bea0800000000000000
+      internalID: -5856572438235692736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_31
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 484
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc8dec5d8388f2f0800000000000000
+      internalID: -938855879134049059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_32
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 484
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c4b10ebc4fbad90800000000000000
+      internalID: -7085300432261919706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_33
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 484
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cae22f0ebc70390800000000000000
+      internalID: -7852083258300912507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_35
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 484
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1ea25cb8d6cccb0800000000000000
+      internalID: -4842375052254322227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c96649c9ce10e40800000000000000
+      internalID: 5621033967183895589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_37
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 440
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aff387c0af95ff20800000000000000
+      internalID: 3455843801967624104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_38
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 440
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590599d5691ba32f0800000000000000
+      internalID: -992285508508233579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_39
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 440
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85223984f35718550800000000000000
+      internalID: 6161334679880540760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_40
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 440
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c0902507967f260800000000000000
+      internalID: 7131284466098048092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_41
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 440
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9deef08d4eddcde60800000000000000
+      internalID: 7988503813995622105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0beede05ba9735680800000000000000
+      internalID: -8767530272856084816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_43
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 396
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d531d2ba7a01600800000000000000
+      internalID: 437033517492428163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_44
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 396
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e6fc19b808e63b0800000000000000
+      internalID: -5517331156547179005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_45
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 396
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8ad664fd94a48c0800000000000000
+      internalID: -4014314894539249493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_46
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 396
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff58d9dd24c7a7660800000000000000
+      internalID: 7384351165655123455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_47
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 396
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee5a080a355c8f80800000000000000
+      internalID: -8103007921815003418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41843b0d7ad47aa10800000000000000
+      internalID: 1920589149253093396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_49
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 352
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86502ac2f12af290800000000000000
+      internalID: -7855929273337489777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_50
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 352
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d5c902c7fabd3d0800000000000000
+      internalID: -3180755764149199522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_51
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 352
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a322a4a7e4ae20580800000000000000
+      internalID: -8862263493931687366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_52
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 352
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9547d3588a2293070800000000000000
+      internalID: 8086532713105683545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_53
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 352
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0b89c046e1c7c50800000000000000
+      internalID: 6664234963658387640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb6ccf7931f4fc60800000000000000
+      internalID: 7851165279673150459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_55
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 308
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310a0ef071c73a140800000000000000
+      internalID: 4729760472161624083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_56
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 308
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9027c056da714a440800000000000000
+      internalID: 4946104324251742729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_57
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 308
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8536daf09f8b5d0800000000000000
+      internalID: -3046411302187345712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_58
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 308
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ca96697ff7f78c0800000000000000
+      internalID: -3999337242724553717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_59
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 308
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48312b0efe0330040800000000000000
+      internalID: 4612584250182603652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c53058d110ef14a0800000000000000
+      internalID: -6620326559963138623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_61
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 264
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d1900fdc8120a80800000000000000
+      internalID: -8502205873747583589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_62
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 264
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba1d628d356bf8f0800000000000000
+      internalID: -505699218293450052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_63
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 264
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebba3d0030fcb4ab0800000000000000
+      internalID: -5022693347595932738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_64
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 264
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdaecab3a1a60640800000000000000
+      internalID: 5045898157101067766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_65
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 264
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26d23df84b95a500800000000000000
+      internalID: 406902079134815786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3860bede920a7b50800000000000000
+      internalID: 6591583885974333503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_67
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 220
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac3f861406f046f0800000000000000
+      internalID: -702291044451009367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_68
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 220
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b22b4d5a11feef40800000000000000
+      internalID: 5759806068990091961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_69
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 220
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55522a867baf0abd0800000000000000
+      internalID: -2620819317488212651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_70
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 220
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cdc0d68441b2d10800000000000000
+      internalID: 2101795952398228522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_71
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 220
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4482f47be4dc81b0800000000000000
+      internalID: -5652909324512361397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89d92594be73a610800000000000000
+      internalID: 1631286804100012429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_73
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 176
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb65a4b02a2eb8f40800000000000000
+      internalID: 5731924136361088699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_74
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 176
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561efe92e019ee050800000000000000
+      internalID: 5831758057510527333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_75
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 176
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e719193dbd5dbe310800000000000000
+      internalID: 1435476046371721598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_76
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 176
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391ebdda50c04ead0800000000000000
+      internalID: -2673999060219993709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_77
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 176
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86affc58665695d0800000000000000
+      internalID: -3056160290887457142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35d1b898fde1a460800000000000000
+      internalID: 7251338527012672826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_79
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 132
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f5cba43f4b9d9b0800000000000000
+      internalID: -5054810149722759329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_80
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 132
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835ac2bb28811c730800000000000000
+      internalID: 4017519292356273464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_81
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 132
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0a140f2c5a277a0800000000000000
+      internalID: -6380855465357500226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_82
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 132
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a69fd823f7aa790800000000000000
+      internalID: -7518056772834596276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_83
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 132
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5f76742fceac800800000000000000
+      internalID: 633579222923212268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b709534a744e0a1b0800000000000000
+      internalID: -5647262936373817221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_85
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 88
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbd049dd197205f0800000000000000
+      internalID: -791937415357867073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_86
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 88
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adb49c7055488410800000000000000
+      internalID: 1479508689581030817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_87
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 88
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4b4c4b1131bf8a0800000000000000
+      internalID: -6270397089415121701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_88
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 88
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59518eca1140d66e0800000000000000
+      internalID: -1842812198562818667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_89
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 88
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817ad91d7179e67a0800000000000000
+      internalID: -6381997493380602088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b499869a13e04f30800000000000000
+      internalID: 4557892526233195698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_91
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 44
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc46888660525eaa0800000000000000
+      internalID: -6132454608141261617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_92
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 44
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad807364777a269b0800000000000000
+      internalID: -5088320498254280486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_93
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 44
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72a024e138ec1920800000000000000
+      internalID: 2962497955881329278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_94
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 44
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccbc90e502d213a0800000000000000
+      internalID: -6696058773261468477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_95
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 44
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1729c23844cb5e1d0800000000000000
+      internalID: -3322042147671338383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b7fd52b249ea540800000000000000
+      internalID: 5021113547604589367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_97
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd3010717a07f400800000000000000
+      internalID: 357766177726938548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_98
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff0d157e54ae7800800000000000000
+      internalID: 612107324967686133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorWithEnmaModel_34
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 484
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e731adbd36d9d3080800000000000000
+      internalID: -9206029011059600514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      WarriorWithEnmaModel_0: 1663045019563807611
+      WarriorWithEnmaModel_1: -2281112977086513740
+      WarriorWithEnmaModel_10: 8317608851212329953
+      WarriorWithEnmaModel_11: -7178788627198267423
+      WarriorWithEnmaModel_12: -1505402827983702602
+      WarriorWithEnmaModel_13: -6286077546641102408
+      WarriorWithEnmaModel_14: 511328656494769324
+      WarriorWithEnmaModel_15: -8041862462589453129
+      WarriorWithEnmaModel_16: -3218340767083198747
+      WarriorWithEnmaModel_17: -5868056884525942571
+      WarriorWithEnmaModel_18: -178865898033581483
+      WarriorWithEnmaModel_19: -5951398743388322603
+      WarriorWithEnmaModel_2: -2235586154864858967
+      WarriorWithEnmaModel_20: 6768382773812187975
+      WarriorWithEnmaModel_21: -3477354317699364890
+      WarriorWithEnmaModel_22: -2501775025527088919
+      WarriorWithEnmaModel_23: 1447922184795036370
+      WarriorWithEnmaModel_24: 3229690777754647663
+      WarriorWithEnmaModel_25: 2341085272457270842
+      WarriorWithEnmaModel_26: 8642199528825827570
+      WarriorWithEnmaModel_27: 4118982244596823634
+      WarriorWithEnmaModel_28: 4982921172918713603
+      WarriorWithEnmaModel_29: -7854342168196404719
+      WarriorWithEnmaModel_3: -7542619209778570590
+      WarriorWithEnmaModel_30: -5856572438235692736
+      WarriorWithEnmaModel_31: -938855879134049059
+      WarriorWithEnmaModel_32: -7085300432261919706
+      WarriorWithEnmaModel_33: -7852083258300912507
+      WarriorWithEnmaModel_34: -9206029011059600514
+      WarriorWithEnmaModel_35: -4842375052254322227
+      WarriorWithEnmaModel_36: 5621033967183895589
+      WarriorWithEnmaModel_37: 3455843801967624104
+      WarriorWithEnmaModel_38: -992285508508233579
+      WarriorWithEnmaModel_39: 6161334679880540760
+      WarriorWithEnmaModel_4: -8146534267129903527
+      WarriorWithEnmaModel_40: 7131284466098048092
+      WarriorWithEnmaModel_41: 7988503813995622105
+      WarriorWithEnmaModel_42: -8767530272856084816
+      WarriorWithEnmaModel_43: 437033517492428163
+      WarriorWithEnmaModel_44: -5517331156547179005
+      WarriorWithEnmaModel_45: -4014314894539249493
+      WarriorWithEnmaModel_46: 7384351165655123455
+      WarriorWithEnmaModel_47: -8103007921815003418
+      WarriorWithEnmaModel_48: 1920589149253093396
+      WarriorWithEnmaModel_49: -7855929273337489777
+      WarriorWithEnmaModel_5: 7948104325317234796
+      WarriorWithEnmaModel_50: -3180755764149199522
+      WarriorWithEnmaModel_51: -8862263493931687366
+      WarriorWithEnmaModel_52: 8086532713105683545
+      WarriorWithEnmaModel_53: 6664234963658387640
+      WarriorWithEnmaModel_54: 7851165279673150459
+      WarriorWithEnmaModel_55: 4729760472161624083
+      WarriorWithEnmaModel_56: 4946104324251742729
+      WarriorWithEnmaModel_57: -3046411302187345712
+      WarriorWithEnmaModel_58: -3999337242724553717
+      WarriorWithEnmaModel_59: 4612584250182603652
+      WarriorWithEnmaModel_6: -328544322767579357
+      WarriorWithEnmaModel_60: -6620326559963138623
+      WarriorWithEnmaModel_61: -8502205873747583589
+      WarriorWithEnmaModel_62: -505699218293450052
+      WarriorWithEnmaModel_63: -5022693347595932738
+      WarriorWithEnmaModel_64: 5045898157101067766
+      WarriorWithEnmaModel_65: 406902079134815786
+      WarriorWithEnmaModel_66: 6591583885974333503
+      WarriorWithEnmaModel_67: -702291044451009367
+      WarriorWithEnmaModel_68: 5759806068990091961
+      WarriorWithEnmaModel_69: -2620819317488212651
+      WarriorWithEnmaModel_7: 6852618591572849243
+      WarriorWithEnmaModel_70: 2101795952398228522
+      WarriorWithEnmaModel_71: -5652909324512361397
+      WarriorWithEnmaModel_72: 1631286804100012429
+      WarriorWithEnmaModel_73: 5731924136361088699
+      WarriorWithEnmaModel_74: 5831758057510527333
+      WarriorWithEnmaModel_75: 1435476046371721598
+      WarriorWithEnmaModel_76: -2673999060219993709
+      WarriorWithEnmaModel_77: -3056160290887457142
+      WarriorWithEnmaModel_78: 7251338527012672826
+      WarriorWithEnmaModel_79: -5054810149722759329
+      WarriorWithEnmaModel_8: -1817411135714629981
+      WarriorWithEnmaModel_80: 4017519292356273464
+      WarriorWithEnmaModel_81: -6380855465357500226
+      WarriorWithEnmaModel_82: -7518056772834596276
+      WarriorWithEnmaModel_83: 633579222923212268
+      WarriorWithEnmaModel_84: -5647262936373817221
+      WarriorWithEnmaModel_85: -791937415357867073
+      WarriorWithEnmaModel_86: 1479508689581030817
+      WarriorWithEnmaModel_87: -6270397089415121701
+      WarriorWithEnmaModel_88: -1842812198562818667
+      WarriorWithEnmaModel_89: -6381997493380602088
+      WarriorWithEnmaModel_9: 6859926319817005466
+      WarriorWithEnmaModel_90: 4557892526233195698
+      WarriorWithEnmaModel_91: -6132454608141261617
+      WarriorWithEnmaModel_92: -5088320498254280486
+      WarriorWithEnmaModel_93: 2962497955881329278
+      WarriorWithEnmaModel_94: -6696058773261468477
+      WarriorWithEnmaModel_95: -3322042147671338383
+      WarriorWithEnmaModel_96: 5021113547604589367
+      WarriorWithEnmaModel_97: 357766177726938548
+      WarriorWithEnmaModel_98: 612107324967686133
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

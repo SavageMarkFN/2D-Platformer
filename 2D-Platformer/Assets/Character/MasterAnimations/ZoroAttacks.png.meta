@@ -1,0 +1,694 @@
+fileFormatVersion: 2
+guid: a9dc304bd1c62f745960848245cdc44c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8668510204722531845
+    second: ZoroAttacks_0
+  - first:
+      213: 5066203644763047272
+    second: ZoroAttacks_1
+  - first:
+      213: 8393583962331755716
+    second: ZoroAttacks_2
+  - first:
+      213: 1074242384675119340
+    second: ZoroAttacks_3
+  - first:
+      213: -4681469525161644150
+    second: ZoroAttacks_4
+  - first:
+      213: -4427226979556904366
+    second: ZoroAttacks_5
+  - first:
+      213: 757652073397226195
+    second: ZoroAttacks_6
+  - first:
+      213: -6625105143156722793
+    second: ZoroAttacks_7
+  - first:
+      213: 2925174637775332753
+    second: ZoroAttacks_8
+  - first:
+      213: -2370133047977883133
+    second: ZoroAttacks_9
+  - first:
+      213: 8613758495836379871
+    second: ZoroAttacks_10
+  - first:
+      213: -4066555159810402327
+    second: ZoroAttacks_11
+  - first:
+      213: -3386949445863040544
+    second: ZoroAttacks_12
+  - first:
+      213: 9099979742588119502
+    second: ZoroAttacks_13
+  - first:
+      213: -1383029132643773804
+    second: ZoroAttacks_14
+  - first:
+      213: -4681172774390358614
+    second: ZoroAttacks_15
+  - first:
+      213: 4514716363893714129
+    second: ZoroAttacks_16
+  - first:
+      213: -2137200743572679663
+    second: ZoroAttacks_17
+  - first:
+      213: 5854535002044473247
+    second: ZoroAttacks_18
+  - first:
+      213: 6102832087902238395
+    second: ZoroAttacks_19
+  - first:
+      213: -5364180742356939546
+    second: ZoroAttacks_20
+  - first:
+      213: 6479749561802332474
+    second: ZoroAttacks_21
+  - first:
+      213: 2334888267129659122
+    second: ZoroAttacks_22
+  - first:
+      213: 6527530350393405103
+    second: ZoroAttacks_23
+  - first:
+      213: 1186838766448893412
+    second: ZoroAttacks_24
+  - first:
+      213: 2995918793823436100
+    second: ZoroAttacks_25
+  - first:
+      213: 6450850254071981131
+    second: ZoroAttacks_26
+  - first:
+      213: -4890498887893576907
+    second: ZoroAttacks_27
+  - first:
+      213: -5221191661671949057
+    second: ZoroAttacks_28
+  - first:
+      213: 5546471015824257686
+    second: ZoroAttacks_29
+  - first:
+      213: 5759296201432797508
+    second: ZoroAttacks_30
+  - first:
+      213: -72918380645633312
+    second: ZoroAttacks_31
+  - first:
+      213: 3115243810202080274
+    second: ZoroAttacks_32
+  - first:
+      213: 1775449434309538904
+    second: ZoroAttacks_33
+  - first:
+      213: -3202745679955176867
+    second: ZoroAttacks_34
+  - first:
+      213: 3077647733758800791
+    second: ZoroAttacks_35
+  - first:
+      213: 4816796507962804326
+    second: ZoroAttacks_36
+  - first:
+      213: 4871797998733179602
+    second: ZoroAttacks_37
+  - first:
+      213: -8743232515927026264
+    second: ZoroAttacks_38
+  - first:
+      213: 3960618472571410922
+    second: ZoroAttacks_39
+  - first:
+      213: 3628837276618244985
+    second: ZoroAttacks_40
+  - first:
+      213: -1664137853393047415
+    second: ZoroAttacks_41
+  - first:
+      213: -1180579412757469788
+    second: ZoroAttacks_42
+  - first:
+      213: 1876418154569276444
+    second: ZoroAttacks_43
+  - first:
+      213: 1002985067479807534
+    second: ZoroAttacks_44
+  - first:
+      213: -205594309343522007
+    second: ZoroAttacks_45
+  - first:
+      213: -1336471511060596190
+    second: ZoroAttacks_46
+  - first:
+      213: -4942211400184567895
+    second: ZoroAttacks_47
+  - first:
+      213: 5581531479432742053
+    second: ZoroAttacks_48
+  - first:
+      213: -2640303688443721046
+    second: ZoroAttacks_49
+  - first:
+      213: -112068189401270089
+    second: ZoroAttacks_50
+  - first:
+      213: 8178491288818194584
+    second: ZoroAttacks_51
+  - first:
+      213: 7282362239573342407
+    second: ZoroAttacks_52
+  - first:
+      213: 7060680937353930867
+    second: ZoroAttacks_53
+  - first:
+      213: -321199691721453636
+    second: ZoroAttacks_54
+  - first:
+      213: 3368762844445729157
+    second: ZoroAttacks_55
+  - first:
+      213: -7482548698008603702
+    second: ZoroAttacks_56
+  - first:
+      213: 7048060188709263156
+    second: ZoroAttacks_57
+  - first:
+      213: 8866730377125155069
+    second: ZoroAttacks_58
+  - first:
+      213: -3999651572664371283
+    second: ZoroAttacks_59
+  - first:
+      213: 1976035557826394215
+    second: ZoroAttacks_60
+  - first:
+      213: -2165543602601093285
+    second: ZoroAttacks_61
+  - first:
+      213: 6671576126535267613
+    second: ZoroAttacks_62
+  - first:
+      213: -8262327864207308554
+    second: ZoroAttacks_63
+  - first:
+      213: 2830959799361419946
+    second: ZoroAttacks_64
+  - first:
+      213: -5556792576625378631
+    second: ZoroAttacks_65
+  - first:
+      213: 7347539996244183335
+    second: ZoroAttacks_66
+  - first:
+      213: 4211907436662649479
+    second: ZoroAttacks_67
+  - first:
+      213: -8788647233430831050
+    second: ZoroAttacks_68
+  - first:
+      213: 7500794199228028362
+    second: ZoroAttacks_69
+  - first:
+      213: -8920317464538079782
+    second: ZoroAttacks_70
+  - first:
+      213: -114449165866778906
+    second: ZoroAttacks_71
+  - first:
+      213: 6640680550887916300
+    second: ZoroAttacks_72
+  - first:
+      213: 3897936996027695752
+    second: ZoroAttacks_73
+  - first:
+      213: 4022633748865583519
+    second: ZoroAttacks_74
+  - first:
+      213: 1166548499077380454
+    second: ZoroAttacks_75
+  - first:
+      213: -6229081705450427415
+    second: ZoroAttacks_76
+  - first:
+      213: -2615748326861672356
+    second: ZoroAttacks_77
+  - first:
+      213: -7731984118543932363
+    second: ZoroAttacks_78
+  - first:
+      213: -1940169989414569092
+    second: ZoroAttacks_79
+  - first:
+      213: 4321711624206360128
+    second: ZoroAttacks_80
+  - first:
+      213: -7217155974777747668
+    second: ZoroAttacks_81
+  - first:
+      213: 3937808675509923963
+    second: ZoroAttacks_82
+  - first:
+      213: -9154460097942437614
+    second: ZoroAttacks_83
+  - first:
+      213: -3029737041622354066
+    second: ZoroAttacks_84
+  - first:
+      213: -1664938206807448117
+    second: ZoroAttacks_85
+  - first:
+      213: 7167889680053390108
+    second: ZoroAttacks_86
+  - first:
+      213: -5117872526807243632
+    second: ZoroAttacks_87
+  - first:
+      213: 8923095746537910230
+    second: ZoroAttacks_88
+  - first:
+      213: -6886202352374198835
+    second: ZoroAttacks_89
+  - first:
+      213: -2456569431219277131
+    second: ZoroAttacks_90
+  - first:
+      213: -267388937771592657
+    second: ZoroAttacks_91
+  - first:
+      213: -3767054585134506586
+    second: ZoroAttacks_92
+  - first:
+      213: -7988364858012093695
+    second: ZoroAttacks_93
+  - first:
+      213: -3250061936023479368
+    second: ZoroAttacks_94
+  - first:
+      213: 7872325557742991026
+    second: ZoroAttacks_95
+  - first:
+      213: 3002944162172883382
+    second: ZoroAttacks_96
+  - first:
+      213: 2968951764594690585
+    second: ZoroAttacks_97
+  - first:
+      213: -8676368064837356616
+    second: ZoroAttacks_98
+  - first:
+      213: 2333707268988193412
+    second: ZoroAttacks_99
+  - first:
+      213: -159079346823732251
+    second: ZoroAttacks_100
+  - first:
+      213: 4586208652065831451
+    second: ZoroAttacks_101
+  - first:
+      213: -1046608107601070641
+    second: ZoroAttacks_102
+  - first:
+      213: -6202685307200684144
+    second: ZoroAttacks_103
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZoroAttacks_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 379
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf13aa385e343b780800000000000000
+      internalID: -8668510204722531845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoroAttacks_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 379
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86504ed7f55ce4640800000000000000
+      internalID: 5066203644763047272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoroAttacks_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 380
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4333384200c7470800000000000000
+      internalID: 8393583962331755716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoroAttacks_3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 278
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0aa3dd1c978ee00800000000000000
+      internalID: 1074242384675119340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoroAttacks_4
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 276
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f6ce53544180fb0800000000000000
+      internalID: -4681469525161644150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoroAttacks_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 195
+        width: 81
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2523c7fb4845f82c0800000000000000
+      internalID: -4427226979556904366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoroAttacks_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 195
+        width: 83
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da0e2aeb88b38a00800000000000000
+      internalID: 757652073397226195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoroAttacks_7
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 197
+        width: 67
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793b78e39f5ee04a0800000000000000
+      internalID: -6625105143156722793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoroAttacks_8
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 377
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195a496b5de489820800000000000000
+      internalID: 2925174637775332753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoroAttacks_9
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 378
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a4dd4ec889b1fd0800000000000000
+      internalID: -2370133047977883133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoroAttacks_10
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 279
+        width: 59
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda945dd6b73a8770800000000000000
+      internalID: 8613758495836379871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ZoroAttacks_0: -8668510204722531845
+      ZoroAttacks_1: 5066203644763047272
+      ZoroAttacks_10: 8613758495836379871
+      ZoroAttacks_2: 8393583962331755716
+      ZoroAttacks_3: 1074242384675119340
+      ZoroAttacks_4: -4681469525161644150
+      ZoroAttacks_5: -4427226979556904366
+      ZoroAttacks_6: 757652073397226195
+      ZoroAttacks_7: -6625105143156722793
+      ZoroAttacks_8: 2925174637775332753
+      ZoroAttacks_9: -2370133047977883133
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
