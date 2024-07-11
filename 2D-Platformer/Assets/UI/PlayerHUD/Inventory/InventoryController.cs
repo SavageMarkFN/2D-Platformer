@@ -42,7 +42,7 @@ public class InventoryController : MonoBehaviour
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
                 ThisAnimator.SetTrigger("Open");
-                playerMovement.animController.WarriorAnimator.SetFloat("Speed", 0);
+                playerMovement.animController.animator.SetFloat("Speed", 0);
             }
             else
             {

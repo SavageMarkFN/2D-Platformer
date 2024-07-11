@@ -1,70 +1,59 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Threading;
-using UnityEditor;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    //Privates
-    [SerializeField] public float horizontalMove = 0f;
-    [SerializeField] private float verticalMove = 0f;
-    [SerializeField] private bool CanIncrease;
-    [SerializeField] private bool InAction;
+    #region Variables
+    [HideInInspector] public float horizontalMove = 0f;
+    private float verticalMove = 0f;
+    private bool CanIncrease;
+    public bool InAction;
 
-    //Player Variables
-    public bool Invisible;
-    public float IncreaseLerp;
-    public float ReduceLerp;
-    public float Stamina = 100f;
+    [Header("Player")]
+    public float Speed;
+    public bool PlayerFreeze = true;
+    public bool Jump;
+    public bool Crouch;
+    [HideInInspector] public bool Invisible;
+    [HideInInspector]public bool Death;
+
+    [Header("Stats")]
     public float Health;
     public float Mana;
     public int Gold;
 
-    //WeaponVariables
-    public bool HasWeapon;
-    public string ActivatedSword;
-    public bool Wado;       
-    public bool Enma;       
-    public bool Kitetsu;
-
-    //Publics
-    public bool PlayerFreeze = true;
-    public float Speed = 4f;
-    public bool Jump = false;
-    public bool Crouch = false;
-    public bool Death;
-
-    //Stamina Variables
-    public float StaminaRecude;
+    [Header("Stamina")]
+    public float Stamina;
     public float StaminaRegent;
+    public float IncreaseDuration;
 
-    //Dash Variables
-    public float Dash;
+    [Header("Dash")]
     public float DashSpeed;
     public float DashTimer;
+    [HideInInspector] public float Dash;
 
-    //Slide Variables
-    public float Slide;
+    [Header("Slide")]
     public float SlideSpeed;
     public float SlideTimer;
+    [HideInInspector] public float Slide;
 
-    //AttackVariables
-    public float Attack;
+    [Header("Attack")]
+    public bool HasWeapon;
     public float AttackSpeed;
     public float Damage;
+    [HideInInspector] public float Attack;
 
-    //Scripts
-    public CharacterController characterController;
-    public AnimController animController;
-
-    //Animators
+    [Header("References")]
+    private CharacterController cController;
+    [HideInInspector] public AnimController animController;
+    #endregion
 
     private void Start()
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        cController = GetComponent<CharacterController>();
+
     }
 
     private void Update()
@@ -73,56 +62,54 @@ public class PlayerMovement : MonoBehaviour
         if (PlayerFreeze == false)
         {
             horizontalMove = Input.GetAxisRaw("Horizontal") * Speed;
+            verticalMove = Input.GetAxisRaw("Vertical") * Speed;
 
-            //if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.S))
-            //{
-                //horizontalMove = 0;
-            //}
-
-            if (Jump == false && Dash == 0 && Slide == 0 && Attack == 0 && Stamina >= 15 && InAction == false)
+            if (InAction == false)
             {
-                if (Input.GetKeyDown(KeyCode.Space) && Speed > 0)
+                if (Input.GetKeyDown(KeyCode.Space))
                 {
                     InAction = true;
+                    animController.animator.SetTrigger("Jump");
+                    animController.animator.SetBool("InAir", true);
                     Jump = true;
-                    StartCoroutine(StaminaReduce());
+                    Stamina -= 15f;
                 }
 
-                if (Input.GetKeyDown(KeyCode.LeftShift) && Speed > 0)
+                if (Input.GetKeyDown(KeyCode.LeftShift) && Stamina >= 15)
                 {
-                    InAction = true;
                     Dash = Input.GetAxisRaw("Horizontal") * DashSpeed;
-                    StartCoroutine(StaminaReduce());
+                    Stamina -= 15f;
+                    StartCoroutine(DashReset());
                 }
 
-                if (Input.GetKeyDown(KeyCode.LeftControl) && Speed > 0)
+                if (Input.GetKeyDown(KeyCode.LeftControl) && Stamina >= 15)
                 {
                     InAction = true;
                     Slide = Input.GetAxisRaw("Horizontal") * SlideSpeed;
-                    StartCoroutine(StaminaReduce());
+                    Stamina -= 15f;
+                    StartCoroutine(SlideReset());
                 }
 
-                if (Input.GetMouseButtonDown(0) && horizontalMove != 0 && HasWeapon == true && InAction == false)
+                if (Input.GetMouseButtonDown(0) && Stamina >= 30)
                 {
+                    PlayerFreeze = true;
                     InAction = true;
-                    Attack = Input.GetAxisRaw("Horizontal") * AttackSpeed;
-                    //animController.NormalAttackCall();
-                    StartCoroutine(StaminaReduce());
+                    Stamina -= 30f;
+                    animController.animator.SetTrigger("Light Attack");
                 }
 
-                if (Input.GetMouseButtonDown(1) && horizontalMove != 0 && HasWeapon == true && InAction == false)
+                if (Input.GetMouseButtonDown(1) && Stamina >= 30)
                 {
+                    PlayerFreeze = true;
                     InAction = true;
-                    Attack = (Input.GetAxisRaw("Horizontal") * AttackSpeed) * 2;
-                    //animController.HeavyAttackCall();
-                    StartCoroutine(StaminaReduce());
+                    Stamina -= 30f;
+                    animController.animator.SetTrigger("Heavy Attack");
                 }
             }
         }
         #endregion
 
         #region Stamina System
-        //Stamina Increase
         if (InAction == false)
         {
             if (Stamina < 100 && CanIncrease == true)
@@ -132,6 +119,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+            CanIncrease = true;
             StopCoroutine(StaminaIncrease());
         }
 
@@ -148,34 +136,74 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    #region Lerp Increase
-    IEnumerator StaminaReduce()
+    #region Move The Player
+    private void FixedUpdate()
+    {
+        if (PlayerFreeze == false)
+        {
+            cController.Move(horizontalMove * Time.fixedDeltaTime, Crouch, Jump);
+        }
+
+        if (Dash != 0)
+        {
+            PlayerFreeze = true;
+            cController.Move(Dash * Time.fixedDeltaTime, Crouch, Jump);
+        }
+
+        if (Slide != 0)
+        {
+            PlayerFreeze = true;
+            cController.Move(Slide * Time.fixedDeltaTime, Crouch, Jump);
+        }
+
+        if (Attack != 0)
+        {
+            PlayerFreeze = true;
+            cController.Move(Attack, Crouch, Jump);
+        }
+    }
+    #endregion
+
+    #region Resets
+    public IEnumerator DashReset()
     {
         CanIncrease = false;
-        float Timer = 0f;
-        float StaminaEndValue = Stamina - StaminaRecude;
-        while (Timer < ReduceLerp)
-        {
-            Timer += Time.deltaTime;
-            float Step = Timer / ReduceLerp;
-
-            Stamina = Mathf.Lerp(Stamina, StaminaEndValue, Step);
-
-            yield return null;
-        }
-        CanIncrease = true;
-        InAction = false;
+        InAction = true;
+        animController.animator.SetTrigger("Dash");
+        yield return new WaitForSeconds(DashTimer);
+        MovementReset();
     }
 
+    public IEnumerator SlideReset()
+    {
+        CanIncrease = false;
+        InAction = true;
+        animController.animator.SetTrigger("Slide");
+        yield return new WaitForSeconds(SlideTimer);
+        MovementReset();
+    }
+
+    public void MovementReset()
+    {
+        CanIncrease = true;
+        animController.animator.SetFloat("State", 0);
+        Dash = 0f;
+        Slide = 0f;
+        InAction = false;
+        PlayerFreeze = false;
+    }
+    #endregion
+
+    #region Stamina Lerp
     IEnumerator StaminaIncrease()
     {
         CanIncrease = false;
         float Timer = 0f;
         float StaminaEndValue = Stamina + StaminaRegent;
-        while (Timer < IncreaseLerp)
+        while (Timer < IncreaseDuration)
         {
             Timer += Time.deltaTime;
-            float Step = Timer / IncreaseLerp;
+            float Step = Timer / IncreaseDuration;
 
             Stamina = Mathf.Lerp(Stamina, StaminaEndValue, Step);
 
@@ -184,49 +212,6 @@ public class PlayerMovement : MonoBehaviour
         CanIncrease = true;
     }
     #endregion
-
-    private void FixedUpdate()
-    {
-        if (PlayerFreeze == false)
-        {
-            characterController.Move(horizontalMove * Time.fixedDeltaTime, Crouch, Jump);
-        }
-
-        if (Dash != 0)
-        {
-            PlayerFreeze = true;
-            characterController.Move(Dash * Time.fixedDeltaTime, Crouch, Jump);
-            StartCoroutine(Countdown(DashTimer));
-        }
-
-        if (Slide != 0)
-        {
-            PlayerFreeze = true;
-            characterController.Move(Slide * Time.fixedDeltaTime, Crouch, Jump);
-            StartCoroutine(Countdown(SlideTimer));
-        }
-
-        if (Attack != 0)
-        {
-            PlayerFreeze = true;
-            characterController.Move(Attack, Crouch, Jump);
-            StartCoroutine(Countdown(AttackSpeed));
-        }
-    }
-
-    IEnumerator Countdown(float Timer)
-    {
-        yield return new WaitForSeconds(Timer);
-        Dash = 0f;
-        Slide = 0f;
-        Attack = 0f;
-        PlayerFreeze = false;
-    }
-
-    public void JumpCheckFunction()
-    {
-        Jump = false;
-    }
 
     #region HealAndManaRegend
     public void Regend(int Amount, bool Heal)
@@ -267,8 +252,10 @@ public class PlayerMovement : MonoBehaviour
     }
     #endregion
 
-    public void TakeItem(string Item)
+    public void JumpCheckFunction()
     {
-
+        Jump = false;
+        animController.animator.SetBool("InAir", false);
+        MovementReset();
     }
 }
