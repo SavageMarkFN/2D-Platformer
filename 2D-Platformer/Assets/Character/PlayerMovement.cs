@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -11,19 +12,26 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Player")]
     public float Speed;
-    public bool PlayerFreeze = true;
-    public bool Jump;
-    public bool Crouch;
-    [HideInInspector] public bool Invisible;
-    [HideInInspector]public bool Death;
-
-    [Header("Stats")]
-    public float Health;
-    public float Mana;
     public int Gold;
+    public float Armor;
+    public float MagicResist;
+    [HideInInspector] public bool PlayerFreeze;
+    [HideInInspector] public bool Jump;
+    [HideInInspector] public bool Crouch;
+    [HideInInspector] public bool Invisible;
+    [HideInInspector] public bool Death;
+
+    [Header("Health")]
+    public float Health;
+    public float MaxHealth;
+
+    [Header("Mana")]
+    public float Mana;
+    public float MaxMana;
 
     [Header("Stamina")]
     public float Stamina;
+    public float MaxStamina;
     public float StaminaRegent;
     public float IncreaseDuration;
 
@@ -45,7 +53,13 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("References")]
     private CharacterController cController;
+    private InputManager IM;
     [HideInInspector] public AnimController animController;
+
+    [Header("UI")]
+    public Slider HealthSlider;
+    public Slider ManaSlider;
+    public Slider StaminaSlider;
     #endregion
 
     private void Start()
@@ -53,86 +67,91 @@ public class PlayerMovement : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         cController = GetComponent<CharacterController>();
-
+        IM = GameObject.Find("/MaxPrefab/GameScripts").GetComponent<InputManager>();
     }
 
     private void Update()
     {
-        #region Player Inputs
-        if (PlayerFreeze == false)
+        if (PlayerFreeze == false && Health > 0)
         {
-            horizontalMove = Input.GetAxisRaw("Horizontal") * Speed;
-            verticalMove = Input.GetAxisRaw("Vertical") * Speed;
+            #region Player Inputs
+            if (PlayerFreeze == false)
+            {
+                horizontalMove = Input.GetAxisRaw("Horizontal") * Speed;
+                verticalMove = Input.GetAxisRaw("Vertical") * Speed;
 
+                if (InAction == false)
+                {
+                    if (Input.GetKeyDown(IM.Jump))
+                    {
+                        InAction = true;
+                        animController.animator.SetTrigger("Jump");
+                        animController.animator.SetBool("InAir", true);
+                        Jump = true;
+                        Stamina -= 15f;
+                    }
+
+                    if (Input.GetKeyDown(IM.Dash) && Stamina >= 15)
+                    {
+                        Dash = Input.GetAxisRaw("Horizontal") * DashSpeed;
+                        Stamina -= 15f;
+                        StartCoroutine(DashReset());
+                    }
+
+                    if (Input.GetKeyDown(IM.Slide) && Stamina >= 15)
+                    {
+                        InAction = true;
+                        Slide = Input.GetAxisRaw("Horizontal") * SlideSpeed;
+                        Stamina -= 15f;
+                        StartCoroutine(SlideReset());
+                    }
+
+                    if (Input.GetMouseButtonDown(0) && Stamina >= 30)
+                    {
+                        PlayerFreeze = true;
+                        InAction = true;
+                        Stamina -= 30f;
+                        animController.animator.SetTrigger("Light Attack");
+                    }
+
+                    if (Input.GetMouseButtonDown(1) && Stamina >= 30)
+                    {
+                        PlayerFreeze = true;
+                        InAction = true;
+                        Stamina -= 30f;
+                        animController.animator.SetTrigger("Heavy Attack");
+                    }
+                }
+            }
+            #endregion
+
+            #region Stamina System
             if (InAction == false)
             {
-                if (Input.GetKeyDown(KeyCode.Space))
+                if (Stamina < 100 && CanIncrease == true)
                 {
-                    InAction = true;
-                    animController.animator.SetTrigger("Jump");
-                    animController.animator.SetBool("InAir", true);
-                    Jump = true;
-                    Stamina -= 15f;
-                }
-
-                if (Input.GetKeyDown(KeyCode.LeftShift) && Stamina >= 15)
-                {
-                    Dash = Input.GetAxisRaw("Horizontal") * DashSpeed;
-                    Stamina -= 15f;
-                    StartCoroutine(DashReset());
-                }
-
-                if (Input.GetKeyDown(KeyCode.LeftControl) && Stamina >= 15)
-                {
-                    InAction = true;
-                    Slide = Input.GetAxisRaw("Horizontal") * SlideSpeed;
-                    Stamina -= 15f;
-                    StartCoroutine(SlideReset());
-                }
-
-                if (Input.GetMouseButtonDown(0) && Stamina >= 30)
-                {
-                    PlayerFreeze = true;
-                    InAction = true;
-                    Stamina -= 30f;
-                    animController.animator.SetTrigger("Light Attack");
-                }
-
-                if (Input.GetMouseButtonDown(1) && Stamina >= 30)
-                {
-                    PlayerFreeze = true;
-                    InAction = true;
-                    Stamina -= 30f;
-                    animController.animator.SetTrigger("Heavy Attack");
+                    StartCoroutine(StaminaIncrease());
                 }
             }
-        }
-        #endregion
-
-        #region Stamina System
-        if (InAction == false)
-        {
-            if (Stamina < 100 && CanIncrease == true)
+            else
             {
-                StartCoroutine(StaminaIncrease());
+                StopCoroutine(StaminaIncrease());
             }
-        }
-        else
-        {
-            CanIncrease = true;
-            StopCoroutine(StaminaIncrease());
-        }
 
-        if (Stamina > 100f)
-        {
-            Stamina = 100f;
-        }
-        #endregion
+            if (Stamina > 100f)
+            {
+                Stamina = 100f;
+            }
+            #endregion
 
-        if (Health <= 0)
-        {
-            Death = true;
-            PlayerFreeze = true;
+            #region Assing UI
+            HealthSlider.maxValue = MaxHealth;
+            HealthSlider.value = Health;
+            ManaSlider.maxValue = MaxMana;
+            ManaSlider.value = Mana;
+            StaminaSlider.maxValue = MaxStamina;
+            StaminaSlider.value = Stamina;
+            #endregion
         }
     }
 
@@ -202,24 +221,26 @@ public class PlayerMovement : MonoBehaviour
         float StaminaEndValue = Stamina + StaminaRegent;
         while (Timer < IncreaseDuration)
         {
-            Timer += Time.deltaTime;
-            float Step = Timer / IncreaseDuration;
+            if(InAction == false)
+            {
+                Timer += Time.deltaTime;
+                float Step = Timer / IncreaseDuration;
 
-            Stamina = Mathf.Lerp(Stamina, StaminaEndValue, Step);
+                Stamina = Mathf.Lerp(Stamina, StaminaEndValue, Step);
 
-            yield return null;
+                yield return null;
+            }
+            else
+            {
+                Timer = IncreaseDuration;
+            }
         }
         CanIncrease = true;
     }
     #endregion
 
     #region HealAndManaRegend
-    public void Regend(int Amount, bool Heal)
-    {
-        StartCoroutine(StatsRegend(Amount, Heal));
-    }
-
-    IEnumerator StatsRegend(int Amount, bool Heal)
+    public IEnumerator StatsRegend(int Amount, bool Heal)
     {
         float Duration = 0.3f;
         float Timer = 0;
@@ -236,6 +257,7 @@ public class PlayerMovement : MonoBehaviour
                 if (Health > 100)
                 {
                     Health = 100;
+                    Timer = Duration;
                 }
             }
             else
@@ -244,10 +266,42 @@ public class PlayerMovement : MonoBehaviour
                 if (Mana > 100)
                 {
                     Mana = 100;
+                    Timer = Duration;
                 }
             }
 
             yield return null;
+        }
+    }
+    #endregion
+
+    #region Take Damage
+    public void TakeDamage(float Value, bool PhysicalDamage)
+    {
+        animController.animator.SetTrigger("Hit");
+
+        if (PhysicalDamage == false)
+        {
+            float NewValue = Value - Armor;
+            if (NewValue > 0)
+            {
+                Health -= NewValue;
+            }
+        }
+        else
+        {
+            float NewValue = Value - MagicResist;
+            if (NewValue > 0)
+            {
+                Health -= NewValue;
+            }
+        }
+
+        if (Health <= 0)
+        {
+            Death = true;
+            PlayerFreeze = true;
+            animController.animator.SetTrigger("Death");
         }
     }
     #endregion

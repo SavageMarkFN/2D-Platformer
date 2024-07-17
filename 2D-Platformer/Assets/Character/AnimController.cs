@@ -9,14 +9,20 @@ public class AnimController : MonoBehaviour
     #region Variables
     private bool CanTakeDamage = true;
 
+    [Header("References")]
     private PlayerMovement PM;
+    private InputManager IM;
     [HideInInspector] public Animator animator;
+    private AudioSource Audio;
+    public AudioClip[] Clip;
     #endregion
 
     private void Start()
     {
         PM = GetComponent<PlayerMovement>();
         animator = GetComponent<Animator>();
+        IM = GameObject.Find("/MaxPrefab/GameScripts").GetComponent<InputManager>();
+        Audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -24,11 +30,11 @@ public class AnimController : MonoBehaviour
     {
         if (PM.PlayerFreeze == false && PM.Health > 0)
         {
-            if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A))
+            if (Input.GetKey(IM.MoveLeft) || Input.GetKey(IM.MoveRight))
             {
                 animator.SetFloat("State", Mathf.Abs(PM.horizontalMove));
             }
-            else if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A))
+            else if (Input.GetKeyUp(IM.MoveLeft) || Input.GetKeyUp(IM.MoveRight))
             {
                 animator.SetFloat("State", 0);
             }
@@ -82,93 +88,40 @@ public class AnimController : MonoBehaviour
     #endregion
 
     #region Attack Code
-    //[Header("AttackVariables")]
-    //public float[] WaitBeforeHit;
-    //public float[] AttackReset;
-    //public float[] AttackDamage;
-    //public Transform attackPoint;
-    //public float attackRange;
-    //public LayerMask enemyLayers;
-    //public void NormalAttackCall()
-    //{
-    //    Debug.Log("Normal Attack");
-    //    StartCoroutine(NormalAttack());
-    //}
+    [Header("Attack Variables")]
+    public Transform AttackPoint;
+    public float AttackRange;
+    public LayerMask EnemyLayer;
 
-    //IEnumerator NormalAttack()
-    //{
-    //    yield return new WaitForSeconds(WaitBeforeHit[0]);
-    //    Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers); //Check for the enemies
-    //    foreach (Collider2D enemy in hitEnemies) //if we hit enemies
-    //    {
-    //        Debug.Log("We hit" + enemy.name);
-    //        //enemy.GetComponent<AIMove>().TakeDamage(AttackDamage[1])
-    //        AIMove Enemy = enemy.GetComponent<AIMove>();
-    //        BossMove BossEnemy = enemy.GetComponent<BossMove>();
-
-    //        if (Enemy != null)
-    //        {
-    //            Enemy.TakeDamage(AttackDamage[0]);
-    //            Debug.Log("I gave damage");
-    //        }
-    //        else if (BossEnemy != null)
-    //        {
-    //            BossEnemy.TakeDamage(AttackDamage[0]);
-    //            Debug.Log("I gave damage to the boss");
-    //        }
-    //    }
-    //    yield return new WaitForSeconds(AttackReset[0]);
-    //}
-
-    //public void HeavyAttackCall()
-    //{
-    //    Debug.Log("Heavy Attack");
-    //    StartCoroutine(HeavyAttack());
-    //}
-
-    //IEnumerator HeavyAttack()
-    //{
-    //    yield return new WaitForSeconds(WaitBeforeHit[1]);
-    //    Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers); //Check for the enemies
-    //    foreach (Collider2D enemy in hitEnemies) //if we hit enemies
-    //    {
-    //        Debug.Log("We hit" + enemy.name);
-    //        //enemy.GetComponent<AIMove>().TakeDamage(AttackDamage[1])
-    //        AIMove Enemy = enemy.GetComponent<AIMove>();
-    //        BossMove BossEnemy = enemy.GetComponent<BossMove>();
-
-    //        if (Enemy != null)
-    //        {
-    //            Enemy.TakeDamage(AttackDamage[1]);
-    //            Debug.Log("I gave damage");
-    //        }
-    //        else if (BossEnemy != null)
-    //        {
-    //            BossEnemy.TakeDamage(AttackDamage[0]);
-    //            Debug.Log("I gave damage to the boss");
-    //        }
-    //    }
-    //    yield return new WaitForSeconds(AttackReset[1]);
-    //}
-
-
-    //private void OnDrawGizmosSelected()
-    //{
-    //    if (attackPoint == null)
-    //    {
-    //        return;
-    //    }
-    //    Gizmos.DrawWireSphere(attackPoint.position, attackRange);
-    //}
-    #endregion
-
-    #region Attack Test Code
-    public void DealingDamage()
+    public void Attack()
     {
-        Debug.Log("Dealing Damage");
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, EnemyLayer); //Check for the enemies
+        foreach (Collider2D enemy in hitEnemies) //if we hit enemies
+        {
+            Debug.Log("We hit" + enemy.name);
+            //enemy.GetComponent<AIMove>().TakeDamage(AttackDamage[1])
+            AIMove Enemy = enemy.GetComponent<AIMove>();
+
+            if (Enemy != null)
+            {
+                Enemy.TakeDamage(PM.Damage, true);
+                Debug.Log("I gave damage");
+            }
+        }
     }
 
+    private void OnDrawGizmosSelected()
+    {
+        if (AttackPoint == null) return;
+        Gizmos.DrawWireSphere(AttackPoint.position, AttackRange);
+    }
     #endregion
+
+    public void PlayAudio(int Number)
+    {
+        Audio.clip = Clip[Number];
+        Audio.Play();
+    }
 
     public void MovementReset()
     {
