@@ -25,15 +25,19 @@ public class AIMove : MonoBehaviour
 
     [Header("References")]
     public UnityEvent DeathEvent;
+    [HideInInspector] public GameObject Player;
     [HideInInspector] public PlayerMovement PM;
     [HideInInspector] public Animator animator;
+    private AIDetect aiDetect;
     #endregion
     // Start is called before the first frame update
     void Start()
     {
-        PM = GameObject.Find("/MaxPrefab/Player").GetComponent<PlayerMovement>();
+        Player = GameObject.Find("/MaxPrefab/Player");
+        PM = Player.GetComponent<PlayerMovement>();
         animator = GetComponent<Animator>();
         animator.SetFloat("Movement", 1);
+        aiDetect = GetComponentInChildren<AIDetect>();
     }
 
     // Update is called once per frame
@@ -73,45 +77,74 @@ public class AIMove : MonoBehaviour
     }
     #endregion
 
+    #region Dealing Damage On Off and Movement Reset
+    public void DealingDamageOn()
+    {
+        aiDetect.HitBox.enabled = true;
+        aiDetect.DealingDamage = true;
+    }
+
+    public void DealingDamageOff()
+    {
+        aiDetect.HitBox.enabled = false;
+        aiDetect.DealingDamage = false;
+    }
+
+    public void MovementReset()
+    {
+        if (aiDetect.StillClose == false)
+        {
+            aiDetect.HitBox.enabled = true;
+            AIFreeze = false;
+        }
+        else
+        {
+            aiDetect.HitBox.enabled = false;
+            AIFreeze = true;
+            animator.SetTrigger("Attack");
+        }
+    }
+    #endregion
+
     #region Take Damage
     public void TakeDamage(float Value, bool PhysicalDamage)
     {
-        if (PhysicalDamage == false) 
+        if (Health > 0 && Dead == false)
         {
-            float NewValue = Value - Armor;
-            if (NewValue > 0)
+            if (PhysicalDamage == false)
             {
-                Health -= NewValue;
+                float NewValue = Value - Armor;
+                if (NewValue > 0)
+                {
+                    Health -= NewValue;
+                }
             }
-        }
-        else
-        {
-            float NewValue = Value - MagicResist;
-            if (NewValue > 0)
+            else
             {
-                Health -= NewValue;
+                float NewValue = Value - MagicResist;
+                if (NewValue > 0)
+                {
+                    Health -= NewValue;
+                }
             }
-        }
 
-        if (Health <= 0)
-        {
-            Death();
-        }
-        else
-        {
-            animator.SetTrigger("Hit");
+            if (Health <= 0)
+            {
+                Death();
+            }
+            else
+            {
+                animator.SetTrigger("Hit");
+            }
         }
     }
     #endregion
 
     public void Death()
     {
-        if (Dead == false)
-        {
-            Dead = true;
-            AIFreeze = true;
-            animator.SetTrigger("Dead");
-            DeathEvent.Invoke();
-        }
+        Dead = true;
+        AIFreeze = true;
+        animator.SetTrigger("Dead");
+        DeathEvent.Invoke();
     }
 }

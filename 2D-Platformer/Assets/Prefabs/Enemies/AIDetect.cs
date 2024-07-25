@@ -6,15 +6,18 @@ public class AIDetect : MonoBehaviour
 {
     #region Variables
     [Header("For Detect")]
-    private bool DealingDamage;
+    [HideInInspector] public bool DealingDamage;
+    [HideInInspector] public bool StillClose;
 
     [Header("References")]
+    [HideInInspector] public BoxCollider2D HitBox;
     private AIMove aiMove;
     #endregion
     // Start is called before the first frame update
     void Start()
     {
-        aiMove = GetComponent<AIMove>();
+        aiMove = GetComponentInParent<AIMove>();
+        HitBox = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
@@ -31,16 +34,20 @@ public class AIDetect : MonoBehaviour
     {
         if (collision.tag == "Player")
         { 
-            if (DealingDamage == false && aiMove.AIFreeze == false)
+            if (aiMove.PM.Health > 0 && aiMove.AIFreeze == false)
             {
+                HitBox.enabled = false;
                 aiMove.AIFreeze = true;
                 aiMove.animator.SetTrigger("Attack");
             }
-            else if (aiMove.PM.Health > 0 && DealingDamage == true)
+
+            if (aiMove.PM.Health > 0 && DealingDamage == true)
             {
                 DealingDamage = false;
                 aiMove.PM.TakeDamage(aiMove.Damage, aiMove.PhysicalDamage);
             }
+
+            StillClose = true;
         }
     }
 
@@ -48,11 +55,20 @@ public class AIDetect : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+            if (aiMove.PM.Health > 0 && aiMove.AIFreeze == false)
+            {
+                HitBox.enabled = false;
+                aiMove.AIFreeze = true;
+                aiMove.animator.SetTrigger("Attack");
+            }
+
             if (aiMove.PM.Health > 0 && DealingDamage == true)
             {
                 DealingDamage = false;
                 aiMove.PM.TakeDamage(aiMove.Damage, aiMove.PhysicalDamage);
             }
+
+            StillClose = true;
         }
     }
 
@@ -65,6 +81,8 @@ public class AIDetect : MonoBehaviour
                 DealingDamage = false;
                 aiMove.PM.TakeDamage(aiMove.Damage, aiMove.PhysicalDamage);
             }
+
+            StillClose = false;
         }
     }
     #endregion
@@ -72,17 +90,29 @@ public class AIDetect : MonoBehaviour
     #region Dealing Damage On Off and Movement Reset
     public void DealingDamageOn()
     {
+        HitBox.enabled = true;
         DealingDamage = true;
     }
 
     public void DealingDamageOff()
     {
+        HitBox.enabled = false;
         DealingDamage = false;
     }
 
     public void MovementReset()
     {
-        aiMove.AIFreeze = false;
+        if (StillClose == false)
+        {
+            HitBox.enabled = true;
+            aiMove.AIFreeze = false;
+        }
+        else
+        {
+            HitBox.enabled = false;
+            aiMove.AIFreeze = true;
+            aiMove.animator.SetTrigger("Attack");
+        }
     }
     #endregion
 }

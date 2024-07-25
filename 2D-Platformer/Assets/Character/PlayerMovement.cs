@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -8,10 +9,13 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector] public float horizontalMove = 0f;
     private float verticalMove = 0f;
     private bool CanIncrease;
+    [HideInInspector] public bool InLadder;
+    private bool IsClimbing;
     public bool InAction;
 
     [Header("Player")]
     public float Speed;
+    private float OriginalSpeed;
     public int Gold;
     public float Armor;
     public float MagicResist;
@@ -60,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
     public Slider HealthSlider;
     public Slider ManaSlider;
     public Slider StaminaSlider;
+    public TextMeshProUGUI[] UIText;
     #endregion
 
     private void Start()
@@ -68,6 +73,7 @@ public class PlayerMovement : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         cController = GetComponent<CharacterController>();
         IM = GameObject.Find("/MaxPrefab/GameScripts").GetComponent<InputManager>();
+        OriginalSpeed = Speed;
     }
 
     private void Update()
@@ -82,7 +88,7 @@ public class PlayerMovement : MonoBehaviour
 
                 if (InAction == false)
                 {
-                    if (Input.GetKeyDown(IM.Jump))
+                    if (Input.GetKeyDown(IM.Jump) && Stamina >= 15)
                     {
                         InAction = true;
                         animController.animator.SetTrigger("Jump");
@@ -121,6 +127,12 @@ public class PlayerMovement : MonoBehaviour
                         Stamina -= 30f;
                         animController.animator.SetTrigger("Heavy Attack");
                     }
+                }
+
+                if (InLadder && Mathf.Abs(verticalMove) > 0f)
+                {
+                    IsClimbing = true;
+                    Speed = 4f;
                 }
             }
             #endregion
@@ -179,6 +191,18 @@ public class PlayerMovement : MonoBehaviour
         {
             PlayerFreeze = true;
             cController.Move(Attack, Crouch, Jump);
+        }
+
+        if (IsClimbing == true)
+        {
+            cController.m_Rigidbody2D.gravityScale = 0.3f;
+            cController.m_Rigidbody2D.velocity = new Vector2(cController.m_Rigidbody2D.velocity.x, verticalMove * Speed);
+            Speed = 4f;
+        }
+        else
+        {
+            cController.m_Rigidbody2D.gravityScale = 6f;
+            Speed = OriginalSpeed;
         }
     }
     #endregion
@@ -302,6 +326,33 @@ public class PlayerMovement : MonoBehaviour
             Death = true;
             PlayerFreeze = true;
             animController.animator.SetTrigger("Death");
+        }
+    }
+    #endregion
+
+    #region On Triggers
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Ladder"))
+        {
+            InLadder = true;
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Ladder"))
+        {
+            InLadder = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Ladder"))
+        {
+            InLadder = false;
+            IsClimbing = false;
         }
     }
     #endregion

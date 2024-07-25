@@ -8,6 +8,7 @@ public class AnimController : MonoBehaviour
 {
     #region Variables
     private bool CanTakeDamage = true;
+    private bool HitEnemy;
 
     [Header("References")]
     private PlayerMovement PM;
@@ -95,6 +96,7 @@ public class AnimController : MonoBehaviour
 
     public void Attack()
     {
+        HitEnemy = false;
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, EnemyLayer); //Check for the enemies
         foreach (Collider2D enemy in hitEnemies) //if we hit enemies
         {
@@ -102,8 +104,9 @@ public class AnimController : MonoBehaviour
             //enemy.GetComponent<AIMove>().TakeDamage(AttackDamage[1])
             AIMove Enemy = enemy.GetComponent<AIMove>();
 
-            if (Enemy != null)
+            if (Enemy != null && HitEnemy == false)
             {
+                HitEnemy = true;
                 Enemy.TakeDamage(PM.Damage, true);
                 Debug.Log("I gave damage");
             }

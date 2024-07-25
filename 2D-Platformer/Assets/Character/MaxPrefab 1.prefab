@@ -340,7 +340,7 @@ Transform:
   m_GameObject: {fileID: 553424871841410870}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -522.035, y: -265.905, z: 0.14807378}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -367,12 +367,14 @@ MonoBehaviour:
   horizontalMove: 1
   InAction: 0
   Speed: 75
+  Gold: 0
+  Armor: 0
+  MagicResist: 0
   PlayerFreeze: 0
   Jump: 0
   Crouch: 0
   Invisible: 0
   Death: 0
-  Gold: 0
   Health: 100
   MaxHealth: 100
   Mana: 100
@@ -408,6 +410,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  Clip: []
+  AttackPoint: {fileID: 2541985898480798786}
+  AttackRange: 2
+  EnemyLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!114 &4820384892981577310
 MonoBehaviour:
   m_ObjectHideFlags: 0

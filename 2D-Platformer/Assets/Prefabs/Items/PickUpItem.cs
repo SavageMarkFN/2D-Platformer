@@ -23,11 +23,6 @@ public class PickUpItem : MonoBehaviour
     [Header("Messages")]
     public GameObject[] Message;
 
-    [Header("Texts")]
-    public TextMeshProUGUI NeedText;
-    public TextMeshProUGUI TookText;
-    public TextMeshProUGUI UsedText;
-
     [Header("References")]
     private Animator animator;
     private InventoryController IC;
@@ -134,7 +129,7 @@ public class PickUpItem : MonoBehaviour
     void TakeItem()
     {
         IC.AddItem(ItemName);
-        TookText.text = ItemName;
+        PM.UIText[2].text = ItemName;
         CanvasAnimator.SetTrigger("Took");
         Message[0].SetActive(false);
         this.gameObject.SetActive(false);
@@ -148,14 +143,14 @@ public class PickUpItem : MonoBehaviour
         {
             IC.RemoveItem(RequiredItem);
             CanvasAnimator.SetTrigger("Used");
-            UsedText.text = RequiredItem;
+            PM.UIText[1].text = ItemName;
             Locked = false;
             Message[1].SetActive(false);
         }
         else
         {
             CanvasAnimator.SetTrigger("Need");
-            NeedText.text = RequiredItem;
+            PM.UIText[0].text = ItemName;
         }
     }
 
@@ -163,7 +158,7 @@ public class PickUpItem : MonoBehaviour
     {
         animator.SetTrigger("Open");
         IC.AddItem(ItemName);
-        TookText.text = ItemName;
+        PM.UIText[2].text = ItemName;
         CanvasAnimator.SetTrigger("Took");
         Message[2].SetActive(false);
         BC2D.enabled = false;
