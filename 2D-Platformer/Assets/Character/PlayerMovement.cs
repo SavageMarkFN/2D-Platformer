@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Player")]
     public float Speed;
+    public float ClimbingSpeed;
     private float OriginalSpeed;
     public int Gold;
     public float Armor;
@@ -84,7 +85,7 @@ public class PlayerMovement : MonoBehaviour
             if (PlayerFreeze == false)
             {
                 horizontalMove = Input.GetAxisRaw("Horizontal") * Speed;
-                verticalMove = Input.GetAxisRaw("Vertical") * Speed;
+                verticalMove = Input.GetAxisRaw("Vertical") * ClimbingSpeed;
 
                 if (InAction == false)
                 {
@@ -132,7 +133,6 @@ public class PlayerMovement : MonoBehaviour
                 if (InLadder && Mathf.Abs(verticalMove) > 0f)
                 {
                     IsClimbing = true;
-                    Speed = 4f;
                 }
             }
             #endregion
@@ -195,14 +195,12 @@ public class PlayerMovement : MonoBehaviour
 
         if (IsClimbing == true)
         {
-            cController.m_Rigidbody2D.gravityScale = 0.3f;
-            cController.m_Rigidbody2D.velocity = new Vector2(cController.m_Rigidbody2D.velocity.x, verticalMove * Speed);
-            Speed = 4f;
+            cController.m_Rigidbody2D.gravityScale = 1f;
+            cController.m_Rigidbody2D.velocity = new Vector2(cController.m_Rigidbody2D.velocity.x, verticalMove * ClimbingSpeed);
         }
         else
         {
             cController.m_Rigidbody2D.gravityScale = 6f;
-            Speed = OriginalSpeed;
         }
     }
     #endregion
@@ -278,18 +276,18 @@ public class PlayerMovement : MonoBehaviour
             if (Heal == true)
             {
                 Health = Mathf.Lerp(Health, NewHealth, Step);
-                if (Health > 100)
+                if (Health > MaxHealth)
                 {
-                    Health = 100;
+                    Health = MaxHealth;
                     Timer = Duration;
                 }
             }
             else
             {
                 Mana = Mathf.Lerp(Mana, NewMana, Step);
-                if (Mana > 100)
+                if (Mana > MaxMana)
                 {
-                    Mana = 100;
+                    Mana = MaxMana;
                     Timer = Duration;
                 }
             }
@@ -326,6 +324,7 @@ public class PlayerMovement : MonoBehaviour
             Death = true;
             PlayerFreeze = true;
             animController.animator.SetTrigger("Death");
+            Speed = 0;
         }
     }
     #endregion

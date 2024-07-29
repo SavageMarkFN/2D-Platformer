@@ -18,10 +18,10 @@ public class PickUpItem : MonoBehaviour
     public string RequiredItem;
 
     [Header("Item")]
-    public string ItemName;
+    public string[] ItemName;
 
     [Header("Messages")]
-    public GameObject[] Message;
+    private GameObject[] Messages;
 
     [Header("References")]
     private Animator animator;
@@ -40,6 +40,7 @@ public class PickUpItem : MonoBehaviour
         PM = GameObject.Find("/MaxPrefab/Player").GetComponent<PlayerMovement>();
         CanvasAnimator = GameObject.Find("/MaxPrefab/Canvas").GetComponent<Animator>();
         BC2D = GetComponent<BoxCollider2D>();
+        Messages = GameObject.Find("/MaxPrefab/GameScripts").GetComponent<UIController>().UIMessages;
 
         if (Type == ItemType.Chest) 
         { 
@@ -53,17 +54,17 @@ public class PickUpItem : MonoBehaviour
     {
         if (collision.tag == "Player" && Type == ItemType.Item)
         {
-            Message[0].SetActive(true);
+            Messages[0].SetActive(true);
             CanInteract = true;
         }
         else if (collision.tag == "Player" && Type == ItemType.Chest && Locked == true)
         {
-            Message[1].SetActive(true);
+            Messages[1].SetActive(true);
             CanInteract = true;
         }
         else if (collision.tag == "Player" && Type == ItemType.Chest && Locked == false)
         {
-            Message[2].SetActive(true);
+            Messages[2].SetActive(true);
             CanInteract = true;
         }
     }
@@ -72,17 +73,17 @@ public class PickUpItem : MonoBehaviour
     {
         if (collision.tag == "Player" && Type == ItemType.Item)
         {
-            Message[0].SetActive(true);
+            Messages[0].SetActive(true);
             CanInteract = true;
         }
         else if (collision.tag == "Player" && Type == ItemType.Chest && Locked == true)
         {
-            Message[1].SetActive(true);
+            Messages[1].SetActive(true);
             CanInteract = true;
         }
         else if (collision.tag == "Player" && Type == ItemType.Chest && Locked == false)
         {
-            Message[2].SetActive(true);
+            Messages[2].SetActive(true);
             CanInteract = true;
         }
     }
@@ -91,9 +92,9 @@ public class PickUpItem : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            Message[0].SetActive(false);
-            Message[1].SetActive(false);
-            Message[2].SetActive(false);
+            Messages[0].SetActive(false);
+            Messages[1].SetActive(false);
+            Messages[2].SetActive(false);
             CanInteract = false;
         }
     }
@@ -128,10 +129,13 @@ public class PickUpItem : MonoBehaviour
 
     void TakeItem()
     {
-        IC.AddItem(ItemName);
-        PM.UIText[2].text = ItemName;
+        for (int i = 0; i < ItemName.Length; i++) 
+        {
+            IC.AddItem(ItemName[i]);
+        }
+        PM.UIText[2].text = "lots of loot";
         CanvasAnimator.SetTrigger("Took");
-        Message[0].SetActive(false);
+        Messages[0].SetActive(false);
         this.gameObject.SetActive(false);
     }
 
@@ -143,24 +147,27 @@ public class PickUpItem : MonoBehaviour
         {
             IC.RemoveItem(RequiredItem);
             CanvasAnimator.SetTrigger("Used");
-            PM.UIText[1].text = ItemName;
+            PM.UIText[1].text = RequiredItem;
             Locked = false;
-            Message[1].SetActive(false);
+            Messages[1].SetActive(false);
         }
         else
         {
             CanvasAnimator.SetTrigger("Need");
-            PM.UIText[0].text = ItemName;
+            PM.UIText[0].text = RequiredItem;
         }
     }
 
     void LootChest()
     {
         animator.SetTrigger("Open");
-        IC.AddItem(ItemName);
-        PM.UIText[2].text = ItemName;
+        for (int i = 0; i < ItemName.Length; i++)
+        {
+            IC.AddItem(ItemName[i]);
+        }
+        PM.UIText[2].text = "lots of loot";
         CanvasAnimator.SetTrigger("Took");
-        Message[2].SetActive(false);
+        Messages[2].SetActive(false);
         BC2D.enabled = false;
     }
 }

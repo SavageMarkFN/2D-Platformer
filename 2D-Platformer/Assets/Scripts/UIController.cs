@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Cursor = UnityEngine.Cursor;
+using TMPro;
 
 public class UIController : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class UIController : MonoBehaviour
     private PlayerMovement PM;
     private Animator CanvasAnimator;
     private InputManager IM;
+
+    public GameObject[] UIMessages;
     #endregion
 
     private void Start()

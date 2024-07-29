@@ -6,6 +6,9 @@ using UnityEngine.Events;
 public class AIMove : MonoBehaviour
 {
     #region Variables
+    public enum EnemyType{Classic, MiniBoss, Boss}
+    public EnemyType enemyType;
+
     [Header("Movement")]
     public float Speed;
     public Transform[] PatrolPlaces;
@@ -29,6 +32,7 @@ public class AIMove : MonoBehaviour
     [HideInInspector] public PlayerMovement PM;
     [HideInInspector] public Animator animator;
     private AIDetect aiDetect;
+    private Vector2 NewTarget;
     #endregion
     // Start is called before the first frame update
     void Start()
@@ -46,16 +50,42 @@ public class AIMove : MonoBehaviour
         if (AIFreeze == false)
         {
             #region Movement
-            if (CanMove == true)
+            if (enemyType == EnemyType.Classic)
             {
-                Distance = (this.transform.position - PatrolPlaces[CurrentPatrol].position).magnitude;
-                this.transform.position = Vector2.MoveTowards(this.transform.position, PatrolPlaces[CurrentPatrol].position, Speed);
-                this.transform.localScale = PatrolPlaces[CurrentPatrol].localScale;
-
-                if (Distance <= 0.1f)
+                #region Classic Enemy Movement
+                if (CanMove == true)
                 {
-                    StartCoroutine(NewPatrol());
+                    Distance = (this.transform.position - PatrolPlaces[CurrentPatrol].position).magnitude;
+                    NewTarget = new Vector2(PatrolPlaces[CurrentPatrol].position.x, this.transform.position.y);
+                    this.transform.position = Vector2.MoveTowards(this.transform.position, NewTarget, Speed);
+                    this.transform.localScale = PatrolPlaces[CurrentPatrol].localScale;
+
+                    if (Distance <= 1f)
+                    {
+                        StartCoroutine(NewPatrol());
+                    }
                 }
+                #endregion
+            }
+            else if (enemyType != EnemyType.Classic)
+            {
+                #region Boss Enemy Movement
+                Distance = (this.transform.position - PatrolPlaces[CurrentPatrol].position).magnitude;
+                NewTarget = new Vector2(PatrolPlaces[CurrentPatrol].position.x, this.transform.position.y);
+                this.transform.position = Vector2.MoveTowards(this.transform.position, NewTarget, Speed);
+
+                //Look at the left
+                if (this.transform.position.x > NewTarget.x)
+                {
+                    this.transform.localScale = new Vector3(1, 1, 1);
+                }
+
+                //Look at the right
+                if (this.transform.position.x < NewTarget.x)
+                {
+                    this.transform.localScale = new Vector3(-1, 1, 1);
+                }
+                #endregion
             }
             #endregion
         }
@@ -92,17 +122,9 @@ public class AIMove : MonoBehaviour
 
     public void MovementReset()
     {
-        if (aiDetect.StillClose == false)
-        {
-            aiDetect.HitBox.enabled = true;
-            AIFreeze = false;
-        }
-        else
-        {
-            aiDetect.HitBox.enabled = false;
-            AIFreeze = true;
-            animator.SetTrigger("Attack");
-        }
+        aiDetect.HitBox.enabled = true;
+        AIFreeze = false;
+        animator.ResetTrigger("Attack");
     }
     #endregion
 

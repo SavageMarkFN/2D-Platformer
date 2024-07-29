@@ -7,7 +7,6 @@ public class AIDetect : MonoBehaviour
     #region Variables
     [Header("For Detect")]
     [HideInInspector] public bool DealingDamage;
-    [HideInInspector] public bool StillClose;
 
     [Header("References")]
     [HideInInspector] public BoxCollider2D HitBox;
@@ -46,8 +45,6 @@ public class AIDetect : MonoBehaviour
                 DealingDamage = false;
                 aiMove.PM.TakeDamage(aiMove.Damage, aiMove.PhysicalDamage);
             }
-
-            StillClose = true;
         }
     }
 
@@ -67,8 +64,6 @@ public class AIDetect : MonoBehaviour
                 DealingDamage = false;
                 aiMove.PM.TakeDamage(aiMove.Damage, aiMove.PhysicalDamage);
             }
-
-            StillClose = true;
         }
     }
 
@@ -81,8 +76,6 @@ public class AIDetect : MonoBehaviour
                 DealingDamage = false;
                 aiMove.PM.TakeDamage(aiMove.Damage, aiMove.PhysicalDamage);
             }
-
-            StillClose = false;
         }
     }
     #endregion
@@ -90,6 +83,7 @@ public class AIDetect : MonoBehaviour
     #region Dealing Damage On Off and Movement Reset
     public void DealingDamageOn()
     {
+        HitBox.enabled = false;
         HitBox.enabled = true;
         DealingDamage = true;
     }
@@ -102,17 +96,9 @@ public class AIDetect : MonoBehaviour
 
     public void MovementReset()
     {
-        if (StillClose == false)
-        {
-            HitBox.enabled = true;
-            aiMove.AIFreeze = false;
-        }
-        else
-        {
-            HitBox.enabled = false;
-            aiMove.AIFreeze = true;
-            aiMove.animator.SetTrigger("Attack");
-        }
+        HitBox.enabled = true;
+        aiMove.AIFreeze = false;
+        aiMove.animator.ResetTrigger("Attack");
     }
     #endregion
 }
