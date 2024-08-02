@@ -24,7 +24,7 @@ public class AIDetect : MonoBehaviour
     {
         if (aiMove.Health <= 0)
         {
-            this.enabled = false;
+            aiMove.AIFreeze = true;
         }
     }
 
