@@ -9,6 +9,7 @@ public class InventoryController : MonoBehaviour
     [HideInInspector] public bool Check;
 
     [Header("Inventory Variables")]
+    public int Gold;
     public Image[] SlotImage;
     private string[] SlotName;
     private bool[] SlotFull;

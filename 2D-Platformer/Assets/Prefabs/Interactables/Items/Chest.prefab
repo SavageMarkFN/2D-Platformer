@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -2305204071527019509, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -156,11 +156,7 @@ MonoBehaviour:
   Tier: 0
   Locked: 1
   RequiredItem: Bronze Key
-  ItemName: Big Health Potion
-  Message:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  ItemName: []
 --- !u!61 &3793345159110476266
 BoxCollider2D:
   m_ObjectHideFlags: 0

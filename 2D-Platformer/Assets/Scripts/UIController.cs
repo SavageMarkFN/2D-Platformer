@@ -60,4 +60,21 @@ public class UIController : MonoBehaviour
         }
     }
     #endregion
+
+    #region Open Message
+    public void ShowMessage(int Number)
+    {
+        for (int i = 0; i < UIMessages.Length; i++) 
+        { 
+            if (Number == i)
+            {
+                UIMessages[i].SetActive(true);
+            }
+            else
+            {
+                UIMessages[i].SetActive(false);
+            }
+        }
+    }
+    #endregion
 }
