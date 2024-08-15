@@ -6,6 +6,7 @@ using TMPro;
 public class PlayerMovement : MonoBehaviour
 {
     #region Variables
+    public Sprite PlayerIcon;
     [HideInInspector] public float horizontalMove = 0f;
     private float verticalMove = 0f;
     private bool CanIncrease;
@@ -41,11 +42,13 @@ public class PlayerMovement : MonoBehaviour
     public float IncreaseDuration;
 
     [Header("Dash")]
+    public bool CanDash;
     public float DashSpeed;
     public float DashTimer;
     [HideInInspector] public float Dash;
 
     [Header("Slide")]
+    public bool CanSlide;
     public float SlideSpeed;
     public float SlideTimer;
     [HideInInspector] public float Slide;
@@ -98,14 +101,14 @@ public class PlayerMovement : MonoBehaviour
                         Stamina -= 15f;
                     }
 
-                    if (Input.GetKeyDown(IM.Dash) && Stamina >= 15)
+                    if (Input.GetKeyDown(IM.Dash) && Stamina >= 15 && CanDash == true)
                     {
                         Dash = Input.GetAxisRaw("Horizontal") * DashSpeed;
                         Stamina -= 15f;
                         StartCoroutine(DashReset());
                     }
 
-                    if (Input.GetKeyDown(IM.Slide) && Stamina >= 15)
+                    if (Input.GetKeyDown(IM.Slide) && Stamina >= 15 && CanSlide == true)
                     {
                         InAction = true;
                         Slide = Input.GetAxisRaw("Horizontal") * SlideSpeed;

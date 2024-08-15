@@ -88,7 +88,7 @@ public class TyperWritingEffect : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0) && TextShown == true)
+        if (Input.anyKeyDown && TextShown == true)
         {
             OnTextShown.Invoke();
         }

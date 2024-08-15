@@ -40,6 +40,7 @@ public class AIMove : MonoBehaviour
         Player = GameObject.Find("/MaxPrefab/Player");
         PM = Player.GetComponent<PlayerMovement>();
         animator = GetComponent<Animator>();
+        if (AIFreeze != true)
         animator.SetFloat("Movement", 1);
         aiDetect = GetComponentInChildren<AIDetect>();
     }
