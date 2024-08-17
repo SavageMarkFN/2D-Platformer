@@ -38,6 +38,8 @@ public class AIDetect : MonoBehaviour
                 HitBox.enabled = false;
                 aiMove.AIFreeze = true;
                 aiMove.animator.SetTrigger("Attack");
+                aiMove.CurrentSpeed = aiMove.Speed;
+                aiMove.Speed = 0;
             }
 
             if (aiMove.PM.Health > 0 && DealingDamage == true)

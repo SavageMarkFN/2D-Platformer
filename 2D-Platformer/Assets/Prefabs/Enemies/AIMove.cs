@@ -24,6 +24,7 @@ public class AIMove : MonoBehaviour
     public float Damage;
     public float Armor;
     public float MagicResist;
+    [HideInInspector] public float CurrentSpeed;
     [HideInInspector] public bool Dead;
 
     [Header("References")]
@@ -71,6 +72,7 @@ public class AIMove : MonoBehaviour
             else if (enemyType != EnemyType.Classic)
             {
                 #region Boss Enemy Movement
+                animator.SetFloat("Movement", 1);
                 Distance = (this.transform.position - PatrolPlaces[CurrentPatrol].position).magnitude;
                 NewTarget = new Vector2(PatrolPlaces[CurrentPatrol].position.x, this.transform.position.y);
                 this.transform.position = Vector2.MoveTowards(this.transform.position, NewTarget, Speed);
@@ -126,6 +128,7 @@ public class AIMove : MonoBehaviour
         aiDetect.HitBox.enabled = true;
         AIFreeze = false;
         animator.ResetTrigger("Attack");
+        Speed = CurrentSpeed;
     }
     #endregion
 
