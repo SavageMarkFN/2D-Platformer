@@ -24,6 +24,7 @@ public class AIMove : MonoBehaviour
     public float Damage;
     public float Armor;
     public float MagicResist;
+    public float XP;
     [HideInInspector] public float CurrentSpeed;
     [HideInInspector] public bool Dead;
 
@@ -168,6 +169,7 @@ public class AIMove : MonoBehaviour
 
     public void Death()
     {
+        PM.GainXP(XP);
         Dead = true;
         AIFreeze = true;
         animator.SetTrigger("Dead");

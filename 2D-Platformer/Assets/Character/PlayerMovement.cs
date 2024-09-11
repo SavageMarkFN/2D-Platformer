@@ -19,8 +19,6 @@ public class PlayerMovement : MonoBehaviour
     public float ClimbingSpeed;
     private float OriginalSpeed;
     public int Gold;
-    public float Armor;
-    public float MagicResist;
     [HideInInspector] public bool PlayerFreeze;
     [HideInInspector] public bool Jump;
     [HideInInspector] public bool Crouch;
@@ -53,11 +51,17 @@ public class PlayerMovement : MonoBehaviour
     public float SlideTimer;
     [HideInInspector] public float Slide;
 
-    [Header("Attack")]
+    [Header("Stats")]
     public bool HasWeapon;
-    public float AttackSpeed;
     public float Damage;
+    public float Armor;
+    public float MagicResist;
     [HideInInspector] public float Attack;
+
+    [Header("Gathering Tier")]
+    public int AxeTier;
+    public int PickaxeTier;
+    public int KnifeTier;
 
     [Header("References")]
     private CharacterController cController;
@@ -69,6 +73,13 @@ public class PlayerMovement : MonoBehaviour
     public Slider ManaSlider;
     public Slider StaminaSlider;
     public TextMeshProUGUI[] UIText;
+
+    [Header("Experience Points")]
+    public float[] XPScale;
+    public Slider XPSlider;
+    public TextMeshProUGUI LevelText;
+    [HideInInspector] public int Level;
+    [HideInInspector] public float CurrentXP;
     #endregion
 
     private void Start()
@@ -78,6 +89,15 @@ public class PlayerMovement : MonoBehaviour
         cController = GetComponent<CharacterController>();
         IM = GameObject.Find("/MaxPrefab/GameScripts").GetComponent<InputManager>();
         OriginalSpeed = Speed;
+        #region Assign XP Scale
+        float Value = 0;
+        for (int i = 0; i < XPScale.Length; i++)
+        {
+            Value += 250;
+            XPScale[i] = Value;
+        }
+        XPSlider.maxValue = XPScale[0];
+        #endregion
     }
 
     private void Update()
@@ -166,6 +186,7 @@ public class PlayerMovement : MonoBehaviour
             ManaSlider.value = Mana;
             StaminaSlider.maxValue = MaxStamina;
             StaminaSlider.value = Stamina;
+            XPSlider.value = CurrentXP;
             #endregion
         }
     }
@@ -359,10 +380,43 @@ public class PlayerMovement : MonoBehaviour
     }
     #endregion
 
+    #region Jump Check
     public void JumpCheckFunction()
     {
         Jump = false;
         animController.animator.SetBool("InAir", false);
         MovementReset();
     }
+    #endregion
+
+    #region XP System
+    public void GainXP(float Value)
+    {
+        if (Level < XPScale.Length) //If the player's level is less than the max level
+        {
+            CurrentXP += Value;
+            if (CurrentXP > XPScale[Level])
+            {
+                CurrentXP -= XPScale[Level];
+                Level += 1;
+                XPSlider.maxValue = XPScale[Level];
+                #region Upgrade Player Stats
+                Damage += 10;
+                MaxHealth += 10;
+                Health = MaxHealth;
+                MaxMana += 10;
+                Mana = MaxMana;
+                MaxStamina += 10;
+                Armor += 5;
+                MagicResist += 5;
+                #endregion
+            }
+            LevelText.text = Level.ToString();
+        }
+        else
+        {
+            LevelText.text = "Max";
+        }
+    }
+    #endregion
 }
