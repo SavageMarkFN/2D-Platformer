@@ -6,11 +6,32 @@ using UnityEngine;
 //Code
 public class MyCode : MonoBehaviour
 {
-    private int Number = 5;
-    public float _Number = -2.5f;
-    private bool Check = true;
-    public string Item = "Sword";
+    #region Variables
+    //Attributes
+    //private -->Other scripts dont have access
+    //public  -->Other scripts have access
 
+    //Types
+    //int --> (..-3, -2, -1, 0, 1, 2, 3..)
+    //float --> (..-2.3, -1, 0, 1.5, 3..)
+    //bool --> (true/false)
+    //string --> "Text"
+    //GameObject --> One object in the scene
+    //Transform --> Position,Rotation,Scale
+
+    //Vector2 --> Contains x , y --> Vector2(x,y)
+
+    public int Number = 15;
+    private float Health = 85.5f;
+    public bool Check = false;
+    private string Name = "Unknown";
+    public GameObject Player;
+    private Transform PlayerT;
+    public Vector2 Location; // = new Vector2(Number x,Number y);
+
+    //Array --> One list with the same variable type
+    public bool[] Full; // = new bool[Array Number];
+    #endregion
     // Start is called before the first frame update
     void Start()
     {
@@ -21,23 +42,5 @@ public class MyCode : MonoBehaviour
     void Update()
     {
         
-    }
-
-    void Test()
-    {
-        int Health = -10;
-        bool Dead = false;
-        if (Health > 0 || Dead == false)
-        {
-            //O paikths trwei damage
-        }
-        else if (Health <= 0 || Dead == false)
-        {
-            //O paikths pethainei
-        }
-        else
-        {
-            //Den ginetai tipota
-        }
     }
 }
