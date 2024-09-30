@@ -315,7 +315,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.4, y: 1.12}
+    oldSize: {x: 4, y: 4}
     newSize: {x: 0.4, y: 1.12}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -340,11 +340,8 @@ MonoBehaviour:
   Tier: 0
   Locked: 0
   RequiredItem: 
-  ItemName: Bronze Key
-  Message:
-  - {fileID: 2009545129}
-  - {fileID: 573709554}
-  - {fileID: 281030346}
+  GoldAmount: 0
+  ItemName: []
 --- !u!4 &713245353
 Transform:
   m_ObjectHideFlags: 0
@@ -816,6 +813,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1804687460289905249, guid: e97d049a51c6d444a817b6ebf509323f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1804687460289905249, guid: e97d049a51c6d444a817b6ebf509323f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1865555528484941748, guid: e97d049a51c6d444a817b6ebf509323f, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -863,6 +868,14 @@ PrefabInstance:
     - target: {fileID: 4510163544870344516, guid: e97d049a51c6d444a817b6ebf509323f, type: 3}
       propertyPath: m_Name
       value: MaxPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839409658298834499, guid: e97d049a51c6d444a817b6ebf509323f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -531.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839409658298834499, guid: e97d049a51c6d444a817b6ebf509323f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -265.38
       objectReference: {fileID: 0}
     - target: {fileID: 8819257226620039532, guid: e97d049a51c6d444a817b6ebf509323f, type: 3}
       propertyPath: m_LocalPosition.x
