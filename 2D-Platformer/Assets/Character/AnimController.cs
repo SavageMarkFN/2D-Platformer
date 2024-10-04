@@ -13,6 +13,7 @@ public class AnimController : MonoBehaviour
     [Header("References")]
     private PlayerMovement PM;
     private InputManager IM;
+    private UIController UIC;
     [HideInInspector] public Animator animator;
     private AudioSource Audio;
     public AudioClip[] Clip;
@@ -23,6 +24,7 @@ public class AnimController : MonoBehaviour
         PM = GetComponent<PlayerMovement>();
         animator = GetComponent<Animator>();
         IM = GameObject.Find("/MaxPrefab/GameScripts").GetComponent<InputManager>();
+        UIC = GameObject.Find("/MaxPrefab/GameScripts").GetComponent<UIController>();
         Audio = GetComponent<AudioSource>();
     }
 
@@ -49,44 +51,6 @@ public class AnimController : MonoBehaviour
             animator.SetTrigger("Death");
         }
     }
-
-    #region Take Damage Code
-    public void TakeDamage(float DamageValue)
-    {
-        StartCoroutine(TakingDamage(DamageValue));
-    }
-
-    IEnumerator TakingDamage(float DamageValue)
-    {
-        if (CanTakeDamage == true && PM.Health > 0)
-        {
-            CanTakeDamage = false;
-            PM.PlayerFreeze = true;
-            float DamageTaken = PM.Health - DamageValue;
-            float Timer = 0;
-            animator.SetTrigger("Hurt");
-            while (Timer < 0.3f)
-            {
-                Timer += Time.deltaTime;
-                float Step = Timer / 0.3f;
-
-                if (DamageTaken <= 0)
-                {
-                    PM.Health = Mathf.Lerp(PM.Health, 0, Step);
-                }
-                else
-                {
-                    PM.Health = Mathf.Lerp(PM.Health, DamageTaken, Step);
-                }
-
-                yield return null;
-            }
-            //yield return new WaitForSeconds(MovementReset);
-            PM.PlayerFreeze = false;
-            CanTakeDamage = true;
-        }
-    }
-    #endregion
 
     #region Attack Code
     [Header("Attack Variables")]

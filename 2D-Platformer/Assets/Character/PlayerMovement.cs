@@ -53,7 +53,9 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Stats")]
     public bool HasWeapon;
+    [HideInInspector] public bool CanAttack;
     public float Damage;
+    public float SkillDamage;
     public float Armor;
     public float MagicResist;
     [HideInInspector] public float Attack;
@@ -66,6 +68,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("References")]
     private CharacterController cController;
     private InputManager IM;
+    private UIController UIC;
     [HideInInspector] public AnimController animController;
 
     [Header("UI")]
@@ -88,7 +91,9 @@ public class PlayerMovement : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         cController = GetComponent<CharacterController>();
         IM = GameObject.Find("/MaxPrefab/GameScripts").GetComponent<InputManager>();
+        UIC = GameObject.Find("/MaxPrefab/GameScripts").GetComponent<UIController>();
         OriginalSpeed = Speed;
+        CanAttack = true;
         #region Assign XP Scale
         float Value = 0;
         for (int i = 0; i < XPScale.Length; i++)
@@ -136,16 +141,18 @@ public class PlayerMovement : MonoBehaviour
                         StartCoroutine(SlideReset());
                     }
 
-                    if (Input.GetMouseButtonDown(0) && Stamina >= 30)
+                    if (Input.GetMouseButtonDown(0) && Stamina >= 30 && UIC.InUI == false)
                     {
+                        CanAttack = false;
                         PlayerFreeze = true;
                         InAction = true;
                         Stamina -= 30f;
                         animController.animator.SetTrigger("Light Attack");
                     }
 
-                    if (Input.GetMouseButtonDown(1) && Stamina >= 30)
+                    if (Input.GetMouseButtonDown(1) && Stamina >= 30 && UIC.InUI == false)
                     {
+                        CanAttack = false;
                         PlayerFreeze = true;
                         InAction = true;
                         Stamina -= 30f;
@@ -256,6 +263,7 @@ public class PlayerMovement : MonoBehaviour
         Slide = 0f;
         InAction = false;
         PlayerFreeze = false;
+        CanAttack = true;
     }
     #endregion
 
@@ -407,6 +415,7 @@ public class PlayerMovement : MonoBehaviour
                 MaxMana += 10;
                 Mana = MaxMana;
                 MaxStamina += 10;
+                SkillDamage += 5;
                 Armor += 5;
                 MagicResist += 5;
                 #endregion

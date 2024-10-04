@@ -6064,6 +6064,7 @@ GameObject:
   - component: {fileID: 5108230850184234726}
   - component: {fileID: 1708550022216182937}
   - component: {fileID: 399438470251391501}
+  - component: {fileID: 935100119878046303}
   m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6145,6 +6146,50 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4421877878691101874}
   m_Enabled: 1
+--- !u!114 &935100119878046303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4421877878691101874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
 --- !u!1 &4459264642305941963
 GameObject:
   m_ObjectHideFlags: 0
@@ -8121,6 +8166,9 @@ MonoBehaviour:
   Armor: 0
   MagicResist: 0
   Attack: 0
+  AxeTier: 0
+  PickaxeTier: 0
+  KnifeTier: 0
   animController: {fileID: 8381292620820914427}
   HealthSlider: {fileID: 888030753462133472}
   ManaSlider: {fileID: 3109641119836509537}
@@ -12318,7 +12366,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0065301657, y: -0.014796177}
+  m_Offset: {x: -0.0065301657, y: 0.005}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -12329,7 +12377,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.11071472, y: 0.059935976}
+  m_Size: {x: 0.02, y: 0.002138876}
   m_EdgeRadius: 0
 --- !u!1 &9089954425308653109
 GameObject:

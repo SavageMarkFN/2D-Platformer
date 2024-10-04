@@ -2303,7 +2303,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0065301657, y: -0.014796177}
+  m_Offset: {x: -0.0065301657, y: 0.013719982}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2314,7 +2314,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.11071472, y: 0.059935976}
+  m_Size: {x: 0.02, y: 0.0029036626}
   m_EdgeRadius: 0
 --- !u!1 &2106117537995525200
 GameObject:
@@ -5529,6 +5529,9 @@ MonoBehaviour:
   Armor: 0
   MagicResist: 0
   Attack: 0
+  AxeTier: 0
+  PickaxeTier: 0
+  KnifeTier: 0
   animController: {fileID: 4801645706793764972}
   HealthSlider: {fileID: 8892876090783232280}
   ManaSlider: {fileID: 8037140092662588831}

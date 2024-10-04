@@ -9,8 +9,9 @@ using TMPro;
 public class UIController : MonoBehaviour
 {
     #region Variables
-    private bool InUI;
-    private bool InInventory;
+    [HideInInspector] public bool InUI;
+    [Header("Object")]
+    public GameObject Inventory;
 
     [Header("Reference")]
     private PlayerMovement PM;
@@ -18,6 +19,9 @@ public class UIController : MonoBehaviour
     private InputManager IM;
 
     public GameObject[] UIMessages;
+
+    [Header("Player Stats UI")]
+    public TextMeshProUGUI[] Stats;
     #endregion
 
     private void Start()
@@ -29,34 +33,49 @@ public class UIController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(IM.InventoryKey) && InUI == false)
+        #region Inventory
+        if (Input.GetKeyDown(IM.InventoryKey))
         {
-            OpenCloseInventory();
+            if (Inventory.activeSelf == false && InUI == false)
+            {
+                OpenCloseInventory();
+            }
+            else if (Inventory.activeSelf == true && InUI == true)
+            {
+                OpenCloseInventory();
+            }
         }
-        else if (Input.GetKeyDown(IM.InventoryKey) && InInventory == true)
-        {
-            OpenCloseInventory();
-        }
+        #endregion
+
+        #region Assign Player Stats
+        Stats[0].text = PM.Damage.ToString();
+        Stats[1].text = PM.SkillDamage.ToString();
+        Stats[2].text = PM.Armor.ToString();
+        Stats[3].text = PM.MagicResist.ToString();
+        Stats[4].text = PM.AxeTier.ToString();
+        Stats[5].text = PM.PickaxeTier.ToString();
+        Stats[6].text = PM.KnifeTier.ToString();
+        #endregion
     }
 
     #region Open and Close Inventory
     public void OpenCloseInventory()
     {
-        if (InInventory == false)
+        if (Inventory.activeSelf == false)
         {
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
             CanvasAnimator.SetTrigger("Inventory");
-            InInventory = true;
             InUI = true;
+            PM.CanAttack = false;
         }
         else
         {
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
             CanvasAnimator.SetTrigger("Inventory");
-            InInventory = false;
             InUI = false;
+            PM.CanAttack = true;
         }
     }
     #endregion

@@ -1,12 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class BossCage : MonoBehaviour
 {
     #region Variables
     [Header("Variables")]
+    public TextMeshProUGUI BossType;
+    public TextMeshProUGUI EnemyName;
+    public Slider HealthSlider;
     private bool Dead;
 
     [Header("References")]
@@ -30,6 +35,10 @@ public class BossCage : MonoBehaviour
             Dead = true;
             DeathEvent.Invoke();
         }
+        else
+        {
+            HealthSlider.value = aiMove.Health;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -37,6 +46,9 @@ public class BossCage : MonoBehaviour
         if (collision.tag == "Player" && Dead == false)
         {
             aiMove.AIFreeze = false;
+            BossType.text = aiMove.enemyType.ToString();
+            EnemyName.text = aiMove.gameObject.name;
+            HealthSlider.maxValue = aiMove.Health;
             SpawnEvent.Invoke();
         }
     }
