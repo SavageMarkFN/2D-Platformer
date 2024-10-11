@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1344652013159055308}
   - component: {fileID: 4460821897842279637}
   m_Layer: 0
-  m_Name: Rectangular
+  m_Name: GiannisPalette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
