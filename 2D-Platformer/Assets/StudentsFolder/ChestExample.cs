@@ -24,14 +24,25 @@ public class ChestExample : MonoBehaviour
     [Header("Interaction")]
     private bool CanInteract;
     public GameObject Message;
-    
     #endregion
-    // Start is called before the first frame update
-    void Start()
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if (collision.tag == "Player")
+        {
+            Message.SetActive(true);
+            CanInteract = true;
+        }
     }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            Message.SetActive(false);
+            CanInteract = false;
+        }
+    }
     // Update is called once per frame
     void Update()
     {
