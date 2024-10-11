@@ -23,7 +23,7 @@ public class MyCode : MonoBehaviour
     private float Health = 100;
     public bool Check = true;
     private string Text = "Code";
-    public GameObject Chest = Chest.SetActive(false);
+    public GameObject Chest;
     private Transform Player;
     #endregion
     
@@ -46,14 +46,6 @@ public class MyCode : MonoBehaviour
         //Code
     }
     #endregion
-    /*
-    Follow Up
-
-    1)OnTrigger Collision
-    2)Interaction with update method
-    3)Adding the Items into the Player (Check Player's Inspector)
-    4)Adding Item into the player inventory
-    */
     
     // Start is called before the first frame update
     void Start()
