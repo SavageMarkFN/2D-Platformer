@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     #region Variables
     public Sprite PlayerIcon;
+    [HideInInspector] public bool InInteaction;
     [HideInInspector] public float horizontalMove = 0f;
     private float verticalMove = 0f;
     private bool CanIncrease;

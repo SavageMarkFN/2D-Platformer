@@ -33,6 +33,7 @@ public class InventoryController : MonoBehaviour
         SlotName = new string[SlotImage.Length];
         SlotFull = new bool[SlotImage.Length];
         SlotAvailable = SlotImage.Length;
+        AddItem("Blood Ember");
     }
 
     #region Add Item
