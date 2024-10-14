@@ -39,7 +39,7 @@ public class QuestSystem : MonoBehaviour
     }
 
     #region Assign Quest
-    public void AssignQuest(string Name)
+    public void AssignMainQuest(string Name)
     {
         CanvasAnimator.SetTrigger("AddQuest");
         Audio.clip = Clip[0];
@@ -53,6 +53,7 @@ public class QuestSystem : MonoBehaviour
                 MainQuestName[i] = Name;
                 HasMainQuest[i] = true;
                 MainQuestCount += 1;
+                Debug.Log(MainQuestName);
                 break;
             }
         }
@@ -60,7 +61,7 @@ public class QuestSystem : MonoBehaviour
     #endregion
 
     #region Complete Quest
-    public void CompleteQuest(string Name)
+    public void CompleteMainQuest(string Name)
     {
         CanvasAnimator.SetTrigger("CompleteQuest");
         Audio.clip = Clip[1];

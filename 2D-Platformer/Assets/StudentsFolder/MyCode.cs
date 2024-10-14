@@ -1,43 +1,61 @@
-//Libraries
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//Code
 public class MyCode : MonoBehaviour
 {
     #region Variables
     /*
-    Attributes
-     private --> Only the script that contains the variable have access to change the value
-     public  --> All scripts have access to this variable to change the value
+    Basic Variables
+    int = (-2, -1, 0, 1, 2)
+    float = (-3.2, -1. 0, 0.5, 1.4)
+    bool = true/false
+    string = "Text"
 
-    Variable Types
-     int       > Takes all integer numbers
-     float     > Takes all the numbers
-     bool      > true/false
-     string    > "Text"
-     GameObject> Variable that contains an object in the scene
-     We can enable and disable this object with the ObjectName.SetActive(true/false);
-     Transform > Variable that contains the Position,Rotation,Scale
-     */
-    private int Number = 5;
-    public float _Number = -2.5f;
-    private bool Check = true;
-    public string Item = "Sword";
+    Unity's Variables
+    GameObject = ObjectName.SetActive(true/false);
+    Transform = Position, Rotation, Scale
+
+    private = A variable that can be accessed from this script
+    public  = A variable that can be accessed from all the scripts
+    */
+    public int Number = 10;
+    private float Health = 100;
+    public bool Check = true;
+    private string Text = "Code";
     public GameObject Chest;
-    private Transform NewPosition;
+    private Transform Player;
     #endregion
+    
+    #region Collision
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //collision.tag == Player
+        //Code
+    }
 
-    #region Single if Condition
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        //collision.tag == Player
+        //Code
+    }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        //collision.tag == Player
+        //Code
+    }
     #endregion
+    
+    // Start is called before the first frame update
+    void Start()
+    {
 
-    #region Multiple If Conditions
+    }
 
-    #endregion
-
-    #region Collisions
-
-    #endregion
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
 }
