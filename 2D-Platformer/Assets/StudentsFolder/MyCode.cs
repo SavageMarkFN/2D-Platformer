@@ -26,11 +26,26 @@ public class MyCode : MonoBehaviour
     public GameObject Chest;
     private Transform Player;
     #endregion
-    
-    #region Collision
-    
+
+    #region Single If
+
     #endregion
-    
+
+    #region Multiple If
+
+    #endregion
+
+    #region For Loop
+
+    #endregion
+
+    #region Animator
+
+    #endregion
+
+    #region Collision
+
+    #endregion
     // Start is called before the first frame update
     void Start()
     {
