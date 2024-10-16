@@ -26,27 +26,26 @@ public class MyCode : MonoBehaviour
     public GameObject Chest;
     private Transform Player;
     #endregion
-    
-    #region Collision
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        //collision.tag == Player
-        //Code
-    }
 
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        //collision.tag == Player
-        //Code
-    }
+    #region Single If
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        //collision.tag == Player
-        //Code
-    }
     #endregion
-    
+
+    #region Multiple If
+
+    #endregion
+
+    #region For Loop
+
+    #endregion
+
+    #region Animator
+
+    #endregion
+
+    #region Collision
+
+    #endregion
     // Start is called before the first frame update
     void Start()
     {
