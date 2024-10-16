@@ -28,23 +28,7 @@ public class MyCode : MonoBehaviour
     #endregion
     
     #region Collision
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        //collision.tag == Player
-        //Code
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        //collision.tag == Player
-        //Code
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        //collision.tag == Player
-        //Code
-    }
+    
     #endregion
     
     // Start is called before the first frame update
