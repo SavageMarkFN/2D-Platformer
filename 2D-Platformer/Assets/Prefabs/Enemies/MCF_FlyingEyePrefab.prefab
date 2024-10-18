@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4436167594964172244}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MCF_FlyingEyePrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 1308072095921056142}
   - component: {fileID: 5114877987616451068}
   - component: {fileID: 4250972979595253358}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HitBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}

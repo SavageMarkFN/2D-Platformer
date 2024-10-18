@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 659066335926709908}
   - component: {fileID: 5295139820525204632}
   - component: {fileID: 298098233494003741}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HitBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -343,7 +343,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3393492685905986134}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MCF_MushroomPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}

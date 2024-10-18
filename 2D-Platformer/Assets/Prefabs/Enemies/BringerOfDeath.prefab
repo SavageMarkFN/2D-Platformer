@@ -293,7 +293,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6441238719393275133}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BringerOfDeath
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +423,7 @@ GameObject:
   - component: {fileID: 5301242796901737486}
   - component: {fileID: 6776090681259886135}
   - component: {fileID: 136026001461627787}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HitBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
