@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 7059037975281086860}
   - component: {fileID: 3671009072514479310}
   - component: {fileID: 7113871044998320780}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HitBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -563,7 +563,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5079674968812638194}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LightBanditPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}

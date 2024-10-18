@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6556517326614519535}
   - component: {fileID: 667964670968390539}
   - component: {fileID: 8554092685465386982}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HitBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -185,7 +185,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4626017839677599872}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MCF_GoblinPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}

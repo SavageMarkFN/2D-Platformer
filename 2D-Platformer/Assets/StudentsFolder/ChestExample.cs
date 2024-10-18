@@ -20,11 +20,10 @@ public class ChestExample : MonoBehaviour
     (Run Inventory function)
     */
 
-    #region Variables
+    #region Interaction
     [Header("Interaction")]
     private bool CanInteract;
     public GameObject Message;
-    #endregion
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -43,9 +42,15 @@ public class ChestExample : MonoBehaviour
             CanInteract = false;
         }
     }
+    #endregion
+
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.E) && CanInteract == true)
+        {
+            Message.SetActive(false);
+            CanInteract = false;
+        }
     }
 }

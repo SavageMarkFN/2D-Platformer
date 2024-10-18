@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1426391114770097318}
   - component: {fileID: 6855654253792967782}
   - component: {fileID: 6612651013179921605}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HitBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -279,7 +279,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1520828767128125126}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MCF_SkeletonPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
