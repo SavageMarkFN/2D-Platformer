@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 581302952838784420}
   - component: {fileID: 2137953463622353831}
   - component: {fileID: 615269048571293952}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HitBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -279,7 +279,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6214283900170204128}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EvilWizard3Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}

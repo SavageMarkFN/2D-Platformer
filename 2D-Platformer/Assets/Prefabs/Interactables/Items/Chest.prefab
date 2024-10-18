@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6494489502050496629}
   - component: {fileID: 323860182403860168}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 7703713753016893701}
   - component: {fileID: 8836730532119791856}
   - component: {fileID: 3793345159110476266}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,6 +156,7 @@ MonoBehaviour:
   Tier: 0
   Locked: 1
   RequiredItem: Bronze Key
+  GoldAmount: 0
   ItemName: []
 --- !u!61 &3793345159110476266
 BoxCollider2D:

@@ -46,6 +46,11 @@ public class MyCode : MonoBehaviour
     #region Collision
 
     #endregion
+
+    #region Mouse and Keyboard Inputs
+
+    #endregion
+
     // Start is called before the first frame update
     void Start()
     {
