@@ -145,7 +145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 510979866545769103}
   - component: {fileID: 6254577119743225710}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -538,7 +538,7 @@ GameObject:
   - component: {fileID: 1613651262719190331}
   - component: {fileID: 2364044673394268895}
   - component: {fileID: 6791426743835839845}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -613,7 +613,7 @@ GameObject:
   - component: {fileID: 2439436374640588504}
   - component: {fileID: 1873740572516183905}
   - component: {fileID: 9208842406472315127}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BossPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -768,7 +768,7 @@ GameObject:
   - component: {fileID: 3176248210443791724}
   - component: {fileID: 1540207079862161973}
   - component: {fileID: 9000365935407536475}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HitBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -913,7 +913,7 @@ GameObject:
   - component: {fileID: 1423503802568130921}
   - component: {fileID: 467239146548389738}
   - component: {fileID: 1394322781470512589}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HitBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1057,7 +1057,7 @@ GameObject:
   - component: {fileID: 5309979452741526232}
   - component: {fileID: 389517445772915254}
   - component: {fileID: 5967865470928857190}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: HealthSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1130,7 +1130,7 @@ GameObject:
   - component: {fileID: 7787485602640295920}
   - component: {fileID: 6008346272850829760}
   - component: {fileID: 8727070782632876039}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: BossName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1287,7 +1287,7 @@ GameObject:
   - component: {fileID: 2558206561254852659}
   - component: {fileID: 7038305039128716142}
   - component: {fileID: 6460103529135064121}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: BossType
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1360,7 +1360,7 @@ GameObject:
   - component: {fileID: 8072422784783635046}
   - component: {fileID: 6600100428159674599}
   - component: {fileID: 1593566101666747434}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1490,7 +1490,7 @@ GameObject:
   - component: {fileID: 332271112414436470}
   - component: {fileID: 7258623902821044319}
   - component: {fileID: 3639760347608308042}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Type
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1624,7 +1624,7 @@ GameObject:
   - component: {fileID: 4896591155308766504}
   - component: {fileID: 3512682328501650474}
   - component: {fileID: 2146279577641856403}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1754,7 +1754,7 @@ GameObject:
   - component: {fileID: 1137330360832878614}
   - component: {fileID: 2173276278124898244}
   - component: {fileID: 7473167526115518461}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2233,7 +2233,7 @@ GameObject:
   - component: {fileID: 5539226931968140791}
   - component: {fileID: 4131699704755283534}
   - component: {fileID: 1343181289267510458}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2452,7 +2452,7 @@ GameObject:
   - component: {fileID: 2400012491887357426}
   - component: {fileID: 7805300504680117079}
   - component: {fileID: 4561059007363781798}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2556,7 +2556,7 @@ GameObject:
   - component: {fileID: 8293923462409964970}
   - component: {fileID: 794875196217732915}
   - component: {fileID: 3714805402105867282}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2626,7 +2626,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5950729083754929244}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Blockers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2662,7 +2662,7 @@ GameObject:
   - component: {fileID: 6051975799165491236}
   - component: {fileID: 4928241200944429597}
   - component: {fileID: 1985631401860298657}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HitBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2807,7 +2807,7 @@ GameObject:
   - component: {fileID: 8749851141142341127}
   - component: {fileID: 437025220811929365}
   - component: {fileID: 6963358217912542890}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HitBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3036,7 +3036,7 @@ GameObject:
   - component: {fileID: 7509777459023452841}
   - component: {fileID: 1646668715515260000}
   - component: {fileID: 2749786353648368343}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HitBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}

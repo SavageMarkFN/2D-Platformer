@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3161873742558485106}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HeavyBanditPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,7 +336,7 @@ GameObject:
   - component: {fileID: 8233228498886862730}
   - component: {fileID: 2397880227736789704}
   - component: {fileID: 8146303741983114378}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HitBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
