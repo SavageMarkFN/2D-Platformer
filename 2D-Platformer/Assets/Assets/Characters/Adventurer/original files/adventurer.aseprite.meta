@@ -1,0 +1,5148 @@
+fileFormatVersion: 2
+guid: 55be3793c09f0fc46a0d8fdbf68d3844
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: adventurer_Frame_0
+    originalName: 
+    pivot: {x: 0.57894737, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 224
+      width: 19
+      height: 29
+    spriteID: 836e54aed162d7848ae7d3af40267232
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 224}
+  - name: adventurer_Frame_1
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 330
+      width: 17
+      height: 30
+    spriteID: 0165ffed1de0b5b44b7c4fcbf54cbe8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 330}
+  - name: adventurer_Frame_2
+    originalName: 
+    pivot: {x: 0.52631575, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 150
+      width: 19
+      height: 30
+    spriteID: 91b090d146510b84ea5fb6ac6f39a85b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 150}
+  - name: adventurer_Frame_3
+    originalName: 
+    pivot: {x: 0.6, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 488
+      y: 77
+      width: 20
+      height: 29
+    spriteID: 4efcd4217ee3a2a418ab82eefd0c461b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 488, y: 77}
+  - name: adventurer_Frame_4
+    originalName: 
+    pivot: {x: 0.47368422, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 266
+      y: 316
+      width: 19
+      height: 21
+    spriteID: 55982652fa82d914db2d79b839a49859
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 266, y: 316}
+  - name: adventurer_Frame_5
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 213
+      width: 20
+      height: 22
+    spriteID: 22a99c39111b8104bb30fa93dc1b1f0b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 213}
+  - name: adventurer_Frame_6
+    originalName: 
+    pivot: {x: 0.52631575, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 293
+      y: 316
+      width: 19
+      height: 21
+    spriteID: 270fc5a0340bf0840ac55317d7b0f6f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 293, y: 316}
+  - name: adventurer_Frame_7
+    originalName: 
+    pivot: {x: 0.4705882, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 286
+      width: 17
+      height: 21
+    spriteID: 4cda5346f6045b349b00718c69441dda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 288, y: 286}
+  - name: adventurer_Frame_8
+    originalName: 
+    pivot: {x: 0.39999998, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 188
+      width: 20
+      height: 28
+    spriteID: b53dbf7a051a01a44be30fde7423e10d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 188}
+  - name: adventurer_Frame_10
+    originalName: 
+    pivot: {x: 0.45000002, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 146
+      width: 20
+      height: 25
+    spriteID: 0abc1b68e8f9b3f40a86b237920e8d14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 146}
+  - name: adventurer_Frame_11
+    originalName: 
+    pivot: {x: 0.34782606, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 457
+      y: 77
+      width: 23
+      height: 28
+    spriteID: 16d4225e0c139584491798b14ce36caa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 457, y: 77}
+  - name: adventurer_Frame_12
+    originalName: 
+    pivot: {x: 0.45000002, y: -0.037037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 403
+      width: 20
+      height: 27
+    spriteID: 9a7baf63bfee214498f3b5c7d64ce96f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 403}
+  - name: adventurer_Frame_14
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 179
+      width: 20
+      height: 24
+    spriteID: 6dc62f66819d2a74d95db1c0ec663f0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 179}
+  - name: adventurer_Frame_15
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 434
+      y: 213
+      width: 20
+      height: 22
+    spriteID: d10e64199e0143e4a9a2f2c9fea85bce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 434, y: 213}
+  - name: adventurer_Frame_16
+    originalName: 
+    pivot: {x: 0.4210526, y: -0.111111104}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 260
+      width: 19
+      height: 27
+    spriteID: 1e02c3a915d5563469afce28f7daa234
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 260}
+  - name: adventurer_Frame_17
+    originalName: 
+    pivot: {x: 0.5238095, y: -0.39130434}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 442
+      y: 146
+      width: 21
+      height: 23
+    spriteID: b4644154a83f049419c5ed776f8239c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 442, y: 146}
+  - name: adventurer_Frame_18
+    originalName: 
+    pivot: {x: 0.4666666, y: -0.45000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 286
+      width: 15
+      height: 20
+    spriteID: e1a24186cb8732245ab5a98d48e5cd9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 460, y: 286}
+  - name: adventurer_Frame_19
+    originalName: 
+    pivot: {x: 0.47826084, y: -0.58823526}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 401
+      y: 316
+      width: 23
+      height: 17
+    spriteID: 1488a6502f2cec14ca163e0779414606
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 401, y: 316}
+  - name: adventurer_Frame_20
+    originalName: 
+    pivot: {x: 0.27777776, y: -0.35000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 286
+      width: 18
+      height: 20
+    spriteID: d58a46789d11f2247b7260dc53ecc67e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 286}
+  - name: adventurer_Frame_21
+    originalName: 
+    pivot: {x: 0.47826084, y: -0.4117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 432
+      y: 316
+      width: 23
+      height: 17
+    spriteID: 7af42dd6c11881a439cfcba9e67ec190
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 432, y: 316}
+  - name: adventurer_Frame_22
+    originalName: 
+    pivot: {x: 0.41176465, y: -0.16129032}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 182
+      width: 17
+      height: 31
+    spriteID: 5a623da8446da3f4789cb44af553e8ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 182}
+  - name: adventurer_Frame_23
+    originalName: 
+    pivot: {x: 0.41176465, y: -0.16666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 368
+      width: 17
+      height: 30
+    spriteID: d517205f0bf9e544f921982f876e394e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 368}
+  - name: adventurer_Frame_24
+    originalName: 
+    pivot: {x: 0.5882353, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 474
+      y: 114
+      width: 34
+      height: 15
+    spriteID: 9ac695bd5fe7f5046a5e8b2125240e28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 474, y: 114}
+  - name: adventurer_Frame_25
+    originalName: 
+    pivot: {x: 0.5882353, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 146
+      width: 34
+      height: 15
+    spriteID: e59d8432d36c1854c8193aa9e6a06f6d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 146}
+  - name: adventurer_Frame_26
+    originalName: 
+    pivot: {x: 0.5882353, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 114
+      width: 34
+      height: 16
+    spriteID: cda624155db089447866a075fbc8ee1e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 272, y: 114}
+  - name: adventurer_Frame_27
+    originalName: 
+    pivot: {x: 0.5333333, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 146
+      width: 30
+      height: 17
+    spriteID: bdd12c933f51b0540a108acf6ee6b375
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 146}
+  - name: adventurer_Frame_28
+    originalName: 
+    pivot: {x: 0.4545454, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 286
+      width: 22
+      height: 17
+    spriteID: 003db0b319350c245b851fbe6836daf3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 286}
+  - name: adventurer_Frame_29
+    originalName: 
+    pivot: {x: 0.23076923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 291
+      width: 13
+      height: 34
+    spriteID: e4a319c14e881a5489c374b74676fe05
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 291}
+  - name: adventurer_Frame_30
+    originalName: 
+    pivot: {x: 0.23076923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 333
+      width: 13
+      height: 34
+    spriteID: 79327a669179ad940a6cd8f8324cb903
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 333}
+  - name: adventurer_Frame_31
+    originalName: 
+    pivot: {x: 0.3333333, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 406
+      width: 15
+      height: 34
+    spriteID: 92ee69adfe67fe64782f6dd7df211668
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 406}
+  - name: adventurer_Frame_32
+    originalName: 
+    pivot: {x: 0.28571433, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 249
+      width: 14
+      height: 34
+    spriteID: 9c7a39525d300254d8b8d6ac87796664
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 249}
+  - name: adventurer_Frame_33
+    originalName: 
+    pivot: {x: 0.25000003, y: -0.06896552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 249
+      width: 16
+      height: 29
+    spriteID: 5cde863a8c347384c861e5e29e0da126
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 249}
+  - name: adventurer_Frame_34
+    originalName: 
+    pivot: {x: 0.2666667, y: -0.15384614}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 463
+      y: 316
+      width: 15
+      height: 26
+    spriteID: 621d16ba19306fb4fb122f2ca93f9a4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 463, y: 316}
+  - name: adventurer_Frame_35
+    originalName: 
+    pivot: {x: 0.3333333, y: -0.20833331}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 350
+      width: 15
+      height: 24
+    spriteID: 959ac10b2899fa0448155cf62ea07690
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 350}
+  - name: adventurer_Frame_36
+    originalName: 
+    pivot: {x: 0.28571433, y: -0.29166666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 350
+      width: 14
+      height: 24
+    spriteID: 558d01253a65394498577fe3fe748847
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 350}
+  - name: adventurer_Frame_37
+    originalName: 
+    pivot: {x: 0.2666667, y: -0.29166666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 187
+      y: 350
+      width: 15
+      height: 24
+    spriteID: 86d4452fb817e9a498ef1bb094b1a57d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 187, y: 350}
+  - name: adventurer_Frame_38
+    originalName: 
+    pivot: {x: 0.57894737, y: -0.037037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 295
+      width: 19
+      height: 27
+    spriteID: b1668a089e1b93e4cb2a9d21be9c0e41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 295}
+  - name: adventurer_Frame_39
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.037037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 198
+      y: 213
+      width: 17
+      height: 27
+    spriteID: 74ed283af3d39254a887d838446cf4f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 198, y: 213}
+  - name: adventurer_Frame_40
+    originalName: 
+    pivot: {x: 0.52631575, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 146
+      width: 19
+      height: 28
+    spriteID: 1b6648edbf6f7bb44b2e78bf21526ece
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 146}
+  - name: adventurer_Frame_41
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 114
+      width: 21
+      height: 28
+    spriteID: ec60ff2504fa2d84e9567895259ca98b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 114}
+  - name: adventurer_Frame_42
+    originalName: 
+    pivot: {x: 0.52631575, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 286
+      width: 19
+      height: 22
+    spriteID: d80257945a284014f80b9bf6d763168c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 286}
+  - name: adventurer_Frame_43
+    originalName: 
+    pivot: {x: 0.5555555, y: -0.05}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 262
+      y: 286
+      width: 18
+      height: 20
+    spriteID: bd3485cc146c5754caa75b96e0a68d52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 262, y: 286}
+  - name: adventurer_Frame_44
+    originalName: 
+    pivot: {x: 0.29411763, y: -0.027777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 168
+      y: 4
+      width: 34
+      height: 36
+    spriteID: 0510436d3ca929b4d824c47e0218eeb8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 168, y: 4}
+  - name: adventurer_Frame_45
+    originalName: 
+    pivot: {x: 0.37037033, y: -0.027777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 4
+      width: 27
+      height: 36
+    spriteID: 8757e4d09dc10c54cb0c2235bc39ec44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 4}
+  - name: adventurer_Frame_46
+    originalName: 
+    pivot: {x: 0.52631575, y: -0.03125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 408
+      width: 19
+      height: 32
+    spriteID: 40ae4f190028fdd46bbfe0d5f30fbb55
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 408}
+  - name: adventurer_Frame_47
+    originalName: 
+    pivot: {x: 0.5555555, y: -0.038461536}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 293
+      y: 179
+      width: 18
+      height: 26
+    spriteID: f2942f01a3af6e148a52e515ed21b884
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 293, y: 179}
+  - name: adventurer_Frame_48
+    originalName: 
+    pivot: {x: 0.5555555, y: -0.037037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 213
+      width: 18
+      height: 27
+    spriteID: 3d27b2ed6cdd8304d99eaa260206f0fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 213}
+  - name: adventurer_Frame_49
+    originalName: 
+    pivot: {x: 0.6, y: -0.037037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 438
+      width: 20
+      height: 27
+    spriteID: 955d00d7887aa584eabd924042147746
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 438}
+  - name: adventurer_Frame_50
+    originalName: 
+    pivot: {x: 0.40540543, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 265
+      y: 4
+      width: 37
+      height: 29
+    spriteID: 4043d0bfe266acf42ad781ff75c398a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 265, y: 4}
+  - name: adventurer_Frame_51
+    originalName: 
+    pivot: {x: 0.7096774, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 349
+      y: 77
+      width: 31
+      height: 21
+    spriteID: e27c39d4a5bc6af49a48b76677099308
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 349, y: 77}
+  - name: adventurer_Frame_52
+    originalName: 
+    pivot: {x: 0.7333333, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 77
+      width: 30
+      height: 22
+    spriteID: 62e47c53b7592ae4d81821e9d3b2a300
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 77}
+  - name: adventurer_Frame_53
+    originalName: 
+    pivot: {x: 0.26315787, y: -0.038461536}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 179
+      width: 19
+      height: 26
+    spriteID: 05b262a018aca9d48b0f8c4b6502b6a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 179}
+  - name: adventurer_Frame_54
+    originalName: 
+    pivot: {x: 0.21052635, y: -0.038461536}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 179
+      width: 19
+      height: 26
+    spriteID: 4471b2a87e2e71f418a5aa75d9739b5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 179}
+  - name: adventurer_Frame_55
+    originalName: 
+    pivot: {x: 0.4680851, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 4
+      width: 47
+      height: 23
+    spriteID: df154111ab2586b4495c0c026d983e11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 4}
+  - name: adventurer_Frame_56
+    originalName: 
+    pivot: {x: 0.7, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 114
+      width: 30
+      height: 19
+    spriteID: 5ac68b2afc85d6f4b904af68bbcf0968
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 114}
+  - name: adventurer_Frame_57
+    originalName: 
+    pivot: {x: 0.7352941, y: -0.05}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 77
+      width: 34
+      height: 20
+    spriteID: e207ace2c5a64d14daa98385a7a0efd9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 77}
+  - name: adventurer_Frame_58
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.05}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 427
+      y: 249
+      width: 21
+      height: 20
+    spriteID: bc791498a522a0c459314a015478e799
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 427, y: 249}
+  - name: adventurer_Frame_59
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 316
+      width: 17
+      height: 24
+    spriteID: 70fc69afe7dc3934f8093e1636f6e6d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 316}
+  - name: adventurer_Frame_60
+    originalName: 
+    pivot: {x: 0.44444442, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 490
+      y: 213
+      width: 18
+      height: 24
+    spriteID: 1d5eaec45334e044d9b821d45c3d1055
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 490, y: 213}
+  - name: adventurer_Frame_61
+    originalName: 
+    pivot: {x: 0.52631575, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 484
+      width: 19
+      height: 24
+    spriteID: 1e114f58751d5ca4cae82b0b981fa1b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 484}
+  - name: adventurer_Frame_62
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 167
+      y: 316
+      width: 17
+      height: 24
+    spriteID: 6d23af076952a82458c1e28de5187309
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 167, y: 316}
+  - name: adventurer_Frame_63
+    originalName: 
+    pivot: {x: 0.44444442, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 249
+      width: 18
+      height: 24
+    spriteID: cfc65fe2d13392140925286d48ef0dfd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 272, y: 249}
+  - name: adventurer_Frame_64
+    originalName: 
+    pivot: {x: 0.52631575, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 223
+      y: 213
+      width: 19
+      height: 24
+    spriteID: 5c6076d2eab6cbc498303d5c827472d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 223, y: 213}
+  - name: adventurer_Frame_65
+    originalName: 
+    pivot: {x: 0.42857143, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 423
+      y: 179
+      width: 21
+      height: 22
+    spriteID: 990303ee2f6ae6340a0d8514562b250f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 423, y: 179}
+  - name: adventurer_Frame_66
+    originalName: 
+    pivot: {x: 0.41176465, y: -0.055555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 286
+      width: 17
+      height: 18
+    spriteID: 23fc0bfe9210c7c44935a60c078366f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 286}
+  - name: adventurer_Frame_67
+    originalName: 
+    pivot: {x: 0.28571433, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 487
+      width: 14
+      height: 17
+    spriteID: 88b9561278be74346870bba7685a3c85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 487}
+  - name: adventurer_Frame_68
+    originalName: 
+    pivot: {x: 0.41176465, y: -0.055555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 435
+      y: 286
+      width: 17
+      height: 18
+    spriteID: 2f1bd351327120f48a6c002c41e97a9f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 435, y: 286}
+  - name: adventurer_Frame_69
+    originalName: 
+    pivot: {x: 0.5555555, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 213
+      width: 18
+      height: 25
+    spriteID: e94f8d2b9e5b557449e07230dc40c0b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 304, y: 213}
+  - name: adventurer_Frame_70
+    originalName: 
+    pivot: {x: 0.5555555, y: -0.038461536}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 319
+      y: 179
+      width: 18
+      height: 26
+    spriteID: dfcb1eab5bcd10d4598269dcf1295163
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 319, y: 179}
+  - name: adventurer_Frame_71
+    originalName: 
+    pivot: {x: 0.58823526, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 213
+      width: 17
+      height: 28
+    spriteID: e05350ea92ec9f24dae21e3911f3dd72
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 213}
+  - name: adventurer_Frame_72
+    originalName: 
+    pivot: {x: 0.6111111, y: -0.038461536}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 345
+      y: 179
+      width: 18
+      height: 26
+    spriteID: 935c4a27277ccb54aa449f453c09d38e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 345, y: 179}
+  - name: adventurer_Frame_73
+    originalName: 
+    pivot: {x: 0.6111111, y: -0.038461536}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 371
+      y: 179
+      width: 18
+      height: 26
+    spriteID: 5959c4184c62a1e4b845b89e3ad3ed4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 371, y: 179}
+  - name: adventurer_Frame_74
+    originalName: 
+    pivot: {x: 0.6111111, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 448
+      width: 18
+      height: 28
+    spriteID: 541290209cbe11a48b8c0e0ac99e84b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 448}
+  - name: adventurer_Frame_75
+    originalName: 
+    pivot: {x: 0.6, y: -0.038461536}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 179
+      width: 20
+      height: 26
+    spriteID: a698205e83cbcee429e2a7ef7db6549e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 179}
+  - name: adventurer_Frame_76
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 402
+      y: 249
+      width: 17
+      height: 25
+    spriteID: 93f3889c644f3de4898b6d41b3438dc3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 402, y: 249}
+  - name: adventurer_Frame_77
+    originalName: 
+    pivot: {x: 0.34782606, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 272
+      width: 23
+      height: 29
+    spriteID: 02289bdd6512cbe45bbbd787f82ae698
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 272}
+  - name: adventurer_Frame_78
+    originalName: 
+    pivot: {x: 0.31818178, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 309
+      width: 22
+      height: 29
+    spriteID: 2b20fcf1282b5934aa8e7f49cddfb56e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 309}
+  - name: adventurer_Frame_79
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.09677419}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 221
+      width: 17
+      height: 31
+    spriteID: ae24d314b5a536d4b9a3a7689076f21d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 221}
+  - name: adventurer_Frame_80
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.09374999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 363
+      width: 17
+      height: 32
+    spriteID: 567ee3fe568af474cad5e7f23ac0d33a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 363}
+  - name: adventurer_Frame_81
+    originalName: 
+    pivot: {x: 0.46153846, y: -0.099999994}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 411
+      width: 13
+      height: 30
+    spriteID: 9bd96a4a829f72244aeefa7b71d7d8b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 411}
+  - name: adventurer_Frame_82
+    originalName: 
+    pivot: {x: 0.46153846, y: -0.18518518}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 383
+      width: 13
+      height: 27
+    spriteID: ae494538cab4c5c4db13b684dbd124e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 383}
+  - name: adventurer_Frame_83
+    originalName: 
+    pivot: {x: 0.46153846, y: -0.099999994}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 449
+      width: 13
+      height: 30
+    spriteID: f0f012dba197e544bbc2b656f0f18450
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 449}
+  - name: adventurer_Frame_85
+    originalName: 
+    pivot: {x: 0.47619045, y: -0.038461536}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 261
+      width: 21
+      height: 26
+    spriteID: a081c28970688e74c9178765ab431145
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 261}
+  - name: adventurer_Frame_86
+    originalName: 
+    pivot: {x: 0.5555555, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 330
+      y: 213
+      width: 18
+      height: 25
+    spriteID: 44cf438f54851e24d986b9daf6549566
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 330, y: 213}
+  - name: adventurer_Frame_87
+    originalName: 
+    pivot: {x: 0.5, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 242
+      y: 316
+      width: 16
+      height: 25
+    spriteID: 0b43c878b5da89247bbd3910b7484275
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 242, y: 316}
+  - name: adventurer_Frame_88
+    originalName: 
+    pivot: {x: 0.37037033, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 422
+      y: 77
+      width: 27
+      height: 24
+    spriteID: 0563928757610654b8f7206d8a4f51bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 422, y: 77}
+  - name: adventurer_Frame_89
+    originalName: 
+    pivot: {x: 0.37037033, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 346
+      width: 27
+      height: 23
+    spriteID: fc6fb9060e4af3e4dac7ffa7ea034349
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 346}
+  - name: adventurer_Frame_90
+    originalName: 
+    pivot: {x: 0.41379312, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 77
+      width: 29
+      height: 23
+    spriteID: b406556c48ee9e643ba6712895be3b1e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 77}
+  - name: adventurer_Frame_91
+    originalName: 
+    pivot: {x: 0.37037033, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 377
+      width: 27
+      height: 23
+    spriteID: af8bdd8eb1812aa4a9d2553c7e28015e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 377}
+  - name: adventurer_Frame_92
+    originalName: 
+    pivot: {x: 0.41379312, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 77
+      width: 29
+      height: 23
+    spriteID: d83c3ff8ccc2203489e6d9af4c668a44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 77}
+  - name: adventurer_Frame_93
+    originalName: 
+    pivot: {x: 0.44444442, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 298
+      y: 249
+      width: 18
+      height: 24
+    spriteID: aa52afabe08acdd4180a690a841fafd4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 298, y: 249}
+  - name: adventurer_Frame_94
+    originalName: 
+    pivot: {x: 0.42857143, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 146
+      width: 21
+      height: 25
+    spriteID: ebe347ea216c3af45bd4a0c9f77b4e9f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 146}
+  - name: adventurer_Frame_95
+    originalName: 
+    pivot: {x: 0.52631575, y: -0.038461536}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 179
+      width: 19
+      height: 26
+    spriteID: 90fb24d727e585f4bb65771b5bcd5f45
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 179}
+  - name: adventurer_Frame_96
+    originalName: 
+    pivot: {x: 0.5555555, y: -0.07692307}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 397
+      y: 179
+      width: 18
+      height: 26
+    spriteID: b63df5a9957e2f247b12bf96fa9faa1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 397, y: 179}
+  - name: adventurer_Frame_97
+    originalName: 
+    pivot: {x: 0.5, y: -0.099999994}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 4
+      width: 46
+      height: 30
+    spriteID: d769cec47ab4358449a66168b261e6c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 4}
+  - name: adventurer_Frame_98
+    originalName: 
+    pivot: {x: 0.6551724, y: -0.13793103}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 77
+      width: 29
+      height: 29
+    spriteID: 599050cda15b68b48982380f64c3d39f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 77}
+  - name: adventurer_Frame_99
+    originalName: 
+    pivot: {x: 0.58823526, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 316
+      width: 17
+      height: 24
+    spriteID: eab37a07a2656a847a21a4b551c0152a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 316}
+  - name: adventurer_Frame_100
+    originalName: 
+    pivot: {x: 0.29411763, y: -0.064516135}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 4
+      width: 34
+      height: 31
+    spriteID: bfb54b106aa3aa14a8f46b58bf9c843b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 4}
+  - name: adventurer_Frame_101
+    originalName: 
+    pivot: {x: 0.39130434, y: -0.09677419}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 201
+      width: 23
+      height: 31
+    spriteID: d82197eb7c5d0234e8441f31f288b30b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 201}
+  - name: adventurer_Frame_102
+    originalName: 
+    pivot: {x: 0.62499994, y: -0.15384614}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 316
+      width: 16
+      height: 26
+    spriteID: d2e91ef5366cd0b40b4e8b2a5fc63eb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 316}
+  - name: adventurer_Frame_103
+    originalName: 
+    pivot: {x: 0.60714287, y: -0.16129032}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 48
+      width: 28
+      height: 31
+    spriteID: 9520810fb9a9ae44794642019e834e67
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 48}
+  - name: adventurer_Frame_104
+    originalName: 
+    pivot: {x: 0.6296296, y: -0.13333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 126
+      width: 27
+      height: 30
+    spriteID: 9dbd90795e3b6da4abf859cd6c4e353c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 126}
+  - name: adventurer_Frame_105
+    originalName: 
+    pivot: {x: 0.6296296, y: -0.12903227}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 87
+      width: 27
+      height: 31
+    spriteID: a9d828aa477699048a1afbcf3656364f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 87}
+  - name: adventurer_Frame_106
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.027777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 48
+      height: 36
+    spriteID: 4475d14cc24aa0d4aadfd805d7bd72d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: adventurer_Frame_107
+    originalName: 
+    pivot: {x: 0.47826084, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 4
+      width: 46
+      height: 30
+    spriteID: 82fd62bc558af7c4e816dcd4e116a564
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 4}
+  - name: adventurer_Frame_108
+    originalName: 
+    pivot: {x: 0.5, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 4
+      width: 46
+      height: 22
+    spriteID: 562dc8230b0e1b843840c4793c9a398b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 4}
+  - name: adventurer_Frame_109
+    originalName: 
+    pivot: {x: 0.5555555, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 356
+      y: 213
+      width: 18
+      height: 25
+    spriteID: 425fc270f59438345ac69e1941389d33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 356, y: 213}
+  - name: adventurer_Frame_110
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 146
+      width: 21
+      height: 25
+    spriteID: d2c81dbb7cc3c034b86c55f713aa80a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 146}
+  - name: adventurer_Frame_111
+    originalName: 
+    pivot: {x: 0.36666664, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 311
+      y: 77
+      width: 30
+      height: 22
+    spriteID: d82463df2cfc8024185b416b63d61af7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 311, y: 77}
+  - name: adventurer_Frame_112
+    originalName: 
+    pivot: {x: 0.45000002, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 452
+      y: 179
+      width: 20
+      height: 23
+    spriteID: ddd7bd54a134d224596ace5d256345f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 452, y: 179}
+  - name: adventurer_Frame_113
+    originalName: 
+    pivot: {x: 0.5555555, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 324
+      y: 249
+      width: 18
+      height: 24
+    spriteID: 85efd83932a06c9408526c1e1386b248
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 324, y: 249}
+  - name: adventurer_Frame_114
+    originalName: 
+    pivot: {x: 0.5555555, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 249
+      width: 18
+      height: 24
+    spriteID: 73e68cb2bb0955f43a52e75f9b4d559e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 249}
+  - name: adventurer_Frame_115
+    originalName: 
+    pivot: {x: 0.4117647, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 77
+      width: 34
+      height: 22
+    spriteID: ea0f74d6d21e975408a267ce352301f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 77}
+  - name: adventurer_Frame_116
+    originalName: 
+    pivot: {x: 0.34615386, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 448
+      width: 26
+      height: 23
+    spriteID: a16271cd4e06ce042b9130c3255f1b08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 448}
+  - name: adventurer_Frame_117
+    originalName: 
+    pivot: {x: 0.4545454, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 292
+      y: 146
+      width: 22
+      height: 23
+    spriteID: f23ea202fc3f7a34d90f4bca9529f9c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 292, y: 146}
+  - name: adventurer_Frame_118
+    originalName: 
+    pivot: {x: 0.52631575, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 316
+      width: 19
+      height: 21
+    spriteID: c48855408acbdc343ae1f251c3fd436e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 320, y: 316}
+  - name: adventurer_Frame_119
+    originalName: 
+    pivot: {x: 0.32142857, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 240
+      width: 28
+      height: 24
+    spriteID: d98b49cf8303d0344b273aae1ac15071
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 240}
+  - name: adventurer_Frame_120
+    originalName: 
+    pivot: {x: 0.45000002, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 233
+      y: 179
+      width: 20
+      height: 24
+    spriteID: 97a3e7e45702dc044a28e9c7b126d49d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 233, y: 179}
+  - name: adventurer_Frame_121
+    originalName: 
+    pivot: {x: 0.47368422, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 250
+      y: 213
+      width: 19
+      height: 24
+    spriteID: 8e514a9dd408bca4d9e54ea98dec9e61
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 250, y: 213}
+  - name: adventurer_Frame_122
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 146
+      width: 21
+      height: 25
+    spriteID: 644f65674a5a27348b1cc2854a666639
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 146}
+  - name: adventurer_Frame_123
+    originalName: 
+    pivot: {x: 0.39999998, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 114
+      width: 25
+      height: 22
+    spriteID: e278b40de3559e94dab716530be1ec31
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 114}
+  - name: adventurer_Frame_124
+    originalName: 
+    pivot: {x: 0.39999998, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 114
+      width: 25
+      height: 22
+    spriteID: a81daf3dd17a92b47a75fb6bcbd8f9e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 114}
+  - name: adventurer_Frame_125
+    originalName: 
+    pivot: {x: 0.51219517, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 48
+      width: 41
+      height: 21
+    spriteID: 9d1feccfde6ff504bbbd2d7395d81828
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 48}
+  - name: adventurer_Frame_126
+    originalName: 
+    pivot: {x: 0.3333333, y: -0.05}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 261
+      y: 179
+      width: 24
+      height: 20
+    spriteID: 4417104fa1a57c946af317d967cc9ad5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 261, y: 179}
+  - name: adventurer_Frame_127
+    originalName: 
+    pivot: {x: 0.43749994, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 486
+      y: 316
+      width: 16
+      height: 24
+    spriteID: 11ebe869134f8534b95bfe8999b2084c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 486, y: 316}
+  - name: adventurer_Frame_128
+    originalName: 
+    pivot: {x: 0.4, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 350
+      width: 15
+      height: 25
+    spriteID: 3987fbc09ef785642a5a0a1d86ec399b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 350}
+  - name: adventurer_Frame_129
+    originalName: 
+    pivot: {x: 0.52631575, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 277
+      y: 213
+      width: 19
+      height: 24
+    spriteID: 5a8ef372ab658f043a88d1b824bd212a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 277, y: 213}
+  - name: adventurer_Frame_130
+    originalName: 
+    pivot: {x: 0.41176465, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 217
+      y: 316
+      width: 17
+      height: 24
+    spriteID: 573e2ec30da02ac449ccf79abd0b19e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 217, y: 316}
+  - name: adventurer_Frame_131
+    originalName: 
+    pivot: {x: 0.36666664, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 77
+      width: 30
+      height: 24
+    spriteID: ce0f0fd20fb89a74dba0240d89c01479
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 77}
+  - name: adventurer_Frame_132
+    originalName: 
+    pivot: {x: 0.18181822, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 345
+      y: 114
+      width: 22
+      height: 24
+    spriteID: 66f1706e3bd45e64bb957bb7e8ac4132
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 345, y: 114}
+  - name: adventurer_Frame_133
+    originalName: 
+    pivot: {x: 0.58333325, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 267
+      y: 350
+      width: 12
+      height: 24
+    spriteID: bfc1981bff59ef543b1e3acfb87d03c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 267, y: 350}
+  - name: adventurer_Frame_134
+    originalName: 
+    pivot: {x: 0.4117647, y: -0.038461536}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 441
+      y: 4
+      width: 34
+      height: 26
+    spriteID: 0c4cb67870091d44690881dfe813528d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 441, y: 4}
+  - name: adventurer_Frame_135
+    originalName: 
+    pivot: {x: 0.5238095, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 183
+      y: 146
+      width: 21
+      height: 25
+    spriteID: 7d60b9338c520e24ab0fc3f37729cf5b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 183, y: 146}
+  - name: adventurer_Frame_136
+    originalName: 
+    pivot: {x: 0.6, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 141
+      y: 350
+      width: 15
+      height: 25
+    spriteID: f96c3c0ef53e1d546bd88a4004bbc527
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 141, y: 350}
+  - name: adventurer_Frame_137
+    originalName: 
+    pivot: {x: 0.52631575, y: -0.27272725}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 286
+      width: 19
+      height: 22
+    spriteID: 20fe79117aa451e4b8702c60942c6897
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 286}
+  - name: adventurer_Frame_138
+    originalName: 
+    pivot: {x: 0.4666666, y: -0.35000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 483
+      y: 286
+      width: 15
+      height: 20
+    spriteID: ebe10ae0018f4d54e8ca8cd14e0d7d2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 483, y: 286}
+  - name: adventurer_Frame_139
+    originalName: 
+    pivot: {x: 0.56, y: -0.19999999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 483
+      y: 4
+      width: 25
+      height: 30
+    spriteID: 7ba1d17a7d6d068488f8000d4dfb7983
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 483, y: 4}
+  - name: adventurer_Frame_140
+    originalName: 
+    pivot: {x: 0.56, y: -0.20689654}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 164
+      width: 25
+      height: 29
+    spriteID: c792e810524e06b4c8c799902c8b4e17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 164}
+  - name: adventurer_Frame_141
+    originalName: 
+    pivot: {x: 0.5555555, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 376
+      y: 249
+      width: 18
+      height: 24
+    spriteID: 10836c3390965c34fa8db157cc147cd6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 376, y: 249}
+  - name: adventurer_Frame_142
+    originalName: 
+    pivot: {x: 0.75, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 480
+      y: 179
+      width: 20
+      height: 23
+    spriteID: 60a9da0d3a526c94cb09a17abc100cf7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 480, y: 179}
+  - name: adventurer_Frame_143
+    originalName: 
+    pivot: {x: 0.72413796, y: -0.16666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 437
+      y: 114
+      width: 29
+      height: 18
+    spriteID: 9bc6e11a688cc6747b5a0552fbb36b5c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 437, y: 114}
+  - name: adventurer_Frame_144
+    originalName: 
+    pivot: {x: 0.8333333, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 313
+      y: 286
+      width: 24
+      height: 14
+    spriteID: 664fa4bc93029004591053815d353676
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 313, y: 286}
+  - name: adventurer_Frame_146
+    originalName: 
+    pivot: {x: 0.8076923, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 376
+      y: 286
+      width: 26
+      height: 12
+    spriteID: b4d202656f4ae62439fd757ba536b419
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 376, y: 286}
+  - name: adventurer_Frame_149
+    originalName: 
+    pivot: {x: 0.9565217, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 345
+      y: 286
+      width: 23
+      height: 14
+    spriteID: 93ffa05da231bff41bb56aa9f7569cff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 345, y: 286}
+  - name: adventurer_Frame_150
+    originalName: 
+    pivot: {x: 1.047619, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 287
+      y: 350
+      width: 21
+      height: 12
+    spriteID: 2c3b6ecc2f88dc443919c7ee0b93c0cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 287, y: 350}
+  - name: adventurer_Frame_151
+    originalName: 
+    pivot: {x: 0.8076923, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 286
+      width: 26
+      height: 16
+    spriteID: be0a9ae3b1f1423409a243265249d407
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 172, y: 286}
+  - name: adventurer_Frame_152
+    originalName: 
+    pivot: {x: 0.7619047, y: -0.15384614}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 295
+      width: 21
+      height: 26
+    spriteID: c357bcbf3e54a5c4bb1bd1e6d397e8aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 295}
+  - name: adventurer_Frame_153
+    originalName: 
+    pivot: {x: 0.6666666, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 114
+      width: 24
+      height: 24
+    spriteID: 8de58fee057d1b347bb16b8b1f8b700b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 114}
+  - name: adventurer_Frame_154
+    originalName: 
+    pivot: {x: 0.6363636, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 322
+      y: 146
+      width: 22
+      height: 23
+    spriteID: 10ffb86957558c147b24b57c242d2818
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 322, y: 146}
+  - name: adventurer_Frame_155
+    originalName: 
+    pivot: {x: 0.23529415, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 213
+      width: 17
+      height: 28
+    spriteID: 59f4f8b7f80b4724c8ea517907682677
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 213}
+  - name: adventurer_Frame_156
+    originalName: 
+    pivot: {x: 0.21428572, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 375
+      width: 14
+      height: 28
+    spriteID: 5233442f17fc59c4cb2fd183d99c958c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 375}
+  - name: adventurer_Frame_158
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 213
+      width: 18
+      height: 28
+    spriteID: 44c6c424bf140cb40b553b24e539576b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 213}
+  - name: adventurer_Frame_160
+    originalName: 
+    pivot: {x: 0.31249997, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 249
+      width: 16
+      height: 29
+    spriteID: 0fd94fbb39714d542bbd413bf3fad9c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 249}
+  - name: adventurer_Frame_161
+    originalName: 
+    pivot: {x: 0.47368422, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 347
+      y: 316
+      width: 19
+      height: 21
+    spriteID: 900b93f6c02531d4f945acf291a7b7e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 347, y: 316}
+  - name: adventurer_Frame_162
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 462
+      y: 213
+      width: 20
+      height: 22
+    spriteID: dc3e7b8b05667c3428fb477c9ad460cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 462, y: 213}
+  - name: adventurer_Frame_163
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 456
+      y: 249
+      width: 20
+      height: 21
+    spriteID: 7983609ceaa6cd94cad2e835ab26be0b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 456, y: 249}
+  - name: adventurer_Frame_164
+    originalName: 
+    pivot: {x: 0.47368422, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 374
+      y: 316
+      width: 19
+      height: 21
+    spriteID: 6f87d2d3ab0b07048a63c203eaf66431
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 374, y: 316}
+  - name: adventurer_Frame_165
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 166
+      y: 249
+      width: 20
+      height: 22
+    spriteID: e605ea3e58089524ba1cf4881f08d107
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 166, y: 249}
+  - name: adventurer_Frame_166
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 484
+      y: 249
+      width: 20
+      height: 21
+    spriteID: ee12af4fca9046341aef4209fb99921d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 484, y: 249}
+  - name: adventurer_Frame_167
+    originalName: 
+    pivot: {x: 0.26923072, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 388
+      y: 77
+      width: 26
+      height: 25
+    spriteID: 1a23f41468dc90144a54654d1a8175a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 388, y: 77}
+  - name: adventurer_Frame_168
+    originalName: 
+    pivot: {x: 0.34615386, y: -0.13636363}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 114
+      width: 26
+      height: 22
+    spriteID: db0e78403d2db9c42811acf049c49669
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 114}
+  - name: adventurer_Frame_169
+    originalName: 
+    pivot: {x: 0.2857143, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 471
+      y: 146
+      width: 21
+      height: 23
+    spriteID: a8b84a68f0dbf0143b56787616bfd9e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 471, y: 146}
+  - name: adventurer_Frame_170
+    originalName: 
+    pivot: {x: 0.3076923, y: -0.08695652}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 479
+      width: 26
+      height: 23
+    spriteID: f65b159f7ca1b8541814929804edc182
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 479}
+  - name: adventurer_Frame_171
+    originalName: 
+    pivot: {x: 0.34615386, y: -0.21052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 408
+      y: 146
+      width: 26
+      height: 19
+    spriteID: c64d07ed3adf3d0428677a7402022bd2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 408, y: 146}
+  - name: adventurer_Frame_173
+    originalName: 
+    pivot: {x: 0.42857143, y: -0.19230768}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 329
+      width: 21
+      height: 26
+    spriteID: fe3b62badd916ba44a35137b4e532fcc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 329}
+  - name: adventurer_Frame_174
+    originalName: 
+    pivot: {x: 0.39999998, y: -0.3181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 249
+      width: 20
+      height: 22
+    spriteID: 133b01c73ded79e4e95b3c514a94fce3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 249}
+  - name: adventurer_Frame_175
+    originalName: 
+    pivot: {x: 0.48000002, y: -0.2272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 114
+      width: 25
+      height: 22
+    spriteID: f620f8f1ad35fd74883687b144918231
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 114}
+  - name: adventurer_Frame_176
+    originalName: 
+    pivot: {x: 0.4545454, y: -0.20833331}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 375
+      y: 114
+      width: 22
+      height: 24
+    spriteID: af07ebb2f26e93049abe800b84019a16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 375, y: 114}
+  - name: adventurer_Frame_177
+    originalName: 
+    pivot: {x: 0.4210526, y: -0.2173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 249
+      width: 19
+      height: 23
+    spriteID: bdec1ba611da9e746879ce53813e8221
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 249}
+  - name: adventurer_Frame_9
+    originalName: 
+    pivot: {x: 0.45000002, y: -0.037037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 473
+      width: 20
+      height: 27
+    spriteID: b3d74c73c0f861643bdecf1926e67f2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 473}
+  - name: adventurer_Frame_13
+    originalName: 
+    pivot: {x: 0.45000002, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 146
+      width: 20
+      height: 25
+    spriteID: 0ab984ca933a40e4a9a1efcf63983f09
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 146}
+  - name: adventurer_Frame_84
+    originalName: 
+    pivot: {x: 0.46153846, y: -0.18518518}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 383
+      width: 13
+      height: 27
+    spriteID: 57fcff21f922de84a81f20a7c5f43391
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 383}
+  - name: adventurer_Frame_145
+    originalName: 
+    pivot: {x: 0.88888884, y: -0.09090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 350
+      width: 27
+      height: 11
+    spriteID: 431d6b86e3321514ab0f18aaf6f37eba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 350}
+  - name: adventurer_Frame_147
+    originalName: 
+    pivot: {x: 0.72413796, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 316
+      y: 350
+      width: 29
+      height: 7
+    spriteID: ceeddf55edd78cf4a9b2d4505ea9e4e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 316, y: 350}
+  - name: adventurer_Frame_148
+    originalName: 
+    pivot: {x: 0.72413796, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 350
+      width: 29
+      height: 7
+    spriteID: c99f3c5bfe91dbc40913719ff589d1bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 350}
+  - name: adventurer_Frame_157
+    originalName: 
+    pivot: {x: 0.3333333, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 249
+      y: 249
+      width: 15
+      height: 29
+    spriteID: a0f8e7f9c6cded5408e1ba5b1ef9f632
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 249, y: 249}
+  - name: adventurer_Frame_159
+    originalName: 
+    pivot: {x: 0.375, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 382
+      y: 213
+      width: 16
+      height: 28
+    spriteID: cc20c0873787d5342a26bdc01e071df3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 382, y: 213}
+  - name: adventurer_Frame_172
+    originalName: 
+    pivot: {x: 0.30434778, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 314
+      y: 114
+      width: 23
+      height: 23
+    spriteID: 34997aa12658f144bb0e4f84c4712290
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 314, y: 114}
+  - name: adventurer_Frame_178
+    originalName: 
+    pivot: {x: 0.4583333, y: -0.2272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 405
+      y: 114
+      width: 24
+      height: 22
+    spriteID: 7f6c4176f451a3a4b811f156efb5272f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 405, y: 114}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1155173716
+    name: adventurer
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: adventurer_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 14
+        y: 1
+        width: 19
+        height: 29
+      spriteId: 836e54aed162d7848ae7d3af40267232
+    - name: adventurer_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 16
+        y: 1
+        width: 17
+        height: 30
+      spriteId: 0165ffed1de0b5b44b7c4fcbf54cbe8c
+    - name: adventurer_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 15
+        y: 1
+        width: 19
+        height: 30
+      spriteId: 91b090d146510b84ea5fb6ac6f39a85b
+    - name: adventurer_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 13
+        y: 1
+        width: 20
+        height: 29
+      spriteId: 4efcd4217ee3a2a418ab82eefd0c461b
+    - name: adventurer_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 16
+        y: 1
+        width: 19
+        height: 21
+      spriteId: 55982652fa82d914db2d79b839a49859
+    - name: adventurer_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 15
+        y: 1
+        width: 20
+        height: 22
+      spriteId: 22a99c39111b8104bb30fa93dc1b1f0b
+    - name: adventurer_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 15
+        y: 1
+        width: 19
+        height: 21
+      spriteId: 270fc5a0340bf0840ac55317d7b0f6f8
+    - name: adventurer_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 17
+        y: 1
+        width: 17
+        height: 21
+      spriteId: 4cda5346f6045b349b00718c69441dda
+    - name: adventurer_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 17
+        y: 1
+        width: 20
+        height: 28
+      spriteId: b53dbf7a051a01a44be30fde7423e10d
+    - name: adventurer_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 16
+        y: 1
+        width: 20
+        height: 25
+      spriteId: 0abc1b68e8f9b3f40a86b237920e8d14
+    - name: adventurer_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 17
+        y: 1
+        width: 23
+        height: 28
+      spriteId: 16d4225e0c139584491798b14ce36caa
+    - name: adventurer_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 16
+        y: 1
+        width: 20
+        height: 27
+      spriteId: 9a7baf63bfee214498f3b5c7d64ce96f
+    - name: adventurer_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 15
+        y: 1
+        width: 20
+        height: 24
+      spriteId: 6dc62f66819d2a74d95db1c0ec663f0d
+    - name: adventurer_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 15
+        y: 1
+        width: 20
+        height: 22
+      spriteId: d10e64199e0143e4a9a2f2c9fea85bce
+    - name: adventurer_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 17
+        y: 3
+        width: 19
+        height: 27
+      spriteId: 1e02c3a915d5563469afce28f7daa234
+    - name: adventurer_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 14
+        y: 9
+        width: 21
+        height: 23
+      spriteId: b4644154a83f049419c5ed776f8239c2
+    - name: adventurer_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 18
+        y: 9
+        width: 15
+        height: 20
+      spriteId: e1a24186cb8732245ab5a98d48e5cd9a
+    - name: adventurer_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 14
+        y: 10
+        width: 23
+        height: 17
+      spriteId: 1488a6502f2cec14ca163e0779414606
+    - name: adventurer_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 20
+        y: 7
+        width: 18
+        height: 20
+      spriteId: d58a46789d11f2247b7260dc53ecc67e
+    - name: adventurer_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 14
+        y: 7
+        width: 23
+        height: 17
+      spriteId: 7af42dd6c11881a439cfcba9e67ec190
+    - name: adventurer_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 18
+        y: 5
+        width: 17
+        height: 31
+      spriteId: 5a623da8446da3f4789cb44af553e8ce
+    - name: adventurer_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 18
+        y: 5
+        width: 17
+        height: 30
+      spriteId: d517205f0bf9e544f921982f876e394e
+    - name: adventurer_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 5
+        y: 1
+        width: 34
+        height: 15
+      spriteId: 9ac695bd5fe7f5046a5e8b2125240e28
+    - name: adventurer_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 5
+        y: 1
+        width: 34
+        height: 15
+      spriteId: e59d8432d36c1854c8193aa9e6a06f6d
+    - name: adventurer_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 5
+        y: 1
+        width: 34
+        height: 16
+      spriteId: cda624155db089447866a075fbc8ee1e
+    - name: adventurer_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 9
+        y: 1
+        width: 30
+        height: 17
+      spriteId: bdd12c933f51b0540a108acf6ee6b375
+    - name: adventurer_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 15
+        y: 1
+        width: 22
+        height: 17
+      spriteId: 003db0b319350c245b851fbe6836daf3
+    - name: adventurer_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 22
+        y: 0
+        width: 13
+        height: 34
+      spriteId: e4a319c14e881a5489c374b74676fe05
+    - name: adventurer_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 22
+        y: 0
+        width: 13
+        height: 34
+      spriteId: 79327a669179ad940a6cd8f8324cb903
+    - name: adventurer_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 20
+        y: 0
+        width: 15
+        height: 34
+      spriteId: 92ee69adfe67fe64782f6dd7df211668
+    - name: adventurer_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 21
+        y: 0
+        width: 14
+        height: 34
+      spriteId: 9c7a39525d300254d8b8d6ac87796664
+    - name: adventurer_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 21
+        y: 2
+        width: 16
+        height: 29
+      spriteId: 5cde863a8c347384c861e5e29e0da126
+    - name: adventurer_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 21
+        y: 4
+        width: 15
+        height: 26
+      spriteId: 621d16ba19306fb4fb122f2ca93f9a4d
+    - name: adventurer_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 20
+        y: 5
+        width: 15
+        height: 24
+      spriteId: 959ac10b2899fa0448155cf62ea07690
+    - name: adventurer_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 21
+        y: 7
+        width: 14
+        height: 24
+      spriteId: 558d01253a65394498577fe3fe748847
+    - name: adventurer_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 21
+        y: 7
+        width: 15
+        height: 24
+      spriteId: 86d4452fb817e9a498ef1bb094b1a57d
+    - name: adventurer_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 14
+        y: 1
+        width: 19
+        height: 27
+      spriteId: b1668a089e1b93e4cb2a9d21be9c0e41
+    - name: adventurer_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 16
+        y: 1
+        width: 17
+        height: 27
+      spriteId: 74ed283af3d39254a887d838446cf4f5
+    - name: adventurer_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 15
+        y: 1
+        width: 19
+        height: 28
+      spriteId: 1b6648edbf6f7bb44b2e78bf21526ece
+    - name: adventurer_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 13
+        y: 1
+        width: 21
+        height: 28
+      spriteId: ec60ff2504fa2d84e9567895259ca98b
+    - name: adventurer_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 15
+        y: 1
+        width: 19
+        height: 22
+      spriteId: d80257945a284014f80b9bf6d763168c
+    - name: adventurer_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 15
+        y: 1
+        width: 18
+        height: 20
+      spriteId: bd3485cc146c5754caa75b96e0a68d52
+    - name: adventurer_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 15
+        y: 1
+        width: 34
+        height: 36
+      spriteId: 0510436d3ca929b4d824c47e0218eeb8
+    - name: adventurer_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 15
+        y: 1
+        width: 27
+        height: 36
+      spriteId: 8757e4d09dc10c54cb0c2235bc39ec44
+    - name: adventurer_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 15
+        y: 1
+        width: 19
+        height: 32
+      spriteId: 40ae4f190028fdd46bbfe0d5f30fbb55
+    - name: adventurer_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 15
+        y: 1
+        width: 18
+        height: 26
+      spriteId: f2942f01a3af6e148a52e515ed21b884
+    - name: adventurer_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 15
+        y: 1
+        width: 18
+        height: 27
+      spriteId: 3d27b2ed6cdd8304d99eaa260206f0fd
+    - name: adventurer_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 13
+        y: 1
+        width: 20
+        height: 27
+      spriteId: 955d00d7887aa584eabd924042147746
+    - name: adventurer_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 10
+        y: 1
+        width: 37
+        height: 29
+      spriteId: 4043d0bfe266acf42ad781ff75c398a7
+    - name: adventurer_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 3
+        y: 1
+        width: 31
+        height: 21
+      spriteId: e27c39d4a5bc6af49a48b76677099308
+    - name: adventurer_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 3
+        y: 1
+        width: 30
+        height: 22
+      spriteId: 62e47c53b7592ae4d81821e9d3b2a300
+    - name: adventurer_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 20
+        y: 1
+        width: 19
+        height: 26
+      spriteId: 05b262a018aca9d48b0f8c4b6502b6a3
+    - name: adventurer_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 21
+        y: 1
+        width: 19
+        height: 26
+      spriteId: 4471b2a87e2e71f418a5aa75d9739b5e
+    - name: adventurer_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 3
+        y: 1
+        width: 47
+        height: 23
+      spriteId: df154111ab2586b4495c0c026d983e11
+    - name: adventurer_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 4
+        y: 1
+        width: 30
+        height: 19
+      spriteId: 5ac68b2afc85d6f4b904af68bbcf0968
+    - name: adventurer_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 0
+        y: 1
+        width: 34
+        height: 20
+      spriteId: e207ace2c5a64d14daa98385a7a0efd9
+    - name: adventurer_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 13
+        y: 1
+        width: 21
+        height: 20
+      spriteId: bc791498a522a0c459314a015478e799
+    - name: adventurer_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 16
+        y: 1
+        width: 17
+        height: 24
+      spriteId: 70fc69afe7dc3934f8093e1636f6e6d0
+    - name: adventurer_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 17
+        y: 1
+        width: 18
+        height: 24
+      spriteId: 1d5eaec45334e044d9b821d45c3d1055
+    - name: adventurer_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 15
+        y: 1
+        width: 19
+        height: 24
+      spriteId: 1e114f58751d5ca4cae82b0b981fa1b6
+    - name: adventurer_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 16
+        y: 1
+        width: 17
+        height: 24
+      spriteId: 6d23af076952a82458c1e28de5187309
+    - name: adventurer_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 17
+        y: 1
+        width: 18
+        height: 24
+      spriteId: cfc65fe2d13392140925286d48ef0dfd
+    - name: adventurer_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 15
+        y: 1
+        width: 19
+        height: 24
+      spriteId: 5c6076d2eab6cbc498303d5c827472d2
+    - name: adventurer_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 16
+        y: 1
+        width: 21
+        height: 22
+      spriteId: 990303ee2f6ae6340a0d8514562b250f
+    - name: adventurer_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 18
+        y: 1
+        width: 17
+        height: 18
+      spriteId: 23fc0bfe9210c7c44935a60c078366f9
+    - name: adventurer_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 21
+        y: 1
+        width: 14
+        height: 17
+      spriteId: 88b9561278be74346870bba7685a3c85
+    - name: adventurer_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 18
+        y: 1
+        width: 17
+        height: 18
+      spriteId: 2f1bd351327120f48a6c002c41e97a9f
+    - name: adventurer_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 15
+        y: 1
+        width: 18
+        height: 25
+      spriteId: e94f8d2b9e5b557449e07230dc40c0b0
+    - name: adventurer_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 15
+        y: 1
+        width: 18
+        height: 26
+      spriteId: dfcb1eab5bcd10d4598269dcf1295163
+    - name: adventurer_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 15
+        y: 1
+        width: 17
+        height: 28
+      spriteId: e05350ea92ec9f24dae21e3911f3dd72
+    - name: adventurer_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 14
+        y: 1
+        width: 18
+        height: 26
+      spriteId: 935c4a27277ccb54aa449f453c09d38e
+    - name: adventurer_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 14
+        y: 1
+        width: 18
+        height: 26
+      spriteId: 5959c4184c62a1e4b845b89e3ad3ed4c
+    - name: adventurer_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 14
+        y: 1
+        width: 18
+        height: 28
+      spriteId: 541290209cbe11a48b8c0e0ac99e84b2
+    - name: adventurer_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 13
+        y: 1
+        width: 20
+        height: 26
+      spriteId: a698205e83cbcee429e2a7ef7db6549e
+    - name: adventurer_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 16
+        y: 1
+        width: 17
+        height: 25
+      spriteId: 93f3889c644f3de4898b6d41b3438dc3
+    - name: adventurer_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 17
+        y: 1
+        width: 23
+        height: 29
+      spriteId: 02289bdd6512cbe45bbbd787f82ae698
+    - name: adventurer_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 18
+        y: 1
+        width: 22
+        height: 29
+      spriteId: 2b20fcf1282b5934aa8e7f49cddfb56e
+    - name: adventurer_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 16
+        y: 3
+        width: 17
+        height: 31
+      spriteId: ae24d314b5a536d4b9a3a7689076f21d
+    - name: adventurer_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 16
+        y: 3
+        width: 17
+        height: 32
+      spriteId: 567ee3fe568af474cad5e7f23ac0d33a
+    - name: adventurer_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 19
+        y: 3
+        width: 13
+        height: 30
+      spriteId: 9bd96a4a829f72244aeefa7b71d7d8b0
+    - name: adventurer_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 19
+        y: 5
+        width: 13
+        height: 27
+      spriteId: ae494538cab4c5c4db13b684dbd124e4
+    - name: adventurer_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 19
+        y: 3
+        width: 13
+        height: 30
+      spriteId: f0f012dba197e544bbc2b656f0f18450
+    - name: adventurer_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 15
+        y: 1
+        width: 21
+        height: 26
+      spriteId: a081c28970688e74c9178765ab431145
+    - name: adventurer_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 15
+        y: 1
+        width: 18
+        height: 25
+      spriteId: 44cf438f54851e24d986b9daf6549566
+    - name: adventurer_Frame_87
+      frameIndex: 87
+      cellRect:
+        x: 17
+        y: 1
+        width: 16
+        height: 25
+      spriteId: 0b43c878b5da89247bbd3910b7484275
+    - name: adventurer_Frame_88
+      frameIndex: 88
+      cellRect:
+        x: 15
+        y: 1
+        width: 27
+        height: 24
+      spriteId: 0563928757610654b8f7206d8a4f51bb
+    - name: adventurer_Frame_89
+      frameIndex: 89
+      cellRect:
+        x: 15
+        y: 1
+        width: 27
+        height: 23
+      spriteId: fc6fb9060e4af3e4dac7ffa7ea034349
+    - name: adventurer_Frame_90
+      frameIndex: 90
+      cellRect:
+        x: 13
+        y: 1
+        width: 29
+        height: 23
+      spriteId: b406556c48ee9e643ba6712895be3b1e
+    - name: adventurer_Frame_91
+      frameIndex: 91
+      cellRect:
+        x: 15
+        y: 1
+        width: 27
+        height: 23
+      spriteId: af8bdd8eb1812aa4a9d2553c7e28015e
+    - name: adventurer_Frame_92
+      frameIndex: 92
+      cellRect:
+        x: 13
+        y: 1
+        width: 29
+        height: 23
+      spriteId: d83c3ff8ccc2203489e6d9af4c668a44
+    - name: adventurer_Frame_93
+      frameIndex: 93
+      cellRect:
+        x: 17
+        y: 1
+        width: 18
+        height: 24
+      spriteId: aa52afabe08acdd4180a690a841fafd4
+    - name: adventurer_Frame_94
+      frameIndex: 94
+      cellRect:
+        x: 16
+        y: 1
+        width: 21
+        height: 25
+      spriteId: ebe347ea216c3af45bd4a0c9f77b4e9f
+    - name: adventurer_Frame_95
+      frameIndex: 95
+      cellRect:
+        x: 15
+        y: 1
+        width: 19
+        height: 26
+      spriteId: 90fb24d727e585f4bb65771b5bcd5f45
+    - name: adventurer_Frame_96
+      frameIndex: 96
+      cellRect:
+        x: 15
+        y: 2
+        width: 18
+        height: 26
+      spriteId: b63df5a9957e2f247b12bf96fa9faa1b
+    - name: adventurer_Frame_97
+      frameIndex: 97
+      cellRect:
+        x: 2
+        y: 3
+        width: 46
+        height: 30
+      spriteId: d769cec47ab4358449a66168b261e6c4
+    - name: adventurer_Frame_98
+      frameIndex: 98
+      cellRect:
+        x: 6
+        y: 4
+        width: 29
+        height: 29
+      spriteId: 599050cda15b68b48982380f64c3d39f
+    - name: adventurer_Frame_99
+      frameIndex: 99
+      cellRect:
+        x: 15
+        y: 4
+        width: 17
+        height: 24
+      spriteId: eab37a07a2656a847a21a4b551c0152a
+    - name: adventurer_Frame_100
+      frameIndex: 100
+      cellRect:
+        x: 15
+        y: 2
+        width: 34
+        height: 31
+      spriteId: bfb54b106aa3aa14a8f46b58bf9c843b
+    - name: adventurer_Frame_101
+      frameIndex: 101
+      cellRect:
+        x: 16
+        y: 3
+        width: 23
+        height: 31
+      spriteId: d82197eb7c5d0234e8441f31f288b30b
+    - name: adventurer_Frame_102
+      frameIndex: 102
+      cellRect:
+        x: 15
+        y: 4
+        width: 16
+        height: 26
+      spriteId: d2e91ef5366cd0b40b4e8b2a5fc63eb4
+    - name: adventurer_Frame_103
+      frameIndex: 103
+      cellRect:
+        x: 8
+        y: 5
+        width: 28
+        height: 31
+      spriteId: 9520810fb9a9ae44794642019e834e67
+    - name: adventurer_Frame_104
+      frameIndex: 104
+      cellRect:
+        x: 8
+        y: 4
+        width: 27
+        height: 30
+      spriteId: 9dbd90795e3b6da4abf859cd6c4e353c
+    - name: adventurer_Frame_105
+      frameIndex: 105
+      cellRect:
+        x: 8
+        y: 4
+        width: 27
+        height: 31
+      spriteId: a9d828aa477699048a1afbcf3656364f
+    - name: adventurer_Frame_106
+      frameIndex: 106
+      cellRect:
+        x: 1
+        y: 1
+        width: 48
+        height: 36
+      spriteId: 4475d14cc24aa0d4aadfd805d7bd72d6
+    - name: adventurer_Frame_107
+      frameIndex: 107
+      cellRect:
+        x: 3
+        y: 1
+        width: 46
+        height: 30
+      spriteId: 82fd62bc558af7c4e816dcd4e116a564
+    - name: adventurer_Frame_108
+      frameIndex: 108
+      cellRect:
+        x: 2
+        y: 1
+        width: 46
+        height: 22
+      spriteId: 562dc8230b0e1b843840c4793c9a398b
+    - name: adventurer_Frame_109
+      frameIndex: 109
+      cellRect:
+        x: 15
+        y: 1
+        width: 18
+        height: 25
+      spriteId: 425fc270f59438345ac69e1941389d33
+    - name: adventurer_Frame_110
+      frameIndex: 110
+      cellRect:
+        x: 13
+        y: 1
+        width: 21
+        height: 25
+      spriteId: d2c81dbb7cc3c034b86c55f713aa80a3
+    - name: adventurer_Frame_111
+      frameIndex: 111
+      cellRect:
+        x: 14
+        y: 1
+        width: 30
+        height: 22
+      spriteId: d82463df2cfc8024185b416b63d61af7
+    - name: adventurer_Frame_112
+      frameIndex: 112
+      cellRect:
+        x: 16
+        y: 1
+        width: 20
+        height: 23
+      spriteId: ddd7bd54a134d224596ace5d256345f8
+    - name: adventurer_Frame_113
+      frameIndex: 113
+      cellRect:
+        x: 15
+        y: 1
+        width: 18
+        height: 24
+      spriteId: 85efd83932a06c9408526c1e1386b248
+    - name: adventurer_Frame_114
+      frameIndex: 114
+      cellRect:
+        x: 15
+        y: 1
+        width: 18
+        height: 24
+      spriteId: 73e68cb2bb0955f43a52e75f9b4d559e
+    - name: adventurer_Frame_115
+      frameIndex: 115
+      cellRect:
+        x: 11
+        y: 1
+        width: 34
+        height: 22
+      spriteId: ea0f74d6d21e975408a267ce352301f1
+    - name: adventurer_Frame_116
+      frameIndex: 116
+      cellRect:
+        x: 16
+        y: 1
+        width: 26
+        height: 23
+      spriteId: a16271cd4e06ce042b9130c3255f1b08
+    - name: adventurer_Frame_117
+      frameIndex: 117
+      cellRect:
+        x: 15
+        y: 1
+        width: 22
+        height: 23
+      spriteId: f23ea202fc3f7a34d90f4bca9529f9c0
+    - name: adventurer_Frame_118
+      frameIndex: 118
+      cellRect:
+        x: 15
+        y: 1
+        width: 19
+        height: 21
+      spriteId: c48855408acbdc343ae1f251c3fd436e
+    - name: adventurer_Frame_119
+      frameIndex: 119
+      cellRect:
+        x: 16
+        y: 1
+        width: 28
+        height: 24
+      spriteId: d98b49cf8303d0344b273aae1ac15071
+    - name: adventurer_Frame_120
+      frameIndex: 120
+      cellRect:
+        x: 16
+        y: 1
+        width: 20
+        height: 24
+      spriteId: 97a3e7e45702dc044a28e9c7b126d49d
+    - name: adventurer_Frame_121
+      frameIndex: 121
+      cellRect:
+        x: 16
+        y: 1
+        width: 19
+        height: 24
+      spriteId: 8e514a9dd408bca4d9e54ea98dec9e61
+    - name: adventurer_Frame_122
+      frameIndex: 122
+      cellRect:
+        x: 13
+        y: 1
+        width: 21
+        height: 25
+      spriteId: 644f65674a5a27348b1cc2854a666639
+    - name: adventurer_Frame_123
+      frameIndex: 123
+      cellRect:
+        x: 15
+        y: 1
+        width: 25
+        height: 22
+      spriteId: e278b40de3559e94dab716530be1ec31
+    - name: adventurer_Frame_124
+      frameIndex: 124
+      cellRect:
+        x: 15
+        y: 1
+        width: 25
+        height: 22
+      spriteId: a81daf3dd17a92b47a75fb6bcbd8f9e5
+    - name: adventurer_Frame_125
+      frameIndex: 125
+      cellRect:
+        x: 4
+        y: 1
+        width: 41
+        height: 21
+      spriteId: 9d1feccfde6ff504bbbd2d7395d81828
+    - name: adventurer_Frame_126
+      frameIndex: 126
+      cellRect:
+        x: 17
+        y: 1
+        width: 24
+        height: 20
+      spriteId: 4417104fa1a57c946af317d967cc9ad5
+    - name: adventurer_Frame_127
+      frameIndex: 127
+      cellRect:
+        x: 18
+        y: 1
+        width: 16
+        height: 24
+      spriteId: 11ebe869134f8534b95bfe8999b2084c
+    - name: adventurer_Frame_128
+      frameIndex: 128
+      cellRect:
+        x: 19
+        y: 1
+        width: 15
+        height: 25
+      spriteId: 3987fbc09ef785642a5a0a1d86ec399b
+    - name: adventurer_Frame_129
+      frameIndex: 129
+      cellRect:
+        x: 15
+        y: 1
+        width: 19
+        height: 24
+      spriteId: 5a8ef372ab658f043a88d1b824bd212a
+    - name: adventurer_Frame_130
+      frameIndex: 130
+      cellRect:
+        x: 18
+        y: 1
+        width: 17
+        height: 24
+      spriteId: 573e2ec30da02ac449ccf79abd0b19e1
+    - name: adventurer_Frame_131
+      frameIndex: 131
+      cellRect:
+        x: 14
+        y: 1
+        width: 30
+        height: 24
+      spriteId: ce0f0fd20fb89a74dba0240d89c01479
+    - name: adventurer_Frame_132
+      frameIndex: 132
+      cellRect:
+        x: 21
+        y: 1
+        width: 22
+        height: 24
+      spriteId: 66f1706e3bd45e64bb957bb7e8ac4132
+    - name: adventurer_Frame_133
+      frameIndex: 133
+      cellRect:
+        x: 18
+        y: 1
+        width: 12
+        height: 24
+      spriteId: bfc1981bff59ef543b1e3acfb87d03c5
+    - name: adventurer_Frame_134
+      frameIndex: 134
+      cellRect:
+        x: 11
+        y: 1
+        width: 34
+        height: 26
+      spriteId: 0c4cb67870091d44690881dfe813528d
+    - name: adventurer_Frame_135
+      frameIndex: 135
+      cellRect:
+        x: 14
+        y: 1
+        width: 21
+        height: 25
+      spriteId: 7d60b9338c520e24ab0fc3f37729cf5b
+    - name: adventurer_Frame_136
+      frameIndex: 136
+      cellRect:
+        x: 16
+        y: 1
+        width: 15
+        height: 25
+      spriteId: f96c3c0ef53e1d546bd88a4004bbc527
+    - name: adventurer_Frame_137
+      frameIndex: 137
+      cellRect:
+        x: 15
+        y: 6
+        width: 19
+        height: 22
+      spriteId: 20fe79117aa451e4b8702c60942c6897
+    - name: adventurer_Frame_138
+      frameIndex: 138
+      cellRect:
+        x: 18
+        y: 7
+        width: 15
+        height: 20
+      spriteId: ebe10ae0018f4d54e8ca8cd14e0d7d2e
+    - name: adventurer_Frame_139
+      frameIndex: 139
+      cellRect:
+        x: 11
+        y: 6
+        width: 25
+        height: 30
+      spriteId: 7ba1d17a7d6d068488f8000d4dfb7983
+    - name: adventurer_Frame_140
+      frameIndex: 140
+      cellRect:
+        x: 11
+        y: 6
+        width: 25
+        height: 29
+      spriteId: c792e810524e06b4c8c799902c8b4e17
+    - name: adventurer_Frame_141
+      frameIndex: 141
+      cellRect:
+        x: 15
+        y: 1
+        width: 18
+        height: 24
+      spriteId: 10836c3390965c34fa8db157cc147cd6
+    - name: adventurer_Frame_142
+      frameIndex: 142
+      cellRect:
+        x: 10
+        y: 4
+        width: 20
+        height: 23
+      spriteId: 60a9da0d3a526c94cb09a17abc100cf7
+    - name: adventurer_Frame_143
+      frameIndex: 143
+      cellRect:
+        x: 4
+        y: 3
+        width: 29
+        height: 18
+      spriteId: 9bc6e11a688cc6747b5a0552fbb36b5c
+    - name: adventurer_Frame_144
+      frameIndex: 144
+      cellRect:
+        x: 5
+        y: 1
+        width: 24
+        height: 14
+      spriteId: 664fa4bc93029004591053815d353676
+    - name: adventurer_Frame_146
+      frameIndex: 146
+      cellRect:
+        x: 4
+        y: 1
+        width: 26
+        height: 12
+      spriteId: b4d202656f4ae62439fd757ba536b419
+    - name: adventurer_Frame_149
+      frameIndex: 149
+      cellRect:
+        x: 3
+        y: 1
+        width: 23
+        height: 14
+      spriteId: 93ffa05da231bff41bb56aa9f7569cff
+    - name: adventurer_Frame_150
+      frameIndex: 150
+      cellRect:
+        x: 3
+        y: 1
+        width: 21
+        height: 12
+      spriteId: 2c3b6ecc2f88dc443919c7ee0b93c0cb
+    - name: adventurer_Frame_151
+      frameIndex: 151
+      cellRect:
+        x: 4
+        y: 1
+        width: 26
+        height: 16
+      spriteId: be0a9ae3b1f1423409a243265249d407
+    - name: adventurer_Frame_152
+      frameIndex: 152
+      cellRect:
+        x: 9
+        y: 4
+        width: 21
+        height: 26
+      spriteId: c357bcbf3e54a5c4bb1bd1e6d397e8aa
+    - name: adventurer_Frame_153
+      frameIndex: 153
+      cellRect:
+        x: 9
+        y: 1
+        width: 24
+        height: 24
+      spriteId: 8de58fee057d1b347bb16b8b1f8b700b
+    - name: adventurer_Frame_154
+      frameIndex: 154
+      cellRect:
+        x: 11
+        y: 1
+        width: 22
+        height: 23
+      spriteId: 10ffb86957558c147b24b57c242d2818
+    - name: adventurer_Frame_155
+      frameIndex: 155
+      cellRect:
+        x: 21
+        y: 1
+        width: 17
+        height: 28
+      spriteId: 59f4f8b7f80b4724c8ea517907682677
+    - name: adventurer_Frame_156
+      frameIndex: 156
+      cellRect:
+        x: 22
+        y: 1
+        width: 14
+        height: 28
+      spriteId: 5233442f17fc59c4cb2fd183d99c958c
+    - name: adventurer_Frame_158
+      frameIndex: 158
+      cellRect:
+        x: 19
+        y: 1
+        width: 18
+        height: 28
+      spriteId: 44c6c424bf140cb40b553b24e539576b
+    - name: adventurer_Frame_160
+      frameIndex: 160
+      cellRect:
+        x: 20
+        y: 1
+        width: 16
+        height: 29
+      spriteId: 0fd94fbb39714d542bbd413bf3fad9c3
+    - name: adventurer_Frame_161
+      frameIndex: 161
+      cellRect:
+        x: 16
+        y: 1
+        width: 19
+        height: 21
+      spriteId: 900b93f6c02531d4f945acf291a7b7e6
+    - name: adventurer_Frame_162
+      frameIndex: 162
+      cellRect:
+        x: 15
+        y: 1
+        width: 20
+        height: 22
+      spriteId: dc3e7b8b05667c3428fb477c9ad460cd
+    - name: adventurer_Frame_163
+      frameIndex: 163
+      cellRect:
+        x: 15
+        y: 1
+        width: 20
+        height: 21
+      spriteId: 7983609ceaa6cd94cad2e835ab26be0b
+    - name: adventurer_Frame_164
+      frameIndex: 164
+      cellRect:
+        x: 16
+        y: 1
+        width: 19
+        height: 21
+      spriteId: 6f87d2d3ab0b07048a63c203eaf66431
+    - name: adventurer_Frame_165
+      frameIndex: 165
+      cellRect:
+        x: 15
+        y: 1
+        width: 20
+        height: 22
+      spriteId: e605ea3e58089524ba1cf4881f08d107
+    - name: adventurer_Frame_166
+      frameIndex: 166
+      cellRect:
+        x: 15
+        y: 1
+        width: 20
+        height: 21
+      spriteId: ee12af4fca9046341aef4209fb99921d
+    - name: adventurer_Frame_167
+      frameIndex: 167
+      cellRect:
+        x: 18
+        y: 1
+        width: 26
+        height: 25
+      spriteId: 1a23f41468dc90144a54654d1a8175a3
+    - name: adventurer_Frame_168
+      frameIndex: 168
+      cellRect:
+        x: 16
+        y: 3
+        width: 26
+        height: 22
+      spriteId: db0e78403d2db9c42811acf049c49669
+    - name: adventurer_Frame_169
+      frameIndex: 169
+      cellRect:
+        x: 19
+        y: 1
+        width: 21
+        height: 23
+      spriteId: a8b84a68f0dbf0143b56787616bfd9e5
+    - name: adventurer_Frame_170
+      frameIndex: 170
+      cellRect:
+        x: 17
+        y: 2
+        width: 26
+        height: 23
+      spriteId: f65b159f7ca1b8541814929804edc182
+    - name: adventurer_Frame_171
+      frameIndex: 171
+      cellRect:
+        x: 16
+        y: 4
+        width: 26
+        height: 19
+      spriteId: c64d07ed3adf3d0428677a7402022bd2
+    - name: adventurer_Frame_173
+      frameIndex: 173
+      cellRect:
+        x: 16
+        y: 5
+        width: 21
+        height: 26
+      spriteId: fe3b62badd916ba44a35137b4e532fcc
+    - name: adventurer_Frame_174
+      frameIndex: 174
+      cellRect:
+        x: 17
+        y: 7
+        width: 20
+        height: 22
+      spriteId: 133b01c73ded79e4e95b3c514a94fce3
+    - name: adventurer_Frame_175
+      frameIndex: 175
+      cellRect:
+        x: 13
+        y: 5
+        width: 25
+        height: 22
+      spriteId: f620f8f1ad35fd74883687b144918231
+    - name: adventurer_Frame_176
+      frameIndex: 176
+      cellRect:
+        x: 15
+        y: 5
+        width: 22
+        height: 24
+      spriteId: af07ebb2f26e93049abe800b84019a16
+    - name: adventurer_Frame_177
+      frameIndex: 177
+      cellRect:
+        x: 17
+        y: 5
+        width: 19
+        height: 23
+      spriteId: bdec1ba611da9e746879ce53813e8221
+    - name: adventurer_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 16
+        y: 1
+        width: 20
+        height: 27
+      spriteId: b3d74c73c0f861643bdecf1926e67f2f
+    - name: adventurer_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 16
+        y: 1
+        width: 20
+        height: 25
+      spriteId: 0ab984ca933a40e4a9a1efcf63983f09
+    - name: adventurer_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 19
+        y: 5
+        width: 13
+        height: 27
+      spriteId: 57fcff21f922de84a81f20a7c5f43391
+    - name: adventurer_Frame_145
+      frameIndex: 145
+      cellRect:
+        x: 1
+        y: 1
+        width: 27
+        height: 11
+      spriteId: 431d6b86e3321514ab0f18aaf6f37eba
+    - name: adventurer_Frame_147
+      frameIndex: 147
+      cellRect:
+        x: 4
+        y: 1
+        width: 29
+        height: 7
+      spriteId: ceeddf55edd78cf4a9b2d4505ea9e4e2
+    - name: adventurer_Frame_148
+      frameIndex: 148
+      cellRect:
+        x: 4
+        y: 1
+        width: 29
+        height: 7
+      spriteId: c99f3c5bfe91dbc40913719ff589d1bc
+    - name: adventurer_Frame_157
+      frameIndex: 157
+      cellRect:
+        x: 20
+        y: 1
+        width: 15
+        height: 29
+      spriteId: a0f8e7f9c6cded5408e1ba5b1ef9f632
+    - name: adventurer_Frame_159
+      frameIndex: 159
+      cellRect:
+        x: 19
+        y: 1
+        width: 16
+        height: 28
+      spriteId: cc20c0873787d5342a26bdc01e071df3
+    - name: adventurer_Frame_172
+      frameIndex: 172
+      cellRect:
+        x: 18
+        y: 1
+        width: 23
+        height: 23
+      spriteId: 34997aa12658f144bb0e4f84c4712290
+    - name: adventurer_Frame_178
+      frameIndex: 178
+      cellRect:
+        x: 14
+        y: 5
+        width: 24
+        height: 22
+      spriteId: 7f6c4176f451a3a4b811f156efb5272f
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 50, y: 37}
