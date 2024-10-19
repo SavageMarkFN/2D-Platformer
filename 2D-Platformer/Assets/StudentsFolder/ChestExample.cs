@@ -44,13 +44,26 @@ public class ChestExample : MonoBehaviour
     }
     #endregion
 
+    private bool Opened;
+    public string[] Item;
+
+    [Header("References")]
+    public InventoryController IC;
+    public Animator ChestAnimator;
+
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && CanInteract == true)
+        if (Input.GetKeyDown(KeyCode.E) && CanInteract == true && Opened == false)
         {
             Message.SetActive(false);
             CanInteract = false;
+            ChestAnimator.SetTrigger("Open");
+            for (int i = 0; i < Item.Length; i++)
+            {
+                IC.AddItem(Item[i]);
+            }
+            Opened = true;
         }
     }
 }
