@@ -31,42 +31,58 @@ public class MyCode : MonoBehaviour
 
     #region Single If
     /*
-    The if statement allows us to make decisions based on certain condition
-    Basics conditions
-    Equals to        (==)
-    Higher than      (>)
-    Lower  than      (<)
-    Higher and equal (>=)
-    Lower and equal  (<=)
-    not equal        (!=)
-     */
+    Equal (==)
+    Higher(>)
+    Lower (<)
+    Higher or equal (>=)
+    Lower or equal  (<=)
+    Not Equal (!=)
+    */
 
-    //Examples
+    //Example
     void Example()
     {
-        int Number = 7;
+        int Number = 10;
 
         if (Number > 10)
-            Debug.Log("Number is higher than 10");
-        else if (Number < 10)
-            Debug.Log("Number is smaller to 10");
-        else if (Number > 5)
-            Debug.Log("Number is higher than 5");
+            Debug.Log("Higher than 10");
+        else if (Number > 0)
+            Debug.Log("Lower than 10");
         else
-            Debug.Log("Number is smaller than 5");
-/////////////////////////////////////////////////////////////////////////////////////////
+            Debug.Log("Negative Number");
+/////////////////////////////////////////////////////////////////////////////////
         bool AttackPlayer = false;
-        float Distance = 0;
+        float Distance = 15;
 
-        if (Distance >= 15)
-            AttackPlayer = false;
-        else
+        if (Distance < 20)
             AttackPlayer = true;
+        else
+            AttackPlayer = false;
     }
     #endregion
 
     #region Multiple If
+    // (&& And)
+    // (|| Or)
 
+    void MultipleIf()
+    {
+        float Health = 75;
+        string Condition;
+        bool Dead = false;
+
+        if (Health > 100)
+            Condition = "Very well";
+        else if (Health > 50 && Health < 75)
+            Condition = "Good";
+        else if (Health > 25 && Health < 50)
+            Condition = "Okay";
+        else if (Health < 25)
+            Condition = "Bad";
+
+        if (Health <= 0 && Dead == false)
+            Dead = true;
+    }
     #endregion
 
     #region For Loop
