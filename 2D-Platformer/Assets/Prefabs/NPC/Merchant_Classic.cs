@@ -70,6 +70,11 @@ public class Merchant_Classic : MonoBehaviour
             OpenCloseShop();
         }
 
+        if (Input.GetKeyDown(KeyCode.Escape) && ThisCanvas.activeSelf == true)
+        {
+            OpenCloseShop();
+        }
+
         GoldText.text = PM.Gold.ToString();
     }
 

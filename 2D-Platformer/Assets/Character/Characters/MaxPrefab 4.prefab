@@ -11971,6 +11971,7 @@ MonoBehaviour:
   - {fileID: 6024527785230708473}
   - {fileID: 1596176776775022281}
   - {fileID: 6914218944439962301}
+  NewAreaText: {fileID: 4796978472312042871}
 --- !u!114 &7526559633263966201
 MonoBehaviour:
   m_ObjectHideFlags: 0

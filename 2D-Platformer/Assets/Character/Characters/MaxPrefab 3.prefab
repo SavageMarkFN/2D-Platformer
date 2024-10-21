@@ -3404,6 +3404,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca7d98c8f48343344b17c195b699cbf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InUI: 0
+  Inventory: {fileID: 5872887166036850703}
   UIMessages:
   - {fileID: 1599903292849356383}
   - {fileID: 3960268676733396743}
@@ -3414,6 +3416,8 @@ MonoBehaviour:
   - {fileID: 5805695636025507050}
   - {fileID: 3979149304031723581}
   - {fileID: 8853338385653341354}
+  Stats: []
+  NewAreaText: {fileID: 4381750604868119089}
 --- !u!114 &5011750033131961035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8134,6 +8138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerIcon: {fileID: 21300000, guid: cb9063b371f993540a1cc20df45f587b, type: 3}
+  InInteaction: 0
   horizontalMove: 1
   InLadder: 0
   InAction: 0
@@ -8162,7 +8167,9 @@ MonoBehaviour:
   SlideTimer: 0.6
   Slide: 0
   HasWeapon: 0
+  CanAttack: 0
   Damage: 30
+  SkillDamage: 0
   Armor: 0
   MagicResist: 0
   Attack: 0

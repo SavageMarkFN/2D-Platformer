@@ -3700,6 +3700,7 @@ MonoBehaviour:
   - {fileID: 449397753300297479}
   - {fileID: 219505974315486913}
   - {fileID: 175328284676108299}
+  NewAreaText: {fileID: 3203673655715155860}
 --- !u!114 &1297870720533757800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15973,6 +15974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerIcon: {fileID: 21300000, guid: 7d60342588a92ba46905bd3d3508582d, type: 3}
+  InInteaction: 0
   horizontalMove: 1
   InLadder: 0
   InAction: 0
