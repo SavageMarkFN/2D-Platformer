@@ -22,6 +22,9 @@ public class UIController : MonoBehaviour
 
     [Header("Player Stats UI")]
     public TextMeshProUGUI[] Stats;
+    
+    [Header("Extras")]
+    public TextMeshProUGUI NewAreaText;
     #endregion
 
     private void Start()

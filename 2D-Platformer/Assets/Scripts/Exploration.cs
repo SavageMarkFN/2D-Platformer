@@ -9,16 +9,17 @@ public class Exploration : MonoBehaviour
     #region Variables
     [Header("Variables")]
     public string AreaName;
-    public TextMeshProUGUI UIAreaText;
     public UnityEvent Event;
 
     [Header("References")]
+    private UIController UIC;
     private Animator CanvasAnimator;
     #endregion
 
     // Start is called before the first frame update
     void Start()
     {
+        UIC = GameObject.Find("/MaxPrefab/GameScripts").GetComponent<UIController>();
         CanvasAnimator = GameObject.Find("/MaxPrefab/Canvas").GetComponent<Animator>();
     }
 
@@ -26,7 +27,7 @@ public class Exploration : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            UIAreaText.text = AreaName;
+            UIC.NewAreaText.text = AreaName;
             CanvasAnimator.SetTrigger("NewArea");
             Event.Invoke();
             this.gameObject.SetActive(false);
