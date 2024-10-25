@@ -62,27 +62,7 @@ public class MyCode : MonoBehaviour
     #endregion
 
     #region Multiple If
-    // (&& And)
-    // (|| Or)
-
-    void MultipleIf()
-    {
-        float Health = 75;
-        string Condition;
-        bool Dead = false;
-
-        if (Health > 100)
-            Condition = "Very well";
-        else if (Health > 50 && Health < 75)
-            Condition = "Good";
-        else if (Health > 25 && Health < 50)
-            Condition = "Okay";
-        else if (Health < 25)
-            Condition = "Bad";
-
-        if (Health <= 0 && Dead == false)
-            Dead = true;
-    }
+    
     #endregion
 
     #region For Loop
