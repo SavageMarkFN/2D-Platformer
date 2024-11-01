@@ -88,19 +88,32 @@ public class MyCode : MonoBehaviour
     #region For Loop
 
     #endregion
- 
+
     #region Animator
-    
+
     #endregion
 
     #region Collision
-    
+
     #endregion
 
     #region Mouse and Keyboard Inputs
 
     #endregion
 
+    #region Audio Sources
+
+    #endregion
+
+    #region Vectors
+
+    #endregion
+
+    #region References and Components
+
+    #endregion
+
+    #region Start and Update
     // Start is called before the first frame update
     void Start()
     {
@@ -110,11 +123,7 @@ public class MyCode : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-}
 
-/*
-Health - Mana Potion
-Golden - Silver - Diamon Key
-*/
+    }
+    #endregion
+}
