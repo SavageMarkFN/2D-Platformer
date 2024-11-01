@@ -86,11 +86,59 @@ public class MyCode : MonoBehaviour
     #endregion
 
     #region For Loop
+    /*
+    int i  > How many times i repeat the code
+    Length > How many times i need to repeat the code
+    i++    > Increaser
+    break; > Stops the for
+    */
 
+    public void ForLoopExample()
+    {
+        int Number = 0;
+        int LoopTimes = 10;
+
+        for (int i = 0; i < LoopTimes; i++)
+        {
+            Number += 5;
+        }
+        //////////////////////////////////////////////////////////////////
+
+        float Health = 0;
+        LoopTimes = 35;
+
+        for (int i = 0; i < LoopTimes; i++)
+        {
+            Health += 2.5f;
+
+            if (Health > 100)
+                break;
+        }
+    }
     #endregion
 
     #region Animator
+    Animator animator; //The name of the animator
+    void AnimatorController()
+    {
+        //How to change the variables of an animator
+        animator.SetInteger("Number", 10);
+        animator.SetFloat("Number", 2.6f);
+        animator.SetBool("Open", true);
+        animator.SetTrigger("Attack");   //Sets the trigger to true
+        animator.ResetTrigger("Attack"); //Sets the trigger to false
 
+        //How to get variables from the animator
+        int Number = animator.GetInteger("Number");
+        float State = animator.GetFloat("State");
+        bool Open = animator.GetBool("Open");
+
+        //How to change animator's speed
+        animator.speed = 1;
+
+        //How to enable/disable the animator
+        animator.enabled = false; //true > enables the animator
+    }
     #endregion
 
     #region Collision
