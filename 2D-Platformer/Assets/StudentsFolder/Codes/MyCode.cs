@@ -50,7 +50,7 @@ public class MyCode : MonoBehaviour
             Debug.Log("Lower than 10");
         else
             Debug.Log("Negative Number");
-/////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////////
         bool AttackPlayer = false;
         float Distance = 15;
 
@@ -118,26 +118,19 @@ public class MyCode : MonoBehaviour
     #endregion
 
     #region Animator
-    Animator animator; //The name of the animator
-    void AnimatorController()
+    Animator animator;
+
+    public void TestAnimator()
     {
-        //How to change the variables of an animator
         animator.SetInteger("Number", 10);
-        animator.SetFloat("Number", 2.6f);
-        animator.SetBool("Open", true);
-        animator.SetTrigger("Attack");   //Sets the trigger to true
-        animator.ResetTrigger("Attack"); //Sets the trigger to false
+        animator.SetFloat("Number", 2.5f);
+        animator.SetBool("Condition", true);
+        animator.SetTrigger("Check");
+        animator.ResetTrigger("Check");
 
-        //How to get variables from the animator
-        int Number = animator.GetInteger("Number");
-        float State = animator.GetFloat("State");
-        bool Open = animator.GetBool("Open");
-
-        //How to change animator's speed
-        animator.speed = 1;
-
-        //How to enable/disable the animator
-        animator.enabled = false; //true > enables the animator
+        int State = animator.GetInteger("Number");
+        float Speed = animator.GetFloat("Speed");
+        bool Condition = animator.GetBool("Condition");
     }
     #endregion
 
