@@ -131,6 +131,10 @@ public class MyCode : MonoBehaviour
 
     #endregion
 
+    #region Switch
+
+    #endregion
+
     #region Animator
     Animator animator; //The name of the animator
     void AnimatorController()
