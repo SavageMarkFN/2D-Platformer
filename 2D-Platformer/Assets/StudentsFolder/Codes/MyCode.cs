@@ -42,15 +42,17 @@ public class MyCode : MonoBehaviour
     //Example
     void Example()
     {
-        int Number = 10;
+        //Check if the number is positive or negative
+        int Number = 7;
 
-        if (Number > 10)
-            Debug.Log("Higher than 10");
-        else if (Number > 0)
-            Debug.Log("Lower than 10");
+        if (Number > 0)
+            Debug.Log("The number is positive");
+        else if (Number < 0)
+            Debug.Log("The number is negative");
         else
-            Debug.Log("Negative Number");
+            Debug.Log("The number is 0");
         /////////////////////////////////////////////////////////////////////////////////
+        //Check if an enemy can attack a player
         bool AttackPlayer = false;
         float Distance = 15;
 
@@ -67,6 +69,7 @@ public class MyCode : MonoBehaviour
 
     void MultipleIf()
     {
+        //Check the player's health and shows his condition
         float Health = 75;
         string Condition;
         bool Dead = false;
@@ -82,6 +85,13 @@ public class MyCode : MonoBehaviour
 
         if (Health <= 0 && Dead == false)
             Dead = true;
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        if (Health < 0 || Dead == true)
+            Condition = "Dead";
+        else if (Health > 0 || Dead == false)
+            Condition = "Alive";
     }
     #endregion
 
@@ -117,20 +127,31 @@ public class MyCode : MonoBehaviour
     }
     #endregion
 
+    #region While
+
+    #endregion
+
     #region Animator
-    Animator animator;
-
-    public void TestAnimator()
+    Animator animator; //The name of the animator
+    void AnimatorController()
     {
+        //How to change the variables of an animator
         animator.SetInteger("Number", 10);
-        animator.SetFloat("Number", 2.5f);
-        animator.SetBool("Condition", true);
-        animator.SetTrigger("Check");
-        animator.ResetTrigger("Check");
+        animator.SetFloat("Number", 2.6f);
+        animator.SetBool("Open", true);
+        animator.SetTrigger("Attack");   //Sets the trigger to true
+        animator.ResetTrigger("Attack"); //Sets the trigger to false
 
-        int State = animator.GetInteger("Number");
-        float Speed = animator.GetFloat("Speed");
-        bool Condition = animator.GetBool("Condition");
+        //How to get variables from the animator
+        int Number = animator.GetInteger("Number");
+        float State = animator.GetFloat("State");
+        bool Open = animator.GetBool("Open");
+
+        //How to change animator's speed
+        animator.speed = 1;
+
+        //How to enable/disable the animator
+        animator.enabled = false; //true > enables the animator
     }
     #endregion
 
@@ -146,11 +167,15 @@ public class MyCode : MonoBehaviour
 
     #endregion
 
-    #region Vectors
+    #region Vectors && Colors
 
     #endregion
 
     #region References and Components
+
+    #endregion
+
+    #region IENumerators
 
     #endregion
 
