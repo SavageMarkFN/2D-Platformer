@@ -127,12 +127,38 @@ public class MyCode : MonoBehaviour
     }
     #endregion
 
-    #region While
+    #region While Loop
+    void WhileExample()
+    {
+        float Health = 0f;
+        float Regeneration = 0.25f;
 
+        while (Health < 100) //As long as the condition is true, loop the code
+        {
+            Health += Regeneration;
+        }
+    }
     #endregion
 
     #region Switch
-
+    void SwitchCase()
+    {
+        int PotionTier = 0;
+        float Health = 0;
+        
+        switch (PotionTier)
+        {
+            case 0:
+                Health += 10;
+                break;
+            case 1:
+                Health += 30;
+                break;
+            case 2:
+                Health += 50;
+                break;
+        }
+    }
     #endregion
 
     #region Animator
@@ -164,7 +190,7 @@ public class MyCode : MonoBehaviour
     #endregion
 
     #region Mouse and Keyboard Inputs
-
+    
     #endregion
 
     #region Audio Sources
