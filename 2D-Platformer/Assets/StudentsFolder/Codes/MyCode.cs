@@ -186,11 +186,66 @@ public class MyCode : MonoBehaviour
     #endregion
 
     #region Collision
+    /*
+    Collisions are seperated into 3 parts
+    When the player hits a hitbox (OnTriggerEnter)
+    When the player stays inside to the hitbox (OnTriggerStay)
+    When the player leaves the hitbox (OnTriggerExit)
+    */
 
+    //The Object is the reference to the entity that hits the hitbox
+    //If we dev a 3D game we delete the 2D in voids and in Collider
+    void OnTriggerEnter2D(Collider2D Object)
+    {
+        //Code
+    }
+
+    void OnTriggerStay2D(Collider2D Object)
+    {
+        //Code
+    }
+
+    void OnTriggerExit2D(Collider2D Object)
+    {
+        //Code
+    }
     #endregion
 
     #region Mouse and Keyboard Inputs
-    
+    /*
+    Keyboard Inputs
+
+    Input.GetKeyDown = When the player press a key
+    Input.GetKey     = When the player holds a key
+    Input.GetKeyUp   = When the player release a key
+
+    The KeyCode is the reference to the button that we want to Check
+    KeyCode.Alpha0-9  -->The numbers above the letters of the keyboard
+    KeyCode.Keypad0-9 -->The numpad numbers
+    KeyCode.Tab,LeftShift,Escape,LeftCotrol -->The reference to the buttons
+
+    Mouse Inputs
+
+    Input.GetMouseButtonDown = When the player press a mouse button
+    Input.GetMouseButton     = When the player holds a mouse button
+    Input.GetMouseButtonUp   = When the player release a mouse button
+
+    0 = Left Click
+    1 = Right Click
+    2 = Middle Click
+    The side buttons are 4-5
+    */
+
+    void TestButtons()
+    {
+        Input.GetKeyDown(KeyCode.E);
+        Input.GetKey(KeyCode.Alpha1);
+        Input.GetKeyUp(KeyCode.Keypad0);
+
+        Input.GetMouseButtonDown(0);
+        Input.GetMouseButton(1);
+        Input.GetMouseButtonUp(2);
+    }
     #endregion
 
     #region Audio Sources
