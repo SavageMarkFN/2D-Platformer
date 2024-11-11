@@ -257,7 +257,23 @@ public class MyCode : MonoBehaviour
     #endregion
 
     #region References and Components
+    /*
+    GetComponent = Grab the reference from the specific object
+    GetComponentInParent = Grab a reference from the object's parent
+    GetComponentInChildren = Grab a reference from the object's children
+    */
 
+    private InventoryController IC;
+    private PlayerMovement PM;
+    private Animator _animator;
+    private Canvas canvas;
+    void GrabReference()
+    {
+        IC = GameObject.Find("/MaxPrefab/Player").GetComponent<InventoryController>();
+        PM = GameObject.Find("/MaxPrefab/Player").GetComponent<PlayerMovement>();
+        _animator = GameObject.Find("/MaxPrefab/Player").GetComponent<Animator>();
+        canvas = GameObject.Find("/MaxPrefab/Canvas").GetComponent<Canvas>();
+    }
     #endregion
 
     #region IENumerators
