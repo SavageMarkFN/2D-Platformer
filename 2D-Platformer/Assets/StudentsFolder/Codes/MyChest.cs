@@ -7,7 +7,8 @@ public class MyChest : MonoBehaviour
     private bool InRange;
     public GameObject Message;
     public string Item;
-    public InventoryController IC;
+    private InventoryController IC;
+    private Animator animator;
 
     private void OnTriggerEnter2D(Collider2D Object)
     {
@@ -28,18 +29,20 @@ public class MyChest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        IC = GameObject.Find("/MaxPrefab/Player").GetComponent<InventoryController>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-      if(Input.GetKeyDown(KeyCode.E) && InRange == true )
+      if(Input.GetKeyDown(KeyCode.E) && InRange == true)
       {
           InRange = false;
           Message.SetActive(false);
           IC.AddItem(Item);
-          this.gameObject.SetActive(false);
+          animator.SetTrigger("Open");
+          this.enabled = false;
       }       
     }
 }
