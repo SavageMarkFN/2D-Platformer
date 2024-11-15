@@ -312,6 +312,10 @@ public class MyCode : MonoBehaviour
 
     #endregion
 
+    #region Functions
+
+    #endregion
+
     #region IENumerators
 
     #endregion
