@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class MyCode : MonoBehaviour
 {
@@ -155,7 +156,10 @@ public class MyCode : MonoBehaviour
     #endregion
 
     #region While Loop
-    void WhileExample()
+    /*
+    The while loop repeats the code until the condition becomes false
+    */
+    void WhileLoopExample()
     {
         float Health = 0f;
         float Regeneration = 0.25f;
@@ -175,25 +179,52 @@ public class MyCode : MonoBehaviour
         
         switch (PotionTier)
         {
-            case 0:
-                Health += 10;
-                break;
             case 1:
-                Health += 30;
+            {
+                Health += 20;
+                Debug.Log("Player heals 20 hp");
                 break;
+            }
             case 2:
-                Health += 50;
+            {
+                Health += 30;
+                Debug.Log("Player heals 30 hp");
                 break;
+            }
+            default:
+            {
+                Health += 10;
+                Debug.Log("Player heals 10 hp");
+                break;
+            }
         }
     }
     #endregion
 
-    #region Animator
-
-    #endregion
-
     #region Collision
+    /*
+    Collisions are seperated into 3 parts
+    When the player hits a hitbox (OnTriggerEnter)
+    When the player stays inside to the hitbox (OnTriggerStay)
+    When the player leaves the hitbox (OnTriggerExit)
+    */
 
+    //The Object is the reference to the entity that hits the hitbox
+    //If we dev a 3D game we delete the 2D in voids and in Collider
+    void OnTriggerEnter2D(Collider2D Object)
+    {
+        //Code
+    }
+
+    void OnTriggerStay2D(Collider2D Object)
+    {
+        //Code
+    }
+
+    void OnTriggerExit2D(Collider2D Object)
+    {
+        //Code
+    }
     #endregion
 
     #region Mouse and Keyboard Inputs
@@ -233,14 +264,6 @@ public class MyCode : MonoBehaviour
     }
     #endregion
 
-    #region Audio Sources
-
-    #endregion
-
-    #region Vectors && Colors
-
-    #endregion
-
     #region References and Components
     /*
     GetComponent = Grab the reference from the specific object
@@ -261,7 +284,39 @@ public class MyCode : MonoBehaviour
     }
     #endregion
 
+    #region Animator
+    Animator animator; //The name of the animator
+    void AnimatorController()
+    {
+        //How to change the variables of an animator
+        animator.SetInteger("Number", 10);
+        animator.SetFloat("Number", 2.6f);
+        animator.SetBool("Open", true);
+        animator.SetTrigger("Attack");   //Sets the trigger to true
+        animator.ResetTrigger("Attack"); //Sets the trigger to false
+
+        //How to get variables from the animator
+        int Number = animator.GetInteger("Number");
+        float State = animator.GetFloat("State");
+        bool Open = animator.GetBool("Open");
+
+        //How to change animator's speed
+        animator.speed = 1;
+
+        //How to enable/disable the animator
+        animator.enabled = false; //true > enables the animator
+    }
+    #endregion
+
+    #region Audio Sources
+
+    #endregion
+
     #region IENumerators
+
+    #endregion
+
+    #region Vectors && Colors
 
     #endregion
 
