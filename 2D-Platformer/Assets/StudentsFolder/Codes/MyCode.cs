@@ -309,11 +309,38 @@ public class MyCode : MonoBehaviour
     #endregion
 
     #region Audio Sources
+    public AudioSource AS;
+    public AudioClip AC;
+    
+    void TestAudioSource()
+    {
+        //Change the clip
+        AS.clip = AC;
 
+        //Change the volume
+        AS.volume = 0.5f;
+
+        //Modes
+        AS.Play();
+        AS.Stop();
+        AS.Pause();
+        AS.UnPause();
+
+        //Loop
+        AS.loop = true;
+    }
     #endregion
 
     #region Functions
+    void Call()
+    {
+        CallFunction("John", 23, 1.95f);
+    }
 
+    void CallFunction(string Name, int Age, float Height)
+    {
+
+    }
     #endregion
 
     #region IENumerators
