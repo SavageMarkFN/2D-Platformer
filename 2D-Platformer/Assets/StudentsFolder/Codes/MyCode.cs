@@ -332,15 +332,7 @@ public class MyCode : MonoBehaviour
     #endregion
 
     #region Functions
-    void Call()
-    {
-        CallFunction("John", 23, 1.95f);
-    }
 
-    void CallFunction(string Name, int Age, float Height)
-    {
-
-    }
     #endregion
 
     #region IENumerators
