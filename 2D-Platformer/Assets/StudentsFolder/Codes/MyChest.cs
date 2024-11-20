@@ -5,16 +5,14 @@ using UnityEngine;
 public class MyChest : MonoBehaviour
 {
     private bool InRange;
-    private MyInventory inventory;
-    private Animator animator;
-    private bool Opened;
+    public InventoryController IC;
 
     public GameObject Message;
-    public string[] Item;
+    public string Item;
 
     private void OnTriggerEnter2D(Collider2D Object)
     {
-        if (Object.tag == "Player" && Opened == false)
+        if (Object.tag == "Player")
         {
             InRange = true;
             Message.SetActive(true);
@@ -32,8 +30,7 @@ public class MyChest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        inventory = GameObject.Find("/MaxPrefab/Player").GetComponent<MyInventory>();
-        animator = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -43,10 +40,8 @@ public class MyChest : MonoBehaviour
       {
           InRange = false;
           Message.SetActive(false);
-          animator.SetTrigger("Open");
-          for (int i = 0; i < Item.Length; i++)
-                inventory.AddItem(Item[i]);
-          Opened = true;
+          IC.AddItem(Item);
+          this.gameObject.SetActive(false);
       }       
     }
 }
