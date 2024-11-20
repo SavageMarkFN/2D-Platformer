@@ -7,13 +7,14 @@ public class MyChest : MonoBehaviour
     private bool InRange;
     private MyInventory inventory;
     private Animator animator;
+    private bool Opened;
 
     public GameObject Message;
     public string[] Item;
 
     private void OnTriggerEnter2D(Collider2D Object)
     {
-        if (Object.tag == "Player")
+        if (Object.tag == "Player" && Opened == false)
         {
             InRange = true;
             Message.SetActive(true);
@@ -44,10 +45,8 @@ public class MyChest : MonoBehaviour
           Message.SetActive(false);
           animator.SetTrigger("Open");
           for (int i = 0; i < Item.Length; i++)
-          {
-            inventory.AddItem(Item[i]);
-          }
-          this.enabled = false;
+                inventory.AddItem(Item[i]);
+          Opened = true;
       }       
     }
 }
