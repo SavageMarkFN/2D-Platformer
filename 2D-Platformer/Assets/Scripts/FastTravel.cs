@@ -26,8 +26,9 @@ public class FastTravel : MonoBehaviour
         {
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
-            CanvasAnimator.SetTrigger("FastTravelSelection");
+            CanvasAnimator.SetTrigger("FastTravel");
             PM.PlayerFreeze = true;
+            PM.animController.animator.SetFloat("State", 0);
         }
     }
     #endregion
@@ -40,13 +41,17 @@ public class FastTravel : MonoBehaviour
     public void Cancel()
     {
         PM.PlayerFreeze = false;
-        CanvasAnimator.SetTrigger("CancelFastTravel");
+        CanvasAnimator.SetTrigger("FastTravel");
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     IEnumerator LoadingProcess(int SceneToLoad)
     {
-        CanvasAnimator.SetTrigger("CancelFastTravel");
+        CanvasAnimator.SetTrigger("FastTravel");
         CanvasAnimator.SetTrigger("FadeIn");
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
         yield return new WaitForSeconds(1f);
         AsyncOperation Operation = SceneManager.LoadSceneAsync(SceneToLoad);
         Operation.allowSceneActivation = false;
