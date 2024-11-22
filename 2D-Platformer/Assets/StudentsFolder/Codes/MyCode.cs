@@ -304,7 +304,7 @@ public class MyCode : MonoBehaviour
         animator.speed = 1;
 
         //How to enable/disable the animator
-        animator.enabled = false; //true = enables the animator, false = 
+        animator.enabled = false; //true = enables the animator, false = disable the animator
     }
     #endregion
 
