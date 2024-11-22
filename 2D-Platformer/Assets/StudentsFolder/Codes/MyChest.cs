@@ -5,7 +5,7 @@ using UnityEngine;
 public class MyChest : MonoBehaviour
 {
     private bool InRange;
-    private InventoryController IC;
+    public InventoryController IC;
 
     public GameObject Message;
     public string Item;
