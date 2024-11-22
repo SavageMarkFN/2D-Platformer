@@ -5,14 +5,19 @@ using UnityEngine;
 public class MyChest : MonoBehaviour
 {
     private bool InRange;
-    public InventoryController IC;
+    private bool Opened;
 
+    [Header("References")]
+    public InventoryController IC;
+    public Animator Chest;
+
+    [Header("Interaction")]
     public GameObject Message;
     public string Item;
 
     private void OnTriggerEnter2D(Collider2D Object)
     {
-        if (Object.tag == "Player")
+        if (Object.tag == "Player" && Opened == false)
         {
             InRange = true;
             Message.SetActive(true);
@@ -41,7 +46,8 @@ public class MyChest : MonoBehaviour
           InRange = false;
           Message.SetActive(false);
           IC.AddItem(Item);
-          this.gameObject.SetActive(false);
+          Opened = true;
+          Chest.SetTrigger("Open");
       }       
     }
 }
