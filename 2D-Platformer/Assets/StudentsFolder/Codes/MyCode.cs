@@ -290,7 +290,7 @@ public class MyCode : MonoBehaviour
     {
         //How to change the variables of an animator
         animator.SetInteger("Number", 10);
-        animator.SetFloat("Number", 2.6f);
+        animator.SetFloat("Number1", 2.6f);
         animator.SetBool("Open", true);
         animator.SetTrigger("Attack");   //Sets the trigger to true
         animator.ResetTrigger("Attack"); //Sets the trigger to false
@@ -300,11 +300,11 @@ public class MyCode : MonoBehaviour
         float State = animator.GetFloat("State");
         bool Open = animator.GetBool("Open");
 
-        //How to change animator's speed
+        //How to change animator's speed value between 0-Infinite
         animator.speed = 1;
 
         //How to enable/disable the animator
-        animator.enabled = false; //true > enables the animator
+        animator.enabled = false; //true = enables the animator, false = 
     }
     #endregion
 
