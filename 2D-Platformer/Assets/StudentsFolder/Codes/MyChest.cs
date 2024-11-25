@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MyChest : MonoBehaviour
 {
+    #region Variables
     private bool InRange;
     private bool Opened;
 
@@ -14,10 +15,12 @@ public class MyChest : MonoBehaviour
     [Header("Interaction")]
     public GameObject Message;
     public string Item;
+    #endregion
 
+    #region On Triggers
     private void OnTriggerEnter2D(Collider2D Object)
     {
-        if (Object.tag == "Player" && Opened == false)
+        if (Object.name == "Player" && Opened == false)
         {
             InRange = true;
             Message.SetActive(true);
@@ -26,12 +29,15 @@ public class MyChest : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D Object)
     {
-        if (Object.tag == "Player")
+        if (Object.name == "Player")
         {
             InRange = false;
             Message.SetActive(false);
         }
     }
+    #endregion
+
+    #region Start and Update
     // Start is called before the first frame update
     void Start()
     {
@@ -50,4 +56,5 @@ public class MyChest : MonoBehaviour
           Chest.SetTrigger("Open");
       }       
     }
+    #endregion
 }
