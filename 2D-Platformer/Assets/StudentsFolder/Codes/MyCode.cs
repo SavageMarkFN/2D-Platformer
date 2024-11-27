@@ -315,6 +315,10 @@ public class MyCode : MonoBehaviour
     }
     #endregion
 
+    #region UI Elements
+
+    #endregion
+
     #region Audio Sources
     public AudioSource AS;
     public AudioClip AC;
