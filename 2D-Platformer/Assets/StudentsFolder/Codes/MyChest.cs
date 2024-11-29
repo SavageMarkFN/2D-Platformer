@@ -1,18 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class MyChest : MonoBehaviour
 {
+    #region Variables
     private bool InRange;
-    public InventoryController IC;
+    private bool Opened;
 
+    [Header("References")]
+    public InventoryController IC;
+    public Animator Chest;
+
+    [Header("Interaction")]
     public GameObject Message;
     public string Item;
+    #endregion
 
+    #region On Triggers
     private void OnTriggerEnter2D(Collider2D Object)
     {
-        if (Object.tag == "Player")
+        if (Object.name == "Player" && Opened == false)
         {
             InRange = true;
             Message.SetActive(true);
@@ -21,12 +30,15 @@ public class MyChest : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D Object)
     {
-        if (Object.tag == "Player")
+        if (Object.name == "Player")
         {
             InRange = false;
             Message.SetActive(false);
         }
     }
+    #endregion
+
+    #region Start and Update
     // Start is called before the first frame update
     void Start()
     {
@@ -41,7 +53,9 @@ public class MyChest : MonoBehaviour
           InRange = false;
           Message.SetActive(false);
           IC.AddItem(Item);
-          this.gameObject.SetActive(false);
+          Opened = true;
+          Chest.SetTrigger("Open");
       }       
     }
+    #endregion
 }

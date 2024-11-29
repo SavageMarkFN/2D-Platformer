@@ -210,20 +210,27 @@ public class MyCode : MonoBehaviour
     */
 
     //The Object is the reference to the entity that hits the hitbox
-    //If we dev a 3D game we delete the 2D in voids and in Collider
+    //If we develop a 3D game we delete the 2D in voids and in Collider
+
+    /*
+    I can recognize the Object that collides with the hitbox by tags or names
+    */
     void OnTriggerEnter2D(Collider2D Object)
     {
-        //Code
+        if (Object.tag == "Tag Name")
+            Debug.Log("The tag is" + Object.tag);
     }
 
     void OnTriggerStay2D(Collider2D Object)
     {
-        //Code
+        if (Object.name == "Object Name")
+            Debug.Log("The tag is" + Object.name);
     }
 
     void OnTriggerExit2D(Collider2D Object)
     {
-        //Code
+        if (Object.name == "Object Name")
+            Debug.Log("The tag is" + Object.name);
     }
     #endregion
 
@@ -306,6 +313,14 @@ public class MyCode : MonoBehaviour
         //How to enable/disable the animator
         animator.enabled = false; //true = enables the animator, false = disable the animator
     }
+    #endregion
+
+    #region UI Elements
+
+    #endregion
+
+    #region Access to a different script
+
     #endregion
 
     #region Audio Sources
