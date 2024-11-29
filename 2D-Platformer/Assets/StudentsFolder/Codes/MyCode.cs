@@ -279,7 +279,7 @@ public class MyCode : MonoBehaviour
     */
 
     private InventoryController IC;
-    private PlayerMovement PM;
+
     private Animator _animator;
     private Canvas canvas;
     void GrabReference()
@@ -320,7 +320,13 @@ public class MyCode : MonoBehaviour
     #endregion
 
     #region Access to a different script
-
+    public PlayerMovement PM;
+    void Access()
+    {
+        float HP = PM.Health;
+        bool Action = PM.CanAttack;
+        float Number = PM.Stamina;
+    }
     #endregion
 
     #region Audio Sources
