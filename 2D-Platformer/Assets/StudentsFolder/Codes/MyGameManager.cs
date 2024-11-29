@@ -23,6 +23,20 @@ public class MyGameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        SetPlayerUI();
     }
+
+    #region Player UI
+    void SetPlayerUI()
+    {
+        PlayerIcon.sprite = PM.PlayerIcon;
+        //GoldText.text = PM.Gold.ToString();
+        PlayerSlider[0].maxValue = PM.MaxHealth;
+        PlayerSlider[0].value = PM.Health;
+        PlayerSlider[1].maxValue = PM.MaxMana;
+        PlayerSlider[1].value = PM.Mana;
+        PlayerSlider[2].maxValue = PM.MaxStamina;
+        PlayerSlider[2].value = PM.Stamina;
+    }
+    #endregion
 }
