@@ -319,6 +319,10 @@ public class MyCode : MonoBehaviour
 
     #endregion
 
+    #region Access to a different script
+
+    #endregion
+
     #region Audio Sources
     public AudioSource AS;
     public AudioClip AC;
