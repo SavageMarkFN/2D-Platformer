@@ -144,20 +144,16 @@ public class PlayerMovement : MonoBehaviour
 
                     if (Input.GetMouseButtonDown(0) && Stamina >= 30 && UIC.InUI == false)
                     {
-                        CanAttack = false;
-                        PlayerFreeze = true;
-                        InAction = true;
                         Stamina -= 30f;
                         animController.animator.SetTrigger("Light Attack");
+                        FreezePlayer();
                     }
 
                     if (Input.GetMouseButtonDown(1) && Stamina >= 30 && UIC.InUI == false)
                     {
-                        CanAttack = false;
-                        PlayerFreeze = true;
-                        InAction = true;
                         Stamina -= 30f;
                         animController.animator.SetTrigger("Heavy Attack");
+                        FreezePlayer();
                     }
                 }
 
@@ -256,12 +252,21 @@ public class PlayerMovement : MonoBehaviour
         MovementReset();
     }
 
+    public void FreezePlayer()
+    {
+        CanAttack = false;
+        PlayerFreeze = true;
+        InAction = true;
+        Speed = 0;
+    }
+
     public void MovementReset()
     {
         CanIncrease = true;
         animController.animator.SetFloat("State", 0);
         Dash = 0f;
         Slide = 0f;
+        Speed = OriginalSpeed;
         InAction = false;
         PlayerFreeze = false;
         CanAttack = true;
@@ -333,6 +338,7 @@ public class PlayerMovement : MonoBehaviour
     #region Take Damage
     public void TakeDamage(float Value, bool PhysicalDamage)
     {
+        FreezePlayer();
         animController.animator.SetTrigger("Hit");
 
         if (PhysicalDamage == false)
