@@ -10,9 +10,9 @@ public class MyGameManager : MonoBehaviour
     private PlayerMovement PM;
 
     [Header("Player UI")]
+    public Image PlayerIcon;
     public Slider[] PlayerSlider; //0 = Health, 1 = Mana, 2 = Stamina, 3 = XP
     public TextMeshProUGUI GoldText;
-    public Image PlayerIcon;
     #endregion
     // Start is called before the first frame update
     void Start()
