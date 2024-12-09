@@ -172,33 +172,7 @@ public class MyCode : MonoBehaviour
     #endregion
 
     #region Switch
-    void SwitchCase()
-    {
-        int PotionTier = 0;
-        float Health = 0;
-        
-        switch (PotionTier)
-        {
-            case 1:
-            {
-                Health += 20;
-                Debug.Log("Player heals 20 hp");
-                break;
-            }
-            case 2:
-            {
-                Health += 30;
-                Debug.Log("Player heals 30 hp");
-                break;
-            }
-            default:
-            {
-                Health += 10;
-                Debug.Log("Player heals 10 hp");
-                break;
-            }
-        }
-    }
+
     #endregion
 
     #region Collision
