@@ -33,22 +33,22 @@ public class FastTravel : MonoBehaviour
     }
     #endregion
 
+    public void Cancel()
+    {
+        PM.PlayerFreeze = false;
+        CanvasAnimator.SetTrigger("ResetTravel");
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
     public void SelectNewScene(int SceneToLoad)
     {
         StartCoroutine(LoadingProcess(SceneToLoad));
     }
 
-    public void Cancel()
-    {
-        PM.PlayerFreeze = false;
-        CanvasAnimator.SetTrigger("FastTravel");
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
-    }
-
     IEnumerator LoadingProcess(int SceneToLoad)
     {
-        CanvasAnimator.SetTrigger("FastTravel");
+        CanvasAnimator.SetTrigger("ResetTravel");
         CanvasAnimator.SetTrigger("FadeIn");
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;

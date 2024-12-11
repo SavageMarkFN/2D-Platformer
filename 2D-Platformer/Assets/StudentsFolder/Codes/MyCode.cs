@@ -31,30 +31,7 @@ public class MyCode : MonoBehaviour
     #endregion
 
     #region Arrays
-    /*
-    An array is a collection of variables that are the same type
-    */
 
-    void TestArray()
-    {
-        //Instead of having this mess
-        string Item1;
-        string Item2;
-        string Item3;
-
-        //We convert it into an array
-        string[] Item;
-
-        //How to assign a private Array
-        Item = new string[3];
-
-        //How to add new elements into a private array or with a for loop
-        Item[0] = "HP";
-        Item[1] = "MP";
-        Item[2] = "Apple";
-
-        //We can assign the public arrays from the inspector
-    }
     #endregion
 
     #region Single If
@@ -124,35 +101,7 @@ public class MyCode : MonoBehaviour
     #endregion
 
     #region For Loop
-    /*
-    int i  > How many times i repeat the code
-    Length > How many times i need to repeat the code
-    i++    > Increaser
-    break; > Stops the for
-    */
 
-    public void ForLoopExample()
-    {
-        int Number = 0;
-        int LoopTimes = 10;
-
-        for (int i = 0; i < LoopTimes; i++)
-        {
-            Number += 5;
-        }
-        //////////////////////////////////////////////////////////////////
-
-        float Health = 0;
-        LoopTimes = 35;
-
-        for (int i = 0; i < LoopTimes; i++)
-        {
-            Health += 2.5f;
-
-            if (Health > 100)
-                break;
-        }
-    }
     #endregion
 
     #region While Loop
@@ -253,7 +202,6 @@ public class MyCode : MonoBehaviour
     */
 
     private InventoryController IC;
-
     private Animator _animator;
     private Canvas canvas;
     void GrabReference()
