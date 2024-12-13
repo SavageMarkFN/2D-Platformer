@@ -167,7 +167,7 @@ public class PlayerMovement : MonoBehaviour
             #region Stamina System
             if (InAction == false)
             {
-                if (Stamina < 100 && CanIncrease == true)
+                if (Stamina < MaxStamina && CanIncrease == true)
                 {
                     StartCoroutine(StaminaIncrease());
                 }
@@ -177,9 +177,9 @@ public class PlayerMovement : MonoBehaviour
                 StopCoroutine(StaminaIncrease());
             }
 
-            if (Stamina > 100f)
+            if (Stamina > MaxStamina)
             {
-                Stamina = 100f;
+                Stamina = MaxStamina;
             }
             #endregion
 
