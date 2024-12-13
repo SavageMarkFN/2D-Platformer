@@ -28,6 +28,7 @@ public class MyInventory : MonoBehaviour
     public Image[] SlotImage;
     private bool[] SlotFull;
     private string[] SlotName;
+    public ItemType[] SlotType;
     #endregion
     // Start is called before the first frame update
     void Start()
@@ -43,35 +44,38 @@ public class MyInventory : MonoBehaviour
             if (SlotFull[i] == false)
             {
                 #region Search Item Image
-                if (Type == ItemType.Weapon.ToString)//Weapon
+                if (Type == ItemType.Weapon.ToString())//Weapon
                 {
                     for (int j = 0; j < WeaponName.Length; j++)
                     {
                         if (Name == WeaponName[j])
                         {
                             SlotImage[i].sprite = WeaponSprite[j];
+                            SlotType[i] = ItemType.Weapon;
                             break;
                         }
                     }
                 }
-                else if (Type == ItemType.Armor.ToString)//Armor
+                else if (Type == ItemType.Armor.ToString())//Armor
                 {
                     for (int j = 0; j < ArmorName.Length; j++)
                     {
                         if (Name == ArmorName[j])
                         {
                             SlotImage[i].sprite = ArmorSprite[j];
+                            SlotType[i] = ItemType.Armor;
                             break;
                         }
                     }
                 }
-                else if (Type == ItemType.Usable.ToString)//Usable
+                else if (Type == ItemType.Usable.ToString())//Usable
                 {
                     for (int j = 0; j < UsableName.Length; j++)
                     {
                         if (Name == UsableName[j])
                         {
                             SlotImage[i].sprite = UsableSprite[j];
+                            SlotType[i] = ItemType.Usable;
                             break;
                         }
                     }
@@ -83,6 +87,7 @@ public class MyInventory : MonoBehaviour
                         if (Name == GatheringName[j])
                         {
                             SlotImage[i].sprite = GatheringSprite[j];
+                            SlotType[i] = ItemType.Gathering;
                             break;
                         }
                     }
