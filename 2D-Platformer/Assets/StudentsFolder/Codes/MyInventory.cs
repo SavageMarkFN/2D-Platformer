@@ -25,15 +25,74 @@ public class MyInventory : MonoBehaviour
     public string[] GatheringName;
 
     [Header("Player Inventory")]
-    public Image[] Slot;
-    private bool[] Full;
-    private string[] Name;
+    public Image[] SlotImage;
+    private bool[] SlotFull;
+    private string[] SlotName;
     #endregion
     // Start is called before the first frame update
     void Start()
     {
-        
+        SlotFull = new bool[SlotImage.Length];
+        SlotName = new string[SlotImage.Length];
     }
 
+    public void AddItem(string Type, string Name)
+    {
+        for (int i = 0; i < SlotImage.Length; i++)
+        {
+            if (SlotFull[i] == false)
+            {
+                #region Search Item Image
+                if (Type == ItemType.Weapon.ToString)//Weapon
+                {
+                    for (int j = 0; j < WeaponName.Length; j++)
+                    {
+                        if (Name == WeaponName[j])
+                        {
+                            SlotImage[i].sprite = WeaponSprite[j];
+                            break;
+                        }
+                    }
+                }
+                else if (Type == ItemType.Armor.ToString)//Armor
+                {
+                    for (int j = 0; j < ArmorName.Length; j++)
+                    {
+                        if (Name == ArmorName[j])
+                        {
+                            SlotImage[i].sprite = ArmorSprite[j];
+                            break;
+                        }
+                    }
+                }
+                else if (Type == ItemType.Usable.ToString)//Usable
+                {
+                    for (int j = 0; j < UsableName.Length; j++)
+                    {
+                        if (Name == UsableName[j])
+                        {
+                            SlotImage[i].sprite = UsableSprite[j];
+                            break;
+                        }
+                    }
+                }
+                else
+                {
+                    for (int j = 0; j < GatheringName.Length; j++)
+                    {
+                        if (Name == GatheringName[j])
+                        {
+                            SlotImage[i].sprite = GatheringSprite[j];
+                            break;
+                        }
+                    }
+                }
+                #endregion
 
+                SlotFull[i] = true;
+                SlotName[i] = Name;
+                break;
+            }
+        }
+    }
 }
