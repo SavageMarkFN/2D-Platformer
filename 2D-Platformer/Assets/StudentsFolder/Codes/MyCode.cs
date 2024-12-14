@@ -31,17 +31,7 @@ public class MyCode : MonoBehaviour
     #endregion
 
     #region Arrays
-    public string[] Name;
-    void TestArray()
-    {
-        Name = new string[5];
 
-        Name[0] = "Manos";
-        Name[1] = "Dimos"; 
-        Name[2] = "Thanasis";
-        Name[3] = "Haris";
-        Name[4] = "Anastasia";
-    }
     #endregion
 
     #region Single If
@@ -111,36 +101,7 @@ public class MyCode : MonoBehaviour
     #endregion
 
     #region For Loop
-    void ForLoop()
-    {
-        /*
-        1) int i = 0;
-        2) i < Number;
-        3) i++
-        */
 
-        int Health = 0;
-        int Regeneration = 5;
-
-        for (int i = 0; i < 20; i++)
-        {
-            Health += Regeneration;
-            
-            if(Health > 100)
-                break;
-        }
-
-        /*
-        i = 0, Health = 5
-        i = 1, Health = 10
-        i = 2, Health = 15
-        i = 3, Health = 20
-        ..
-        ..
-        i = 15, Health = 100
-        i = 16, Health = 105
-        */
-    }
     #endregion 
 
     #region While Loop
