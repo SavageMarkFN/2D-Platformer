@@ -16,6 +16,7 @@ public class MyInventory : MonoBehaviour
     private string[] SlotName;
     public Sprite EmptySprite;
     [HideInInspector] public int SlotAvailable;
+    [HideInInspector] public bool ItemExists;
 
     [Header("References")]
     public PlayerMovement PM;
@@ -71,7 +72,7 @@ public class MyInventory : MonoBehaviour
     }
     #endregion
 
-    #region Remove Specific Item
+    #region Remove From A Specific Slot
     public void RemoveSpecificItem(int Number)
     {
         SlotName[Number] = "Empty";
@@ -106,6 +107,21 @@ public class MyInventory : MonoBehaviour
                     RemoveSpecificItem(Number);
                     break;
                 }
+        }
+    }
+    #endregion
+
+    #region Check For Item
+    public void CheckForItem(string Name)
+    {
+        ItemExists = false;
+        for (int i = 0; i < SlotName.Length; i++)
+        {
+            if (SlotName[i] == Name)
+            {
+                ItemExists = true;
+                break;
+            }
         }
     }
     #endregion
