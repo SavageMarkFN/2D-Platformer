@@ -37,7 +37,7 @@ public class MyGameManager : MonoBehaviour
     void SetPlayerUI()
     {
         PlayerIcon.sprite = PM.PlayerIcon;
-        //GoldText.text = PM.Gold.ToString();
+        GoldText.text = PM.Gold.ToString();
         PlayerSlider[0].maxValue = PM.MaxHealth;
         PlayerSlider[0].value = PM.Health;
         PlayerSlider[1].maxValue = PM.MaxMana;
@@ -55,6 +55,7 @@ public class MyGameManager : MonoBehaviour
             if (UIOpened == 0)
             {
                 PM.CanAttack = false;
+                PM.InAction = true;
                 InventoryObject.SetActive(true);
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
@@ -63,6 +64,7 @@ public class MyGameManager : MonoBehaviour
             else if (UIOpened == 2)
             {
                 PM.CanAttack = true;
+                PM.InAction = false;
                 InventoryObject.SetActive(false);
                 Cursor.visible = false;
                 Cursor.lockState = CursorLockMode.Locked;
@@ -73,6 +75,7 @@ public class MyGameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape) && UIOpened == 2)
         {
             PM.CanAttack = true;
+            PM.InAction = false;
             InventoryObject.SetActive(false);
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;

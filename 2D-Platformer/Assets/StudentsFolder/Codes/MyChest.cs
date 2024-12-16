@@ -10,7 +10,7 @@ public class MyChest : MonoBehaviour
     private bool Opened;
 
     [Header("References")]
-    //public MyInventory inventory;
+    public MyInventory inventory;
     public Animator Chest;
 
     [Header("Interaction")]
@@ -52,7 +52,7 @@ public class MyChest : MonoBehaviour
       {
           InRange = false;
           Message.SetActive(false);
-          //inventory.AddItem(Item);
+          inventory.AddItem(Item);
           Opened = true;
           Chest.SetTrigger("Open");
       }       
