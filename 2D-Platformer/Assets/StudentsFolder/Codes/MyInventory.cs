@@ -17,6 +17,8 @@ public class MyInventory : MonoBehaviour
     public Sprite EmptySprite;
     [HideInInspector] public int SlotAvailable;
     [HideInInspector] public bool ItemExists;
+    private int HPAmount;
+    private int MPAmount;
 
     [Header("References")]
     public PlayerMovement PM;
@@ -29,7 +31,25 @@ public class MyInventory : MonoBehaviour
 
     void Update()
     {
-        
+        #region Potion Handler
+        if (Input.GetKeyDown(KeyCode.Alpha1) && HPAmount > 0)
+        {
+            PM.Health += 50;
+            if (PM.Health > PM.MaxHealth)
+                PM.Health = PM.MaxHealth;
+            HPAmount--;
+            RemoveItem("Health Potion");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2) && MPAmount > 0)
+        {
+            PM.Mana += 50;
+            if (PM.Mana > PM.MaxMana)
+                PM.Mana = PM.MaxMana;
+            MPAmount--;
+            RemoveItem("Mana Potion");
+        }
+        #endregion
     }
 
     #region Add Item
@@ -55,6 +75,11 @@ public class MyInventory : MonoBehaviour
                 break;
             }
         }
+
+        if (Name == "Health Potion")
+            HPAmount++;
+        else if (Name == "Mana Potion")
+            MPAmount++;
     }
     #endregion
 
