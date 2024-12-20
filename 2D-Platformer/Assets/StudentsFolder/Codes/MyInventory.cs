@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class MyInventory : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class MyInventory : MonoBehaviour
     [HideInInspector] public bool ItemExists;
     private int HPAmount;
     private int MPAmount;
+    public TextMeshProUGUI[] TextAmount; //0 Health Text, 1 Mana Text
 
     [Header("References")]
     public PlayerMovement PM;
@@ -49,6 +51,9 @@ public class MyInventory : MonoBehaviour
             MPAmount--;
             RemoveItem("Mana Potion");
         }
+
+        TextAmount[0].text = HPAmount.ToString();
+        TextAmount[1].text = MPAmount.ToString();
         #endregion
     }
 
