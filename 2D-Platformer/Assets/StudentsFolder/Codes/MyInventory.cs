@@ -35,21 +35,58 @@ public class MyInventory : MonoBehaviour
     #region Add Item
     public void AddItem(string Name)
     {
-       
+        for (int i = 0; i < SlotName.Length; i++)
+        {
+            if (SlotFull[i] == false)
+            {
+                SlotFull[i] = true;
+                SlotName[i] = Name;
+                SlotAvailable--;
+                #region Find the item's image
+                for (int j = 0; j < ItemName.Length; j++)
+                {
+                    if (ItemName[j] == Name)
+                    {
+                        SlotImage[i].sprite = ItemSprite[j];
+                        break;
+                    }
+                }
+                #endregion
+                break;
+            }
+        }
     }
     #endregion
 
     #region Remove Item
     public void RemoveItem(string Name)
     {
-        
+        for (int i = 0; i < SlotName.Length; i++)
+        {
+            if (SlotName[i] == Name)
+            {
+                SlotName[i] = "Empty";
+                SlotFull[i] = false;
+                SlotImage[i].sprite = EmptySprite;
+                SlotAvailable++;
+                break;
+            }
+        }
     }
     #endregion
 
     #region Check For Item
     public void CheckForItem(string Name)
     {
-
+        ItemExists = false;
+        for (int i = 0; i < SlotName.Length; i++)
+        {
+            if (SlotName[i] == Name)
+            {
+                ItemExists = true;
+                break;
+            }
+        }
     }
     #endregion
 
