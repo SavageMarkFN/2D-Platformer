@@ -18,8 +18,8 @@ public class MyInventory : MonoBehaviour
     public Sprite EmptySprite;
     [HideInInspector] public int SlotAvailable;
     [HideInInspector] public bool ItemExists;
-    private int HPAmount;
-    private int MPAmount;
+    public int HPAmount;
+    public int MPAmount;
     public TextMeshProUGUI[] TextAmount; //0 Health Text, 1 Mana Text
 
     [Header("References")]
