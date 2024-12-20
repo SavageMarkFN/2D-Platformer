@@ -240,7 +240,7 @@ public class NPC_Talk : MonoBehaviour
                 {
                     IC.RemoveItem(RequiredItems[i]);
                 }
-                PM.GainXP(XP);
+                StartCoroutine(PM.GainXP(XP));
                 PM.Gold += Gold;
                 for (int i = 0; i < Reward.Length; i++)
                 {

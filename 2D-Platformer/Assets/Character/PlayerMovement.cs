@@ -2,14 +2,16 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Events;
+using System.Threading;
 
 public class PlayerMovement : MonoBehaviour
 {
     #region Variables
     public Sprite PlayerIcon;
     [HideInInspector] public bool InInteaction;
-    [HideInInspector] public float horizontalMove = 0f;
-    private float verticalMove = 0f;
+    [HideInInspector] public float horizontal = 0f;
+    private float vertical = 0f;
     private bool CanIncrease;
     [HideInInspector] public bool InLadder;
     private bool IsClimbing;
@@ -17,10 +19,13 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Player")]
     public float Speed;
+    public float JumpingPower;
     public float ClimbingSpeed;
+    private bool isFacingRight = true;
     private float OriginalSpeed;
     public int Gold;
     [HideInInspector] public bool PlayerFreeze;
+    [HideInInspector] public bool CanJump;
     [HideInInspector] public bool Jump;
     [HideInInspector] public bool Crouch;
     [HideInInspector] public bool Invisible;
@@ -42,15 +47,19 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Dash")]
     public bool CanDash;
-    public float DashSpeed;
-    public float DashTimer;
-    [HideInInspector] public float Dash;
+    public float DashStaminaRequirment;
+    private bool IsDashing;
+    public float DashPower = 24;
+    public float DashTimer = 0.2f;
+    public float DashCooldown = 1f;
 
     [Header("Slide")]
     public bool CanSlide;
-    public float SlideSpeed;
-    public float SlideTimer;
-    [HideInInspector] public float Slide;
+    public float SlideStaminaRequirment;
+    private bool IsSliding;
+    public float SlidePower = 24;
+    public float SlideTimer = 0.2f;
+    public float SlideCooldown = 1f;
 
     [Header("Stats")]
     public bool HasWeapon;
@@ -67,10 +76,12 @@ public class PlayerMovement : MonoBehaviour
     public int KnifeTier;
 
     [Header("References")]
-    private CharacterController cController;
+    private Rigidbody2D rb;
     private InputManager IM;
     private UIController UIC;
     [HideInInspector] public AnimController animController;
+    public Transform GroundCheck;
+    public LayerMask GroundLayer;
 
     [Header("UI")]
     public Slider HealthSlider;
@@ -84,17 +95,20 @@ public class PlayerMovement : MonoBehaviour
     public TextMeshProUGUI LevelText;
     [HideInInspector] public int Level;
     [HideInInspector] public float CurrentXP;
+
+    [Header("Events")]
+    public UnityEvent[] Event; //0 Jumping, 1 Landing
     #endregion
 
     private void Start()
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
-        cController = GetComponent<CharacterController>();
         IM = GameObject.Find("/MaxPrefab/GameScripts").GetComponent<InputManager>();
         UIC = GameObject.Find("/MaxPrefab/GameScripts").GetComponent<UIController>();
-        OriginalSpeed = Speed;
+        rb = GetComponent<Rigidbody2D>();
         CanAttack = true;
+        OriginalSpeed = Speed;
         #region Assign XP Scale
         float Value = 0;
         for (int i = 0; i < XPScale.Length; i++)
@@ -113,35 +127,54 @@ public class PlayerMovement : MonoBehaviour
             #region Player Inputs
             if (PlayerFreeze == false)
             {
-                horizontalMove = Input.GetAxisRaw("Horizontal") * Speed;
-                verticalMove = Input.GetAxisRaw("Vertical") * ClimbingSpeed;
+                horizontal = Input.GetAxisRaw("Horizontal");
+                vertical = Input.GetAxisRaw("Vertical");
 
                 if (InAction == false)
                 {
-                    if (Input.GetKeyDown(IM.Jump) && Stamina >= 15)
+                    #region Jumping
+                    if (Input.GetKeyDown(IM.Jump) && Stamina >= 15 && IsGrounded())
                     {
                         InAction = true;
                         animController.animator.SetTrigger("Jump");
                         animController.animator.SetBool("InAir", true);
                         Jump = true;
                         Stamina -= 15f;
+                        rb.velocity = new Vector2(rb.velocity.x, JumpingPower);
                     }
 
+                    if (Input.GetKeyUp(IM.Jump) && rb.velocity.y > 0f)
+                    {
+                        rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+                    }
+
+                    if (rb.velocity.y == 0)
+                    {
+                        Event[1].Invoke();
+                    }
+                    else
+                    {
+                        Event[0].Invoke();
+                    }
+                    #endregion
+
+                    #region Dash
                     if (Input.GetKeyDown(IM.Dash) && Stamina >= 15 && CanDash == true)
                     {
-                        Dash = Input.GetAxisRaw("Horizontal") * DashSpeed;
-                        Stamina -= 15f;
-                        StartCoroutine(DashReset());
+                        Stamina -= DashStaminaRequirment;
+                        StartCoroutine(Dash());
                     }
+                    #endregion
 
+                    #region Slide
                     if (Input.GetKeyDown(IM.Slide) && Stamina >= 15 && CanSlide == true)
                     {
-                        InAction = true;
-                        Slide = Input.GetAxisRaw("Horizontal") * SlideSpeed;
-                        Stamina -= 15f;
-                        StartCoroutine(SlideReset());
+                        Stamina -= SlideStaminaRequirment;
+                        StartCoroutine(Slide());
                     }
+                    #endregion
 
+                    #region Light and Heavy Attack
                     if (Input.GetMouseButtonDown(0) && Stamina >= 30 && UIC.InUI == false)
                     {
                         Stamina -= 30f;
@@ -155,12 +188,17 @@ public class PlayerMovement : MonoBehaviour
                         animController.animator.SetTrigger("Heavy Attack");
                         FreezePlayer();
                     }
+                    #endregion
                 }
 
-                if (InLadder && Mathf.Abs(verticalMove) > 0f)
+                #region Ladder
+                if (InLadder && Mathf.Abs(vertical) > 0f)
                 {
                     IsClimbing = true;
                 }
+                #endregion
+
+                Flip();
             }
             #endregion
 
@@ -191,6 +229,8 @@ public class PlayerMovement : MonoBehaviour
             StaminaSlider.maxValue = MaxStamina;
             StaminaSlider.value = Stamina;
             XPSlider.value = CurrentXP;
+            LevelText.text = Level.ToString();
+            UIText[3].text = Gold.ToString();
             #endregion
         }
     }
@@ -198,60 +238,87 @@ public class PlayerMovement : MonoBehaviour
     #region Move The Player
     private void FixedUpdate()
     {
+        //Move the player
         if (PlayerFreeze == false)
         {
-            cController.Move(horizontalMove * Time.fixedDeltaTime, Crouch, Jump);
-        }
-
-        if (Dash != 0)
-        {
-            PlayerFreeze = true;
-            cController.Move(Dash * Time.fixedDeltaTime, Crouch, Jump);
-        }
-
-        if (Slide != 0)
-        {
-            PlayerFreeze = true;
-            cController.Move(Slide * Time.fixedDeltaTime, Crouch, Jump);
-        }
-
-        if (Attack != 0)
-        {
-            PlayerFreeze = true;
-            cController.Move(Attack, Crouch, Jump);
+            rb.velocity = new Vector2(horizontal * Speed, rb.velocity.y);
         }
 
         if (IsClimbing == true)
         {
-            cController.m_Rigidbody2D.gravityScale = 1f;
-            cController.m_Rigidbody2D.velocity = new Vector2(cController.m_Rigidbody2D.velocity.x, verticalMove * ClimbingSpeed);
+            rb.gravityScale = 1f;
+            rb.velocity = new Vector2(rb.velocity.x, vertical * ClimbingSpeed);
         }
         else
         {
-            cController.m_Rigidbody2D.gravityScale = 6f;
+            rb.gravityScale = 6f;
         }
     }
     #endregion
 
-    #region Resets
-    public IEnumerator DashReset()
+    #region Ground Check
+    public bool IsGrounded()
     {
+        return Physics2D.OverlapCircle(GroundCheck.position, 0.2f, GroundLayer);
+    }
+    #endregion
+
+    #region Flip
+    private void Flip()
+    {
+        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
+        {
+            isFacingRight = !isFacingRight;
+            Vector3 localScales = transform.localScale;
+            localScales.x *= -1;
+            transform.localScale = localScales;
+        }
+    }
+    #endregion
+
+    #region Dash
+    IEnumerator Dash()
+    {
+        PlayerFreeze = true;
         CanIncrease = false;
         InAction = true;
         animController.animator.SetTrigger("Dash");
+        CanDash = false;
+        IsDashing = true;
+        float OriginalGravity = rb.gravityScale;
+        rb.gravityScale = 0f;
+        rb.velocity = new Vector2(transform.localScale.x * DashPower, 0f);
         yield return new WaitForSeconds(DashTimer);
+        rb.gravityScale = OriginalGravity;
+        IsDashing = false;
         MovementReset();
+        yield return new WaitForSeconds(DashCooldown);
+        CanDash = true;
     }
+    #endregion
 
-    public IEnumerator SlideReset()
+    #region Slide
+    IEnumerator Slide()
     {
+        PlayerFreeze = true;
         CanIncrease = false;
         InAction = true;
         animController.animator.SetTrigger("Slide");
+        CanSlide = false;
+        IsSliding = true;
+        float OriginalGravity = rb.gravityScale;
+        rb.gravityScale = 0f;
+        rb.velocity = new Vector2(transform.localScale.x * SlidePower, 0f);
         yield return new WaitForSeconds(SlideTimer);
+        rb.gravityScale = OriginalGravity;
+        IsSliding = false;
         MovementReset();
+        yield return new WaitForSeconds(SlideCooldown);
+        CanSlide = true;
     }
+    #endregion
 
+    #region Resets
     public void FreezePlayer()
     {
         CanAttack = false;
@@ -260,12 +327,18 @@ public class PlayerMovement : MonoBehaviour
         Speed = 0;
     }
 
+    public void UnFreezePlayer()
+    {
+        CanAttack = true;
+        PlayerFreeze = false;
+        InAction = false;
+        Speed = OriginalSpeed;
+    }
+
     public void MovementReset()
     {
         CanIncrease = true;
         animController.animator.SetFloat("State", 0);
-        Dash = 0f;
-        Slide = 0f;
         Speed = OriginalSpeed;
         InAction = false;
         PlayerFreeze = false;
@@ -368,7 +441,7 @@ public class PlayerMovement : MonoBehaviour
     }
     #endregion
 
-    #region On Triggers
+    #region Ladder Controller
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Ladder"))
@@ -405,11 +478,22 @@ public class PlayerMovement : MonoBehaviour
     #endregion
 
     #region XP System
-    public void GainXP(float Value)
+    public IEnumerator GainXP(float Value)
     {
         if (Level < XPScale.Length) //If the player's level is less than the max level
         {
-            CurrentXP += Value;
+            float Timer = 0f;
+            float Duration = 1f;
+            float NewXP = CurrentXP + Value;
+
+            while (Timer < Duration)
+            {
+                Timer += Time.fixedDeltaTime;
+                float Step = Timer / Duration;
+                CurrentXP = Mathf.Lerp(CurrentXP, NewXP, Step);    
+                yield return null;
+            }
+
             if (CurrentXP > XPScale[Level])
             {
                 CurrentXP -= XPScale[Level];

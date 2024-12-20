@@ -169,7 +169,7 @@ public class AIMove : MonoBehaviour
 
     public void Death()
     {
-        PM.GainXP(XP);
+        StartCoroutine(PM.GainXP(XP));
         Dead = true;
         AIFreeze = true;
         animator.SetTrigger("Dead");

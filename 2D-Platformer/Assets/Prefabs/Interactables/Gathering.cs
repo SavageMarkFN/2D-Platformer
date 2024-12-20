@@ -130,7 +130,7 @@ public class Gathering : MonoBehaviour
     #region Add Item
     void AddItem()
     {
-        PM.GainXP(XP);
+        StartCoroutine(PM.GainXP(XP));
         IC.AddItem(ItemName);
         for (int i = 0; i < Messages.Length; i++)
         {

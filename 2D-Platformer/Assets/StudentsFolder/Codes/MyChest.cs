@@ -19,7 +19,7 @@ public class MyChest : MonoBehaviour
     #endregion
 
     #region On Triggers
-    private void OnTriggerEnter2D(Collider2D Object)
+    private void OnTriggerStay2D(Collider2D Object)
     {
         if (Object.name == "Player" && Opened == false)
         {

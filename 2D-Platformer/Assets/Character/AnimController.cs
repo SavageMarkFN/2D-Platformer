@@ -35,11 +35,20 @@ public class AnimController : MonoBehaviour
         {
             if (Input.GetKey(IM.MoveLeft) || Input.GetKey(IM.MoveRight))
             {
-                animator.SetFloat("State", Mathf.Abs(PM.horizontalMove));
+                animator.SetFloat("State", Mathf.Abs(PM.horizontal));
             }
             else if (Input.GetKeyUp(IM.MoveLeft) || Input.GetKeyUp(IM.MoveRight))
             {
                 animator.SetFloat("State", 0);
+            }
+
+            if (PM.IsGrounded())
+            {
+                animator.SetBool("InAir", false);
+            }
+            else
+            {
+                animator.SetBool("InAir", true);
             }
         }
         
