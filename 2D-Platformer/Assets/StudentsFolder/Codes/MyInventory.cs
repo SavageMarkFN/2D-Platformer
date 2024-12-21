@@ -18,9 +18,11 @@ public class MyInventory : MonoBehaviour
     public Sprite EmptySprite;
     [HideInInspector] public int SlotAvailable;
     [HideInInspector] public bool ItemExists;
+
+    [Header("Extras")]
+    public TextMeshProUGUI[] TextAmount; //0 Health Text, 1 Mana Text
     public int HPAmount;
     public int MPAmount;
-    public TextMeshProUGUI[] TextAmount; //0 Health Text, 1 Mana Text
 
     [Header("References")]
     public PlayerMovement PM;
@@ -34,89 +36,28 @@ public class MyInventory : MonoBehaviour
     void Update()
     {
         #region Potion Handler
-        if (Input.GetKeyDown(KeyCode.Alpha1) && HPAmount > 0)
-        {
-            PM.Health += 50;
-            if (PM.Health > PM.MaxHealth)
-                PM.Health = PM.MaxHealth;
-            HPAmount--;
-            RemoveItem("Health Potion");
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha2) && MPAmount > 0)
-        {
-            PM.Mana += 50;
-            if (PM.Mana > PM.MaxMana)
-                PM.Mana = PM.MaxMana;
-            MPAmount--;
-            RemoveItem("Mana Potion");
-        }
-
-        TextAmount[0].text = HPAmount.ToString();
-        TextAmount[1].text = MPAmount.ToString();
+        
         #endregion
     }
 
     #region Add Item
     public void AddItem(string Name)
     {
-        for (int i = 0; i < SlotName.Length; i++)
-        {
-            if (SlotFull[i] == false)
-            {
-                SlotFull[i] = true;
-                SlotName[i] = Name;
-                SlotAvailable--;
-                #region Find the item's image
-                for (int j = 0; j < ItemName.Length; j++)
-                {
-                    if (ItemName[j] == Name)
-                    {
-                        SlotImage[i].sprite = ItemSprite[j];
-                        break;
-                    }
-                }
-                #endregion
-                break;
-            }
-        }
 
-        if (Name == "Health Potion")
-            HPAmount++;
-        else if (Name == "Mana Potion")
-            MPAmount++;
     }
     #endregion
 
     #region Remove Item
     public void RemoveItem(string Name)
     {
-        for (int i = 0; i < SlotName.Length; i++)
-        {
-            if (SlotName[i] == Name)
-            {
-                SlotName[i] = "Empty";
-                SlotFull[i] = false;
-                SlotImage[i].sprite = EmptySprite;
-                SlotAvailable++;
-                break;
-            }
-        }
+
     }
     #endregion
 
     #region Check For Item
     public void CheckForItem(string Name)
     {
-        ItemExists = false;
-        for (int i = 0; i < SlotName.Length; i++)
-        {
-            if (SlotName[i] == Name)
-            {
-                ItemExists = true;
-                break;
-            }
-        }
+
     }
     #endregion
 
