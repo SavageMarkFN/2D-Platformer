@@ -19,10 +19,9 @@ public class MyInventory : MonoBehaviour
     [HideInInspector] public int SlotAvailable;
     [HideInInspector] public bool ItemExists;
 
-    [Header("Extras")]
-    public TextMeshProUGUI[] TextAmount; //0 Health Text, 1 Mana Text
-    public int HPAmount;
-    public int MPAmount;
+    [Header("Gold")]
+    public int Gold;
+    public TextMeshProUGUI GoldText;
 
     [Header("References")]
     public PlayerMovement PM;
@@ -36,8 +35,10 @@ public class MyInventory : MonoBehaviour
     void Update()
     {
         #region Potion Handler
-        
+
         #endregion
+
+        GoldText.text = Gold.ToString();
     }
 
     #region Add Item
@@ -106,6 +107,17 @@ public class MyInventory : MonoBehaviour
             PM.Health += 100;
             if (PM.Health > PM.MaxHealth)
                 PM.Health = PM.MaxHealth;
+            //Remove the item from the slot
+            SlotImage[Number].sprite = EmptySprite;
+            SlotFull[Number] = false;
+            SlotName[Number] = "Empty";
+            SlotAvailable++;
+        }
+        else if (SlotName[Number] == "Mana Potion")
+        {
+            PM.Mana += 100;
+            if (PM.Mana > PM.MaxMana)
+                PM.Mana = PM.MaxMana;
             //Remove the item from the slot
             SlotImage[Number].sprite = EmptySprite;
             SlotFull[Number] = false;
