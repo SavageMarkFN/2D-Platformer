@@ -51,25 +51,6 @@ public class PickUpItem : MonoBehaviour
     }
 
     #region On Triggers
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Player" && Type == ItemType.Item)
-        {
-            Messages[0].SetActive(true);
-            CanInteract = true;
-        }
-        else if (collision.tag == "Player" && Type == ItemType.Chest && Locked == true)
-        {
-            Messages[1].SetActive(true);
-            CanInteract = true;
-        }
-        else if (collision.tag == "Player" && Type == ItemType.Chest && Locked == false)
-        {
-            Messages[2].SetActive(true);
-            CanInteract = true;
-        }
-    }
-
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.tag == "Player" && Type == ItemType.Item)

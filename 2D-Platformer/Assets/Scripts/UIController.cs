@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Cursor = UnityEngine.Cursor;
 using TMPro;
+using UnityEngine.Events;
 
 public class UIController : MonoBehaviour
 {
@@ -25,6 +26,8 @@ public class UIController : MonoBehaviour
     
     [Header("Extras")]
     public TextMeshProUGUI NewAreaText;
+
+    public UnityEvent StartEvent;
     #endregion
 
     private void Start()

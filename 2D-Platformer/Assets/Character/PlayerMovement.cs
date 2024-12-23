@@ -98,6 +98,10 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Events")]
     public UnityEvent[] Event; //0 Jumping, 1 Landing
+
+    [Header("Self Talk")]
+    public GameObject SelfTalkObject;
+    public TypeWritingEffect TWE;
     #endregion
 
     private void Start()
@@ -221,18 +225,19 @@ public class PlayerMovement : MonoBehaviour
             }
             #endregion
 
-            #region Assing UI
-            HealthSlider.maxValue = MaxHealth;
-            HealthSlider.value = Health;
-            ManaSlider.maxValue = MaxMana;
-            ManaSlider.value = Mana;
-            StaminaSlider.maxValue = MaxStamina;
-            StaminaSlider.value = Stamina;
-            XPSlider.value = CurrentXP;
-            LevelText.text = Level.ToString();
-            UIText[3].text = Gold.ToString();
-            #endregion
         }
+
+        #region Assing UI
+        HealthSlider.maxValue = MaxHealth;
+        HealthSlider.value = Health;
+        ManaSlider.maxValue = MaxMana;
+        ManaSlider.value = Mana;
+        StaminaSlider.maxValue = MaxStamina;
+        StaminaSlider.value = Stamina;
+        XPSlider.value = CurrentXP;
+        LevelText.text = Level.ToString();
+        UIText[3].text = Gold.ToString();
+        #endregion
     }
 
     #region Move The Player
@@ -502,9 +507,7 @@ public class PlayerMovement : MonoBehaviour
                 #region Upgrade Player Stats
                 Damage += 10;
                 MaxHealth += 10;
-                Health = MaxHealth;
                 MaxMana += 10;
-                Mana = MaxMana;
                 MaxStamina += 10;
                 SkillDamage += 5;
                 Armor += 5;
@@ -517,6 +520,16 @@ public class PlayerMovement : MonoBehaviour
         {
             LevelText.text = "Max";
         }
+    }
+    #endregion
+
+    #region Self Talk
+    public void SelfTalk(string Text)
+    {
+        SelfTalkObject.SetActive(true);
+        TWE.fulltext = Text;
+        TWE.gameObject.SetActive(true);
+        FreezePlayer();
     }
     #endregion
 }

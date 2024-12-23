@@ -7,6 +7,10 @@ using UnityEngine.UI;
 public class FastTravel : MonoBehaviour
 {
     #region Variables
+    public bool CanSelect;
+    [Header("If the can select is false")]
+    public int NewScene;
+
     [Header("Reference")]
     private PlayerMovement PM;
     private Animator CanvasAnimator;
@@ -22,13 +26,17 @@ public class FastTravel : MonoBehaviour
     #region OnTriggers
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.tag == "Player" && CanSelect)
         {
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
             CanvasAnimator.SetTrigger("FastTravel");
             PM.PlayerFreeze = true;
             PM.animController.animator.SetFloat("State", 0);
+        }
+        else
+        {
+            StartCoroutine(LoadingProcess(NewScene));
         }
     }
     #endregion
