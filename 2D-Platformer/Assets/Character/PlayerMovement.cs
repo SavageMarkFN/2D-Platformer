@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
 {
     #region Variables
     public Sprite PlayerIcon;
+    [HideInInspector] public int State; //0 = Free, 1 = Locked
     [HideInInspector] public bool InInteaction;
     [HideInInspector] public float horizontal = 0f;
     private float vertical = 0f;
@@ -21,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
     public float Speed;
     public float JumpingPower;
     public float ClimbingSpeed;
-    private bool isFacingRight = true;
+    [HideInInspector] public bool isFacingRight = true;
     private float OriginalSpeed;
     public int Gold;
     [HideInInspector] public bool PlayerFreeze;

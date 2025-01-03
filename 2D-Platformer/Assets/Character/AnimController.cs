@@ -33,32 +33,27 @@ public class AnimController : MonoBehaviour
     {
         if (PM.PlayerFreeze == false && PM.Health > 0)
         {
+            #region Set Movement and Jumping Animations
             if (Input.GetKey(IM.MoveLeft) || Input.GetKey(IM.MoveRight))
-            {
                 animator.SetFloat("State", Mathf.Abs(PM.horizontal));
-            }
             else if (Input.GetKeyUp(IM.MoveLeft) || Input.GetKeyUp(IM.MoveRight))
-            {
                 animator.SetFloat("State", 0);
-            }
 
             if (PM.IsGrounded())
-            {
                 animator.SetBool("InAir", false);
-            }
             else
-            {
                 animator.SetBool("InAir", true);
-            }
+            #endregion
         }
-        
-        //Death Check
+
+        #region Death Check
         if (PM.Death == false && PM.Health <= 0)
         {
             PM.PlayerFreeze = true;
             PM.Death = true;
             animator.SetTrigger("Death");
         }
+        #endregion
     }
 
     #region Attack Code
@@ -93,11 +88,26 @@ public class AnimController : MonoBehaviour
     }
     #endregion
 
+    #region Audios
     public void PlayAudio(int Number)
     {
         Audio.clip = Clip[Number];
         Audio.Play();
     }
+    #endregion
+
+    #region Spawn Arrow
+    [Header("For Arrow")]
+    public GameObject ThrowablePrefab;
+    public Transform ThrowableStartPoint;
+
+    public void SpawnThrowable(int Speed)
+    {
+        ThrowableMovement TM = ThrowablePrefab.GetComponent<ThrowableMovement>();
+        TM.Speed = Speed;
+        Instantiate(ThrowablePrefab, new Vector2(ThrowableStartPoint.position.x, ThrowableStartPoint.position.y), Quaternion.identity);
+    }
+    #endregion
 
     public void MovementReset()
     {

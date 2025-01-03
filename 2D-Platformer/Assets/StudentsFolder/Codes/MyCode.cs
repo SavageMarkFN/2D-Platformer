@@ -112,7 +112,7 @@ public class MyCode : MonoBehaviour
 
     #region For Loop
     /*
-    1) int i = 0;
+    1) int i = 0; How many times i looped the code
     2) i < LoopTime
     3) i++
     */
@@ -121,9 +121,9 @@ public class MyCode : MonoBehaviour
     {
         int Health = 0;
         int Regeneration = 5;
-        int Looped = 20;
+        int LoopTimes = 20;
 
-        for (int i = 0; i < Looped; i++)
+        for (int i = 0; i < LoopTimes; i++)
         {
             Health += Regeneration;
             

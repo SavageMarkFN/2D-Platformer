@@ -26,7 +26,6 @@ public class MyInventory : MonoBehaviour
     [Header("References")]
     public PlayerMovement PM;
     #endregion
-    // Start is called before the first frame update
     void Start()
     {
 
