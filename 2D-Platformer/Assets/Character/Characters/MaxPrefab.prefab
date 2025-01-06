@@ -16353,6 +16353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerIcon: {fileID: 21300000, guid: 7d60342588a92ba46905bd3d3508582d, type: 3}
+  State: 0
   InInteaction: 0
   horizontal: 0
   InLadder: 0
@@ -16360,6 +16361,7 @@ MonoBehaviour:
   Speed: 8
   JumpingPower: 20
   ClimbingSpeed: 4
+  isFacingRight: 1
   Gold: 15000
   PlayerFreeze: 0
   CanJump: 0
@@ -16542,8 +16544,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  SelfTalkObject: {fileID: 0}
-  TWE: {fileID: 0}
+  SelfTalkObject: {fileID: 288586258029767182}
+  TWE: {fileID: 199868367975710837}
 --- !u!114 &960521665990722516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16563,6 +16565,8 @@ MonoBehaviour:
   EnemyLayer:
     serializedVersion: 2
     m_Bits: 128
+  ThrowablePrefab: {fileID: 0}
+  ThrowableStartPoint: {fileID: 0}
 --- !u!114 &8676506320607275948
 MonoBehaviour:
   m_ObjectHideFlags: 0
