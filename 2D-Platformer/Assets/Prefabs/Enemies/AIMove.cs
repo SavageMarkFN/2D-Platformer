@@ -173,6 +173,8 @@ public class AIMove : MonoBehaviour
         Dead = true;
         AIFreeze = true;
         animator.SetTrigger("Dead");
+        BoxCollider2D BC = GetComponent<BoxCollider2D>();
+        BC.enabled = false;
         DeathEvent.Invoke();
     }
 }

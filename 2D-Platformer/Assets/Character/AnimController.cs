@@ -31,7 +31,7 @@ public class AnimController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PM.PlayerFreeze == false && PM.Health > 0)
+        if (PM.PlayerFreeze == false && PM.Health > 0 && PM.State == 0)
         {
             #region Set Movement and Jumping Animations
             if (Input.GetKey(IM.MoveLeft) || Input.GetKey(IM.MoveRight))
