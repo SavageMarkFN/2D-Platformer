@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Merchant_Classic : MonoBehaviour
 {
@@ -21,6 +22,10 @@ public class Merchant_Classic : MonoBehaviour
     private PlayerMovement PM;
     private InventoryController IC;
     private Animator PlayerCanvasAnimator;
+
+    [Header("Events")]
+    public UnityEvent OpenShopEvent;
+    public UnityEvent CloseShopEvent;
     #endregion
 
     // Start is called before the first frame update
@@ -89,6 +94,7 @@ public class Merchant_Classic : MonoBehaviour
             //UIM.HaveAccess = false;
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
+            OpenShopEvent.Invoke();
         }
         else
         {
@@ -98,6 +104,7 @@ public class Merchant_Classic : MonoBehaviour
             //UIM.HaveAccess = true;
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
+            CloseShopEvent.Invoke();
         }
     }
     #endregion

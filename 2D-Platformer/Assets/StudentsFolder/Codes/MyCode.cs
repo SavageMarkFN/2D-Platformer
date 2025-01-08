@@ -281,6 +281,10 @@ public class MyCode : MonoBehaviour
     }
     #endregion
 
+    #region Unity Events
+
+    #endregion
+
     #region Audio Sources
     public AudioSource AS;
     public AudioClip AC;

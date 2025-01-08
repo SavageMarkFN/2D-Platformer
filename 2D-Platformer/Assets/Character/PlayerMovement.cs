@@ -127,7 +127,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (PlayerFreeze == false && Health > 0)
+        if (PlayerFreeze == false && Health > 0 && State == 0)
         {
             #region Player Inputs
             if (PlayerFreeze == false)
@@ -349,6 +349,14 @@ public class PlayerMovement : MonoBehaviour
         InAction = false;
         PlayerFreeze = false;
         CanAttack = true;
+    }
+
+    public void PlayerState()
+    {
+        if (State == 0)
+            State = 1;
+        else
+            State = 0;
     }
     #endregion
 
