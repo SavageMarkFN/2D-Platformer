@@ -126,7 +126,7 @@ TextureImporter:
       name: Elf_Spearman_Death_0
       rect:
         serializedVersion: 2
-        x: 30
+        x: 50
         y: 0
         width: 150
         height: 128
@@ -147,7 +147,7 @@ TextureImporter:
       name: Elf_Spearman_Death_1
       rect:
         serializedVersion: 2
-        x: 250
+        x: 270
         y: 0
         width: 150
         height: 128
@@ -168,7 +168,7 @@ TextureImporter:
       name: Elf_Spearman_Death_2
       rect:
         serializedVersion: 2
-        x: 470
+        x: 490
         y: 0
         width: 150
         height: 128
@@ -189,7 +189,7 @@ TextureImporter:
       name: Elf_Spearman_Death_3
       rect:
         serializedVersion: 2
-        x: 690
+        x: 710
         y: 0
         width: 150
         height: 128
@@ -210,7 +210,7 @@ TextureImporter:
       name: Elf_Spearman_Death_4
       rect:
         serializedVersion: 2
-        x: 910
+        x: 930
         y: 0
         width: 150
         height: 128
@@ -231,7 +231,7 @@ TextureImporter:
       name: Elf_Spearman_Death_5
       rect:
         serializedVersion: 2
-        x: 1130
+        x: 1150
         y: 0
         width: 150
         height: 128
@@ -252,7 +252,7 @@ TextureImporter:
       name: Elf_Spearman_Death_6
       rect:
         serializedVersion: 2
-        x: 1350
+        x: 1370
         y: 0
         width: 150
         height: 128
