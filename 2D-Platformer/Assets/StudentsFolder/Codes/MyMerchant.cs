@@ -12,12 +12,27 @@ public class MyMerchant : MonoBehaviour
     //One Button 200 x 60 (20x6) (ShopBuy_Button)
 
     private bool CanInteract;
-    public UnityEvent Event;
+    public GameObject ThisCanvas;
+    public GameObject Message;
+    public UnityEvent OpenShopEvent;
+    public UnityEvent CloseShopEvent;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.name == "Player" && !ThisCanvas.activeSelf)
+        {
+            CanInteract = true;
+            Message.SetActive(true);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.name == "Player")
-            CanInteract = true;
+        {
+            CanInteract = false;
+            Message.SetActive(false);
+        }
     }
 
     // Start is called before the first frame update
@@ -33,7 +48,18 @@ public class MyMerchant : MonoBehaviour
         {
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
-            Event.Invoke();
+            ThisCanvas.SetActive(true);
+            Message.SetActive(false);
+            CanInteract = false;
+            OpenShopEvent.Invoke();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape) && ThisCanvas.activeSelf) 
+        {
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+            ThisCanvas.SetActive(false);
+            CloseShopEvent.Invoke();
         }
     }
 }

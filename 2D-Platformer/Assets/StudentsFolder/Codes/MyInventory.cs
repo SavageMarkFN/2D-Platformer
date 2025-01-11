@@ -26,6 +26,7 @@ public class MyInventory : MonoBehaviour
     [Header("References")]
     public PlayerMovement PM;
     #endregion
+
     void Start()
     {
 

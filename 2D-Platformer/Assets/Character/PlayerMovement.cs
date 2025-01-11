@@ -447,6 +447,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Health <= 0)
         {
+            State = 1;
             Death = true;
             PlayerFreeze = true;
             animController.animator.SetTrigger("Death");

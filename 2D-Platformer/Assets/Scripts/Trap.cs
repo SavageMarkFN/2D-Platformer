@@ -12,12 +12,14 @@ public class Trap : MonoBehaviour
 
     [Header("References")]
     private PlayerMovement PM;
+    private BoxCollider2D BC2D;
     #endregion
 
     // Start is called before the first frame update
     void Start()
     {
         PM = GameObject.Find("/MaxPrefab/Player").GetComponent<PlayerMovement>();
+        BC2D = GetComponent<BoxCollider2D>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -42,7 +44,9 @@ public class Trap : MonoBehaviour
 
     IEnumerator DamageReset()
     {
-        yield return new WaitForSeconds(0.2f);
+        BC2D.enabled = false;
+        yield return new WaitForSeconds(0.4f);
+        BC2D.enabled = true;
         DealDamage = true;
     }
 }
