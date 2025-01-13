@@ -48,14 +48,16 @@ public class MyChest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      if(Input.GetKeyDown(KeyCode.E) && InRange == true)
-      {
-          InRange = false;
-          Message.SetActive(false);
-          inventory.AddItem(Item);
-          Opened = true;
-          Chest.SetTrigger("Open");
-      }       
+        if (Input.GetKeyDown(KeyCode.E) && InRange == true)
+        {
+            InRange = false;
+            Message.SetActive(false);
+            inventory.AddItem(Item);
+            Opened = true;
+            Chest.SetTrigger("Open");
+            BoxCollider2D BC2D = GetComponent<BoxCollider2D>();
+            BC2D.enabled = false;
+        }
     }
     #endregion
 }

@@ -45,7 +45,7 @@ public class Trap : MonoBehaviour
     IEnumerator DamageReset()
     {
         BC2D.enabled = false;
-        yield return new WaitForSeconds(0.4f);
+        yield return new WaitForSeconds(1f);
         BC2D.enabled = true;
         DealDamage = true;
     }
