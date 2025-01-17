@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PickUpItem : MonoBehaviour
 {
@@ -25,6 +25,7 @@ public class PickUpItem : MonoBehaviour
     private GameObject[] Messages;
 
     [Header("References")]
+    public UnityEvent Event;
     private Animator animator;
     private InventoryController IC;
     private PlayerMovement PM;
@@ -156,8 +157,10 @@ public class PickUpItem : MonoBehaviour
             }
         }
         PM.UIText[2].text = "lots of loot";
+        if (animator != null)
         CanvasAnimator.SetTrigger("Took");
         Messages[2].SetActive(false);
         BC2D.enabled = false;
+        Event.Invoke();
     }
 }

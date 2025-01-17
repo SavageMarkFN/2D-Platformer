@@ -158,7 +158,7 @@ public class Door : MonoBehaviour
     public void ClassicDoor()
     {
         animator = GetComponent<Animator>();
-        if (Opened == false)
+        if (!Opened)
         {
             Opened = true;
             animator.SetTrigger("Open");

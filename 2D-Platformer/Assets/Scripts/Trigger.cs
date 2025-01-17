@@ -5,7 +5,9 @@ using UnityEngine.Events;
 
 public class Trigger : MonoBehaviour
 {
+    [Header("Settings")]
     public bool DisableAfter;
+    public bool CursorEnable;
     [Space(10)]
     public UnityEvent Event;
 
@@ -14,6 +16,12 @@ public class Trigger : MonoBehaviour
         if (Object.name == "Player")
         {
             Event.Invoke();
+
+            if (CursorEnable)
+            {
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+            }
 
             if (DisableAfter)
                 this.gameObject.SetActive(false);

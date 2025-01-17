@@ -244,20 +244,23 @@ public class PlayerMovement : MonoBehaviour
     #region Move The Player
     private void FixedUpdate()
     {
-        //Move the player
-        if (PlayerFreeze == false)
+        if (State == 0)
         {
-            rb.velocity = new Vector2(horizontal * Speed, rb.velocity.y);
-        }
+            //Move the player
+            if (PlayerFreeze == false)
+            {
+                rb.velocity = new Vector2(horizontal * Speed, rb.velocity.y);
+            }
 
-        if (IsClimbing == true)
-        {
-            rb.gravityScale = 1f;
-            rb.velocity = new Vector2(rb.velocity.x, vertical * ClimbingSpeed);
-        }
-        else
-        {
-            rb.gravityScale = 6f;
+            if (IsClimbing == true)
+            {
+                rb.gravityScale = 1f;
+                rb.velocity = new Vector2(rb.velocity.x, vertical * ClimbingSpeed);
+            }
+            else
+            {
+                rb.gravityScale = 6f;
+            }
         }
     }
     #endregion
@@ -354,9 +357,16 @@ public class PlayerMovement : MonoBehaviour
     public void PlayerState()
     {
         if (State == 0)
+        {
             State = 1;
+            Speed = 0;
+            animController.animator.SetFloat("State", 0);
+        }
         else
+        {
             State = 0;
+            Speed = OriginalSpeed;
+        }
     }
     #endregion
 

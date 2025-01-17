@@ -81,6 +81,13 @@ public class TypeWritingEffect : MonoBehaviour
         }
     }
 
+    public void ShowFullText()
+    {
+        StopAllCoroutines();
+        testText.text = fulltext;
+        TextShown = true;
+    }
+
     void StartAgain() {
         if (myRoutine != null) {
             StopCoroutine(myRoutine);
@@ -90,8 +97,10 @@ public class TypeWritingEffect : MonoBehaviour
 
     private void Update()
     {
-        if (Input.anyKeyDown && TextShown == true)
+        if (Input.GetMouseButtonDown(0) && TextShown)
         {
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
             OnTextShown.Invoke();
         }
     }
