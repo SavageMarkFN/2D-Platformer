@@ -6,19 +6,22 @@ public class MyItem : MonoBehaviour
 {
     #region Variables
     private bool InRange;
+    private bool Opened;
 
     [Header("References")]
-    public MyInventory inventory;
+    private MyInventory inventory;
+    private Animator Chest;
+    private BoxCollider2D BC2D;
 
     [Header("Interaction")]
     public GameObject Message;
-    public string Item;
+    public string[] Item;
     #endregion
 
     #region On Triggers
     private void OnTriggerStay2D(Collider2D Object)
     {
-        if (Object.name == "Player")
+        if (Object.name == "Player" && Opened == false)
         {
             InRange = true;
             Message.SetActive(true);
@@ -39,7 +42,9 @@ public class MyItem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        BC2D = GetComponent<BoxCollider2D>();
+        inventory = GameObject.Find("/MaxPrefab/Player").GetComponent<MyInventory>();
+        Chest = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -49,8 +54,15 @@ public class MyItem : MonoBehaviour
         {
             InRange = false;
             Message.SetActive(false);
-            inventory.AddItem(Item);
-            this.gameObject.SetActive(false);
+            Opened = true;
+
+            for (int i = 0; i < Item.Length; i++)
+            {
+                inventory.AddItem(Item[i]);
+            }
+
+            if (Chest != null)
+            Chest.SetTrigger("Open");
         }
     }
     #endregion

@@ -10,12 +10,13 @@ public class MyChest : MonoBehaviour
     private bool Opened;
 
     [Header("References")]
-    public MyInventory inventory;
-    public Animator Chest;
+    private MyInventory inventory;
+    private Animator Chest;
+    private BoxCollider2D BC2D;
 
     [Header("Interaction")]
     public GameObject Message;
-    public string Item;
+    public string[] Item;
     #endregion
 
     #region On Triggers
@@ -42,7 +43,9 @@ public class MyChest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        BC2D = GetComponent<BoxCollider2D>();
+        inventory = GameObject.Find("/MaxPrefab/Player").GetComponent<MyInventory>();
+        Chest = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -52,11 +55,15 @@ public class MyChest : MonoBehaviour
         {
             InRange = false;
             Message.SetActive(false);
-            inventory.AddItem(Item);
             Opened = true;
+
+            for (int i = 0; i < Item.Length; i++)
+            {
+                inventory.AddItem(Item[i]);
+            }
+
+            if (Chest != null)
             Chest.SetTrigger("Open");
-            BoxCollider2D BC2D = GetComponent<BoxCollider2D>();
-            BC2D.enabled = false;
         }
     }
     #endregion
