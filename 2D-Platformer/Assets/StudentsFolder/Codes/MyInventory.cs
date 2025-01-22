@@ -100,30 +100,6 @@ public class MyInventory : MonoBehaviour
     #endregion
 
     #region Use Inventory Item Library
-    public void UseItem(int Number)
-    {
-        if (SlotName[Number] == "Health Potion")
-        {
-            PM.Health += 100;
-            if (PM.Health > PM.MaxHealth)
-                PM.Health = PM.MaxHealth;
-            //Remove the item from the slot
-            SlotImage[Number].sprite = EmptySprite;
-            SlotFull[Number] = false;
-            SlotName[Number] = "Empty";
-            SlotAvailable++;
-        }
-        else if (SlotName[Number] == "Mana Potion")
-        {
-            PM.Mana += 100;
-            if (PM.Mana > PM.MaxMana)
-                PM.Mana = PM.MaxMana;
-            //Remove the item from the slot
-            SlotImage[Number].sprite = EmptySprite;
-            SlotFull[Number] = false;
-            SlotName[Number] = "Empty";
-            SlotAvailable++;
-        }
-    }
+    
     #endregion
 }
