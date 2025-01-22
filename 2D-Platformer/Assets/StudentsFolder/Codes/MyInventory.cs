@@ -13,8 +13,8 @@ public class MyInventory : MonoBehaviour
 
     [Header("Player Inventory")]
     public Image[] SlotImage;
-    public bool[] SlotFull;
-    public string[] SlotName;
+    [HideInInspector] public bool[] SlotFull;
+    [HideInInspector] public string[] SlotName;
     public Sprite EmptySprite;
     [HideInInspector] public int SlotAvailable;
     [HideInInspector] public bool ItemExists;
@@ -29,7 +29,9 @@ public class MyInventory : MonoBehaviour
 
     void Start()
     {
-
+        SlotFull = new bool[SlotImage.Length];
+        SlotName = new string[SlotImage.Length];
+        SlotAvailable = SlotImage.Length + 1;
     }
 
     void Update()
@@ -44,15 +46,14 @@ public class MyInventory : MonoBehaviour
     #region Add Item
     public void AddItem(string Name)
     {
-        for (int i = 0; i < SlotImage.Length; i++)
+        for (int i = 0; i < SlotImage.Length; i++) 
         {
-            if (SlotFull[i] == false)
+            if (!SlotFull[i])
             {
                 SlotFull[i] = true;
                 SlotName[i] = Name;
                 SlotAvailable--;
-                #region Find Item's Image
-                for (int j = 0; j < ItemName.Length; i++)
+                for (int j = 0; j < ItemSprite.Length; j++)
                 {
                     if (ItemName[j] == Name)
                     {
@@ -60,7 +61,6 @@ public class MyInventory : MonoBehaviour
                         break;
                     }
                 }
-                #endregion
                 break;
             }
         }

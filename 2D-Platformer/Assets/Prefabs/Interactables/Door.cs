@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Door : MonoBehaviour
 {
@@ -21,6 +22,8 @@ public class Door : MonoBehaviour
     private GameObject[] Messages;
 
     [Header("References")]
+    public UnityEvent UnlockDoorEvent;
+    public UnityEvent OpenDoorEvent;
     private Animator animator;
     private GameObject Player;
     private InventoryController IC;
@@ -145,6 +148,7 @@ public class Door : MonoBehaviour
             CanvasAnimator.SetTrigger("Used");
             PM.UIText[1].text = RequiredItem;
             Messages[4].SetActive(true);
+            UnlockDoorEvent.Invoke();
         }
         else
         {
@@ -157,19 +161,14 @@ public class Door : MonoBehaviour
     #region Open and close the door
     public void ClassicDoor()
     {
+        Opened = true;
+        Messages[5].SetActive(false);
+
         animator = GetComponent<Animator>();
-        if (!Opened)
-        {
-            Opened = true;
+        if (animator != null)
             animator.SetTrigger("Open");
-            Messages[5].SetActive(false);
-        }
-        else
-        {
-            Opened = false;
-            animator.SetTrigger("Close");
-            Messages[6].SetActive(false);
-        }
+
+        OpenDoorEvent.Invoke();
     }
     #endregion
 
