@@ -22,7 +22,7 @@ public class MyChest : MonoBehaviour
     #region On Triggers
     private void OnTriggerStay2D(Collider2D Object)
     {
-        if (Object.name == "Player" && Opened == false)
+        if (Object.name == "Player" && Opened == false && inventory.SlotAvailable > 0)
         {
             InRange = true;
             Message.SetActive(true);
