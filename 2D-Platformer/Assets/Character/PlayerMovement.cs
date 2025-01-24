@@ -562,40 +562,30 @@ public class PlayerMovement : MonoBehaviour
 
     public IEnumerator IncreaseDamageBuff()
     {
-        if (DamageStatsOn)
+        if (!DamageStatsOn)
         {
+            DamageStatsOn = true;
+            Damage += Increaser;
+            Armor += Increaser;
+            yield return new WaitForSeconds(Duration);
             Damage -= Increaser;
             Armor -= Increaser;
+            DamageStatsOn = false;   
         }
-
-        DamageStatsOn = true;
-        Damage += Increaser;
-        Armor += Increaser;
-
-        yield return new WaitForSeconds(Duration);
-
-        Damage -= Increaser;
-        Armor -= Increaser;
-        DamageStatsOn = false;
     }
 
     public IEnumerator IncreaseSpellBuff()
     {
-        if (MagicStatsOn)
+        if (!MagicStatsOn)
         {
+            MagicStatsOn = true;
+            SkillDamage += Increaser;
+            MagicResist += Increaser;
+            yield return new WaitForSeconds(Duration);
             SkillDamage -= Increaser;
             MagicResist -= Increaser;
+            MagicStatsOn = false;
         }
-
-        MagicStatsOn = true;
-        SkillDamage += Increaser;
-        MagicResist += Increaser;
-
-        yield return new WaitForSeconds(Duration);
-
-        SkillDamage -= Increaser;
-        MagicResist -= Increaser;
-        MagicStatsOn = false;
     }
     #endregion
 }

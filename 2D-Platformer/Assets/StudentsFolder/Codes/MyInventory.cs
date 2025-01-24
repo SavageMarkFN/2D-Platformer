@@ -114,6 +114,7 @@ public class MyInventory : MonoBehaviour
             }
             case "Mana Potion":
             {
+                PM.Mana += 50;
                 if (PM.Mana > PM.MaxMana)
                     PM.Mana = PM.MaxMana;
                 RemoveFromSlot(Number);
