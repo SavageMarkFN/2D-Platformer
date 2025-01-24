@@ -552,4 +552,50 @@ public class PlayerMovement : MonoBehaviour
         FreezePlayer();
     }
     #endregion
+
+    #region Buffs
+    [Header("For stats")]
+    public float Duration;
+    public float Increaser;
+    private bool DamageStatsOn;
+    private bool MagicStatsOn;
+
+    public IEnumerator IncreaseDamageBuff()
+    {
+        if (DamageStatsOn)
+        {
+            Damage -= Increaser;
+            Armor -= Increaser;
+        }
+
+        DamageStatsOn = true;
+        Damage += Increaser;
+        Armor += Increaser;
+
+        yield return new WaitForSeconds(Duration);
+
+        Damage -= Increaser;
+        Armor -= Increaser;
+        DamageStatsOn = false;
+    }
+
+    public IEnumerator IncreaseSpellBuff()
+    {
+        if (MagicStatsOn)
+        {
+            SkillDamage -= Increaser;
+            MagicResist -= Increaser;
+        }
+
+        MagicStatsOn = true;
+        SkillDamage += Increaser;
+        MagicResist += Increaser;
+
+        yield return new WaitForSeconds(Duration);
+
+        SkillDamage -= Increaser;
+        MagicResist -= Increaser;
+        MagicStatsOn = false;
+    }
+    #endregion
 }

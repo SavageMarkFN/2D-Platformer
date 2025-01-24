@@ -102,11 +102,29 @@ public class MyMerchant : MonoBehaviour
     #endregion
 
     #region Buy Item
-
+    public void BuyItem(int Number)
+    {
+        if (PM.Gold >= Value[Number])
+        {
+            PM.Gold -= Value[Number];
+            MI.AddItem(Item[Number]);
+            FindItemsAmount();
+        }
+    }
     #endregion
 
     #region Sell Item
-    
+    public void SellItem(int Number)
+    {
+        MI.CheckForItem(Item[Number]); //Try to find if the player has the item
+
+        if (MI.ItemExists)
+        {
+            PM.Gold += 200;
+            MI.RemoveItem(Item[Number]);
+            FindItemsAmount();
+        }
+    }
     #endregion
 
     #region Find the amount of the items
