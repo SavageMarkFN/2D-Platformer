@@ -126,7 +126,7 @@ public class MyInventory : MonoBehaviour
                 RemoveFromSlot(Number);
                 break;
             }
-            case "Book" or "Book1" or "Book2":
+            case "Book" or "Book2" or "Book3":
             {
                 StartCoroutine(PM.IncreaseSpellBuff());
                 RemoveFromSlot(Number);
