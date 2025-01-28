@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:2D-Platformer/Assets/StudentsFolder/Wednesday/Markos/Assets/Textures/dirt 1.png.meta
 guid: a0839d93a9c8f0d4396b167337d36d45
+========
+guid: 4cb74b421823c1b489911073c5b436f2
+>>>>>>>> Stashed changes:2D-Platformer/Assets/StudentsFolder/Monday/KVasilis/SpritesButBad/OnlineAssets/Hero's journey - Castle Hall/Castle-Hall/Social/Props.png.meta
+=======
+guid: 40a2733e1bf6b22489d56a24d3402c07
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
