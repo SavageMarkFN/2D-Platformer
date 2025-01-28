@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:2D-Platformer/Assets/StudentsFolder/Wednesday/Markos/Assets/Foliage/little grass red.png.meta
 guid: 6644994af66f962458810e952d781289
 ========
 guid: a606c67461a1e204091d23d045abf4f6
 >>>>>>>> Stashed changes:2D-Platformer/Assets/Assets/Environment/Hero's journey - Castle Hall/Mockup-1.png.meta
+=======
+guid: 6644994af66f962458810e952d781289
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
